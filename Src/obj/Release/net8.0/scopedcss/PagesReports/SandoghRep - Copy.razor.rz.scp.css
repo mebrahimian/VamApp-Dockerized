@@ -1,0 +1,55 @@
+/* تنظیمات کلی صفحه برای چاپ */
+@media print {
+    /* حذف نوار ابزار و هرچیز اضافی */
+    body[b-c0z4xstv4y] {
+        margin: 0;
+        padding: 0;
+    }
+
+    
+        .mud-table th[b-c0z4xstv4y], .mud-table td[b-c0z4xstv4y] {
+            padding: 10px;
+            text-align: right;
+            border: 1px solid #ddd;
+        }
+
+        .mud-table th[b-c0z4xstv4y] {
+            background-color: #f2f2f2;
+        }
+
+    /* اضافه کردن شکست صفحه قبل از هر رکورد */
+    .record-start[b-c0z4xstv4y] {
+        page-break-before: always;
+    }
+
+    
+    .container[b-c0z4xstv4y] {
+        margin: 0;
+        padding: 0;
+    }
+    .mud-table td[b-c0z4xstv4y] {
+        word-wrap: break-word;
+        white-space: normal;
+    }
+
+    .content-section[b-c0z4xstv4y] {
+        page-break-inside: avoid;
+        margin-bottom: 15px;
+    }
+
+    .mud-image[b-c0z4xstv4y] {
+        max-width: 100px;
+        max-height: 100px;
+        margin-bottom: 10px;
+    }
+
+    .mud-text[b-c0z4xstv4y] {
+        font-size: 12px;
+        line-height: 1.5;
+        margin-bottom: 10px;
+    }
+
+    .align-right[b-c0z4xstv4y] {
+        text-align: right;
+    }
+}

@@ -1,0 +1,1575 @@
+2025-06-06 00:09:59.127 +03:30 [INF] Executed DbCommand (14ms) [Parameters=[], CommandType='"Text"', CommandTimeout='3000']
+SELECT TOP(1) [s].[code], [s].[curqty], [s].[etebar], [s].[firstqty], [s].[maxetebar], [s].[onvan], [s].[type]
+FROM [SANDOGH] AS [s]
+WHERE [s].[code] = '01'
+2025-06-06 00:10:01.043 +03:30 [INF] Executed DbCommand (1,862ms) [Parameters=[@__get_Chars_0='?' (Size = 1)], CommandType='"Text"', CommandTimeout='3000']
+SELECT [v].[Code], [v].[FullName], [v].[Moaref], [v].[HesabNo], [v].[Sex], [v].[City], [v].[MonthQty], [v].[Mojodi], [v].[ReqNo], [v].[Type], [v].[DateD], [v].[MblgVam], [v].[PKarmozd], [v].[MKarmozd], [v].[GstNo], [v].[GstPay], [v].[LastDate], [v].[PaidVam], [v].[CurrentGstNo], [v].[CurrentGstDate], [v].[CurrentPaidDate], [v].[CurrentGstMblg], CAST(0 AS bit) AS [CurrentGstSaved], [v].[MelliCode] AS [Mellicode]
+FROM [vwPersonLastGst] AS [v]
+WHERE [v].[Type] = @__get_Chars_0
+2025-06-06 00:10:19.131 +03:30 [INF] Executed DbCommand (8ms) [Parameters=[@__nReqNo_0='?' (DbType = Int32), @__nGstNo_1='?' (Size = 1) (DbType = Byte)], CommandType='"Text"', CommandTimeout='3000']
+SELECT TOP(1) [d].[req_no], [d].[gst_no], [d].[date_g], [d].[date_p], [d].[gstmblg], [d].[pasandaz], [d].[status]
+FROM [DARGST] AS [d]
+WHERE [d].[req_no] = @__nReqNo_0 AND [d].[gst_no] = @__nGstNo_1
+2025-06-06 00:21:34.970 +03:30 [INF] User profile is available. Using 'C:\Users\mebrahimian\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-06-06 00:21:35.897 +03:30 [INF] Now listening on: https://localhost:5001
+2025-06-06 00:21:36.384 +03:30 [INF] Application started. Press Ctrl+C to shut down.
+2025-06-06 00:21:36.386 +03:30 [INF] Hosting environment: Development
+2025-06-06 00:21:36.386 +03:30 [INF] Content root path: D:\NewVam_S
+2025-06-06 00:21:37.359 +03:30 [INF] Request starting HTTP/2 GET https://localhost:5001/ - null null
+2025-06-06 00:21:37.701 +03:30 [INF] Executing endpoint '/_Host'
+2025-06-06 00:21:37.763 +03:30 [INF] Route matched with {page = "/_Host"}. Executing page /_Host
+2025-06-06 00:21:37.800 +03:30 [INF] Executing an implicit handler method - ModelState is "Valid"
+2025-06-06 00:21:37.802 +03:30 [INF] Executed an implicit handler method, returned result Microsoft.AspNetCore.Mvc.RazorPages.PageResult.
+2025-06-06 00:21:45.669 +03:30 [INF] Executed DbCommand (20ms) [Parameters=[], CommandType='"Text"', CommandTimeout='3000']
+SELECT TOP(1) [s].[onvan]
+FROM [SANDOGH] AS [s]
+WHERE [s].[code] = '01'
+2025-06-06 00:21:46.656 +03:30 [INF] Executed page /_Host in 8882.9494ms
+2025-06-06 00:21:46.658 +03:30 [INF] Executed endpoint '/_Host'
+2025-06-06 00:21:46.696 +03:30 [INF] Request starting HTTP/2 GET https://localhost:5001/_framework/aspnetcore-browser-refresh.js - null null
+2025-06-06 00:21:46.698 +03:30 [INF] Request starting HTTP/2 GET https://localhost:5001/_framework/blazor.server.js - null null
+2025-06-06 00:21:46.729 +03:30 [INF] Request finished HTTP/2 GET https://localhost:5001/_framework/aspnetcore-browser-refresh.js - 200 13768 application/javascript; charset=utf-8 32.108ms
+2025-06-06 00:21:46.732 +03:30 [INF] Executing endpoint 'Blazor static files'
+2025-06-06 00:21:46.782 +03:30 [INF] The file /_framework/blazor.server.js was not modified
+2025-06-06 00:21:46.786 +03:30 [INF] Executed endpoint 'Blazor static files'
+2025-06-06 00:21:46.788 +03:30 [INF] Request finished HTTP/2 GET https://localhost:5001/_framework/blazor.server.js - 304 null text/javascript 90.5554ms
+2025-06-06 00:21:46.816 +03:30 [INF] Request starting HTTP/2 GET https://localhost:5001/_vs/browserLink - null null
+2025-06-06 00:21:46.818 +03:30 [INF] Request finished HTTP/2 GET https://localhost:5001/ - 200 null text/html; charset=utf-8 9491.4515ms
+2025-06-06 00:21:47.151 +03:30 [INF] Request finished HTTP/2 GET https://localhost:5001/_vs/browserLink - 200 null text/javascript; charset=UTF-8 335.6985ms
+2025-06-06 00:21:47.160 +03:30 [INF] Request starting HTTP/2 GET https://localhost:5001/_blazor/initializers - null null
+2025-06-06 00:21:47.166 +03:30 [INF] Executing endpoint 'Blazor initializers'
+2025-06-06 00:21:47.171 +03:30 [INF] Executed endpoint 'Blazor initializers'
+2025-06-06 00:21:47.172 +03:30 [INF] Request finished HTTP/2 GET https://localhost:5001/_blazor/initializers - 200 null application/json; charset=utf-8 11.8195ms
+2025-06-06 00:21:47.235 +03:30 [INF] Request starting HTTP/2 POST https://localhost:5001/_blazor/negotiate?negotiateVersion=1 - null 0
+2025-06-06 00:21:47.243 +03:30 [INF] Executing endpoint '/_blazor/negotiate'
+2025-06-06 00:21:47.274 +03:30 [INF] Executed endpoint '/_blazor/negotiate'
+2025-06-06 00:21:47.275 +03:30 [INF] Request finished HTTP/2 POST https://localhost:5001/_blazor/negotiate?negotiateVersion=1 - 200 316 application/json 41.3178ms
+2025-06-06 00:21:47.337 +03:30 [INF] Request starting HTTP/2 CONNECT https://localhost:5001/_blazor?id=TTtUlHz0E3paVIqRzQOH7A - null null
+2025-06-06 00:21:47.337 +03:30 [INF] Executing endpoint '/_blazor'
+2025-06-06 00:21:48.109 +03:30 [INF] Executed DbCommand (28ms) [Parameters=[], CommandType='"Text"', CommandTimeout='3000']
+SELECT TOP(1) [s].[onvan]
+FROM [SANDOGH] AS [s]
+WHERE [s].[code] = '01'
+2025-06-06 00:21:54.785 +03:30 [INF] Executed DbCommand (6ms) [Parameters=[], CommandType='"Text"', CommandTimeout='3000']
+SELECT TOP(1) [s].[code], [s].[curqty], [s].[etebar], [s].[firstqty], [s].[maxetebar], [s].[onvan], [s].[type]
+FROM [SANDOGH] AS [s]
+WHERE [s].[code] = '01'
+2025-06-06 00:21:56.229 +03:30 [INF] Executed DbCommand (1,275ms) [Parameters=[@__get_Chars_0='?' (Size = 1)], CommandType='"Text"', CommandTimeout='3000']
+SELECT [v].[Code], [v].[FullName], [v].[Moaref], [v].[HesabNo], [v].[Sex], [v].[City], [v].[MonthQty], [v].[Mojodi], [v].[ReqNo], [v].[Type], [v].[DateD], [v].[MblgVam], [v].[PKarmozd], [v].[MKarmozd], [v].[GstNo], [v].[GstPay], [v].[LastDate], [v].[PaidVam], [v].[CurrentGstNo], [v].[CurrentGstDate], [v].[CurrentPaidDate], [v].[CurrentGstMblg], CAST(0 AS bit) AS [CurrentGstSaved], [v].[MelliCode] AS [Mellicode]
+FROM [vwPersonLastGst] AS [v]
+WHERE [v].[Type] = @__get_Chars_0
+2025-06-06 00:22:09.478 +03:30 [INF] Executed DbCommand (19ms) [Parameters=[@__nReqNo_0='?' (DbType = Int32), @__nGstNo_1='?' (Size = 1) (DbType = Byte)], CommandType='"Text"', CommandTimeout='3000']
+SELECT TOP(1) [d].[req_no], [d].[gst_no], [d].[date_g], [d].[date_p], [d].[gstmblg], [d].[pasandaz], [d].[status]
+FROM [DARGST] AS [d]
+WHERE [d].[req_no] = @__nReqNo_0 AND [d].[gst_no] = @__nGstNo_1
+2025-06-06 00:22:33.738 +03:30 [INF] Executed DbCommand (319ms) [Parameters=[@p5='?' (Size = 1) (DbType = Byte), @p6='?' (DbType = Int32), @p0='?' (Size = 10) (DbType = AnsiStringFixedLength), @p1='?' (Size = 10) (DbType = AnsiStringFixedLength), @p2='?' (DbType = Int64), @p3='?' (DbType = Int64), @p4='?' (Size = 1) (DbType = AnsiStringFixedLength)], CommandType='"Text"', CommandTimeout='3000']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+UPDATE [DARGST] SET [date_g] = @p0, [date_p] = @p1, [gstmblg] = @p2, [pasandaz] = @p3, [status] = @p4
+WHERE [gst_no] = @p5 AND [req_no] = @p6;
+SELECT @@ROWCOUNT;
+2025-06-06 00:22:33.757 +03:30 [INF] Executed DbCommand (6ms) [Parameters=[], CommandType='"Text"', CommandTimeout='3000']
+SELECT TOP(1) [s].[code], [s].[curqty], [s].[etebar], [s].[firstqty], [s].[maxetebar], [s].[onvan], [s].[type]
+FROM [SANDOGH] AS [s]
+WHERE [s].[code] = '01'
+2025-06-06 00:22:58.646 +03:30 [INF] Executed DbCommand (9ms) [Parameters=[@__nReqNo_0='?' (DbType = Int32), @__nGstNo_1='?' (Size = 1) (DbType = Byte)], CommandType='"Text"', CommandTimeout='3000']
+SELECT TOP(1) [d].[req_no], [d].[gst_no], [d].[date_g], [d].[date_p], [d].[gstmblg], [d].[pasandaz], [d].[status]
+FROM [DARGST] AS [d]
+WHERE [d].[req_no] = @__nReqNo_0 AND [d].[gst_no] = @__nGstNo_1
+2025-06-06 00:23:24.954 +03:30 [INF] Executed DbCommand (409ms) [Parameters=[@p5='?' (Size = 1) (DbType = Byte), @p6='?' (DbType = Int32), @p0='?' (Size = 10) (DbType = AnsiStringFixedLength), @p1='?' (Size = 10) (DbType = AnsiStringFixedLength), @p2='?' (DbType = Int64), @p3='?' (DbType = Int64), @p4='?' (Size = 1) (DbType = AnsiStringFixedLength)], CommandType='"Text"', CommandTimeout='3000']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+UPDATE [DARGST] SET [date_g] = @p0, [date_p] = @p1, [gstmblg] = @p2, [pasandaz] = @p3, [status] = @p4
+WHERE [gst_no] = @p5 AND [req_no] = @p6;
+SELECT @@ROWCOUNT;
+2025-06-06 00:23:27.862 +03:30 [INF] Executed DbCommand (14ms) [Parameters=[], CommandType='"Text"', CommandTimeout='3000']
+SELECT TOP(1) [s].[code], [s].[curqty], [s].[etebar], [s].[firstqty], [s].[maxetebar], [s].[onvan], [s].[type]
+FROM [SANDOGH] AS [s]
+WHERE [s].[code] = '01'
+2025-06-06 00:24:16.239 +03:30 [INF] Executed DbCommand (5ms) [Parameters=[@__nReqNo_0='?' (DbType = Int32), @__nGstNo_1='?' (Size = 1) (DbType = Byte)], CommandType='"Text"', CommandTimeout='3000']
+SELECT TOP(1) [d].[req_no], [d].[gst_no], [d].[date_g], [d].[date_p], [d].[gstmblg], [d].[pasandaz], [d].[status]
+FROM [DARGST] AS [d]
+WHERE [d].[req_no] = @__nReqNo_0 AND [d].[gst_no] = @__nGstNo_1
+2025-06-06 00:24:42.045 +03:30 [INF] Executed DbCommand (299ms) [Parameters=[@p5='?' (Size = 1) (DbType = Byte), @p6='?' (DbType = Int32), @p0='?' (Size = 10) (DbType = AnsiStringFixedLength), @p1='?' (Size = 10) (DbType = AnsiStringFixedLength), @p2='?' (DbType = Int64), @p3='?' (DbType = Int64), @p4='?' (Size = 1) (DbType = AnsiStringFixedLength)], CommandType='"Text"', CommandTimeout='3000']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+UPDATE [DARGST] SET [date_g] = @p0, [date_p] = @p1, [gstmblg] = @p2, [pasandaz] = @p3, [status] = @p4
+WHERE [gst_no] = @p5 AND [req_no] = @p6;
+SELECT @@ROWCOUNT;
+2025-06-06 00:24:42.063 +03:30 [INF] Executed DbCommand (16ms) [Parameters=[], CommandType='"Text"', CommandTimeout='3000']
+SELECT TOP(1) [s].[code], [s].[curqty], [s].[etebar], [s].[firstqty], [s].[maxetebar], [s].[onvan], [s].[type]
+FROM [SANDOGH] AS [s]
+WHERE [s].[code] = '01'
+2025-06-06 00:30:06.981 +03:30 [INF] Request starting HTTP/2 POST https://localhost:5001/_blazor/negotiate?negotiateVersion=1 - null 0
+2025-06-06 00:30:06.983 +03:30 [INF] Executing endpoint '/_blazor/negotiate'
+2025-06-06 00:30:06.986 +03:30 [INF] Executed endpoint '/_blazor/negotiate'
+2025-06-06 00:30:06.986 +03:30 [INF] Request finished HTTP/2 POST https://localhost:5001/_blazor/negotiate?negotiateVersion=1 - 200 316 application/json 4.9061ms
+2025-06-06 00:30:06.993 +03:30 [INF] Request starting HTTP/2 POST https://localhost:5001/_blazor/negotiate?negotiateVersion=1 - null 0
+2025-06-06 00:30:06.994 +03:30 [INF] Executing endpoint '/_blazor/negotiate'
+2025-06-06 00:30:06.994 +03:30 [INF] Executed endpoint '/_blazor/negotiate'
+2025-06-06 00:30:06.995 +03:30 [INF] Request finished HTTP/2 POST https://localhost:5001/_blazor/negotiate?negotiateVersion=1 - 200 316 application/json 1.4286ms
+2025-06-06 00:30:07.016 +03:30 [INF] Request starting HTTP/2 CONNECT https://localhost:5001/_blazor?id=T0R15jvnyryclXdVieASUA - null null
+2025-06-06 00:30:07.021 +03:30 [INF] Executing endpoint '/_blazor'
+2025-06-06 00:30:07.055 +03:30 [INF] Executed endpoint '/_blazor'
+2025-06-06 00:30:07.055 +03:30 [INF] Request finished HTTP/2 CONNECT https://localhost:5001/_blazor?id=TTtUlHz0E3paVIqRzQOH7A - 200 null null 499718.6791ms
+2025-06-06 00:30:07.061 +03:30 [INF] Connection id "0HND4EB1DM32K", Request id "0HND4EB1DM32K:0000000D": the application completed without reading the entire request body.
+2025-06-06 00:30:33.190 +03:30 [INF] Executed DbCommand (7ms) [Parameters=[], CommandType='"Text"', CommandTimeout='3000']
+SELECT TOP(1) [s].[code], [s].[curqty], [s].[etebar], [s].[firstqty], [s].[maxetebar], [s].[onvan], [s].[type]
+FROM [SANDOGH] AS [s]
+WHERE [s].[code] = '01'
+2025-06-06 00:30:34.706 +03:30 [INF] Executed DbCommand (1,508ms) [Parameters=[@__get_Chars_0='?' (Size = 1)], CommandType='"Text"', CommandTimeout='3000']
+SELECT [v].[Code], [v].[FullName], [v].[Moaref], [v].[HesabNo], [v].[Sex], [v].[City], [v].[MonthQty], [v].[Mojodi], [v].[ReqNo], [v].[Type], [v].[DateD], [v].[MblgVam], [v].[PKarmozd], [v].[MKarmozd], [v].[GstNo], [v].[GstPay], [v].[LastDate], [v].[PaidVam], [v].[CurrentGstNo], [v].[CurrentGstDate], [v].[CurrentPaidDate], [v].[CurrentGstMblg], CAST(0 AS bit) AS [CurrentGstSaved], [v].[MelliCode] AS [Mellicode]
+FROM [vwPersonLastGst] AS [v]
+WHERE [v].[Type] = @__get_Chars_0
+2025-06-06 00:30:48.552 +03:30 [INF] Executed DbCommand (12ms) [Parameters=[@__nReqNo_0='?' (DbType = Int32), @__nGstNo_1='?' (Size = 1) (DbType = Byte)], CommandType='"Text"', CommandTimeout='3000']
+SELECT TOP(1) [d].[req_no], [d].[gst_no], [d].[date_g], [d].[date_p], [d].[gstmblg], [d].[pasandaz], [d].[status]
+FROM [DARGST] AS [d]
+WHERE [d].[req_no] = @__nReqNo_0 AND [d].[gst_no] = @__nGstNo_1
+2025-06-06 00:30:48.870 +03:30 [INF] Executed DbCommand (311ms) [Parameters=[@p5='?' (Size = 1) (DbType = Byte), @p6='?' (DbType = Int32), @p0='?' (Size = 10) (DbType = AnsiStringFixedLength), @p1='?' (Size = 10) (DbType = AnsiStringFixedLength), @p2='?' (DbType = Int64), @p3='?' (DbType = Int64), @p4='?' (Size = 1) (DbType = AnsiStringFixedLength)], CommandType='"Text"', CommandTimeout='3000']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+UPDATE [DARGST] SET [date_g] = @p0, [date_p] = @p1, [gstmblg] = @p2, [pasandaz] = @p3, [status] = @p4
+WHERE [gst_no] = @p5 AND [req_no] = @p6;
+SELECT @@ROWCOUNT;
+2025-06-06 00:30:48.877 +03:30 [INF] Executed DbCommand (6ms) [Parameters=[], CommandType='"Text"', CommandTimeout='3000']
+SELECT TOP(1) [s].[code], [s].[curqty], [s].[etebar], [s].[firstqty], [s].[maxetebar], [s].[onvan], [s].[type]
+FROM [SANDOGH] AS [s]
+WHERE [s].[code] = '01'
+2025-06-06 00:36:15.402 +03:30 [INF] Executed DbCommand (30ms) [Parameters=[], CommandType='"Text"', CommandTimeout='3000']
+SELECT TOP(1) [s].[code], [s].[curqty], [s].[etebar], [s].[firstqty], [s].[maxetebar], [s].[onvan], [s].[type]
+FROM [SANDOGH] AS [s]
+WHERE [s].[code] = '01'
+2025-06-06 00:36:15.909 +03:30 [INF] Executed DbCommand (476ms) [Parameters=[@__get_Chars_0='?' (Size = 1)], CommandType='"Text"', CommandTimeout='3000']
+SELECT [v].[Code], COALESCE([v].[FullName], N'') + N'ش.حساب:' + COALESCE(CAST([v].[HesabNo] AS nvarchar(max)), N'') + N' معرف: ' + COALESCE(CAST([v].[Moaref] AS nvarchar(max)), N'') AS [FullName], [v].[HesabNo], [v].[Moaref], [v].[ReqNo]
+FROM [vwPersonLastGst] AS [v]
+WHERE [v].[Type] = @__get_Chars_0
+2025-06-06 00:36:16.143 +03:30 [INF] Executed DbCommand (88ms) [Parameters=[@__get_Chars_0='?' (Size = 1), @__selectedPerson_ReqNo_1='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='3000']
+SELECT [v].[Code], COALESCE([v].[FullName], N'') + N' حساب: ' + COALESCE(CAST([v].[HesabNo] AS nvarchar(max)), N'') + N' معرف: ' + COALESCE(CAST([v].[Moaref] AS nvarchar(max)), N'') AS [FullName], [v].[HesabNo], [v].[Moaref], [v].[MonthQty], [v].[Mojodi], [v].[ReqNo], [v].[Type], [v].[DateD], [v].[MblgVam], [v].[gst_no] AS [GstNo], [v].[GstMblg], [v].[date_g] AS [GstDate], [v].[date_p] AS [PaidDate], CASE
+    WHEN [v].[date_p] IS NOT NULL AND [v].[date_p] <> N'' THEN CAST(1 AS bit)
+    ELSE CAST(0 AS bit)
+END AS [CurrentGstSaved]
+FROM [vwPersonTotalGst] AS [v]
+WHERE [v].[Type] = @__get_Chars_0 AND [v].[ReqNo] = @__selectedPerson_ReqNo_1
+ORDER BY [v].[gst_no]
+2025-06-06 00:36:49.975 +03:30 [INF] Executed DbCommand (18ms) [Parameters=[], CommandType='"Text"', CommandTimeout='3000']
+SELECT TOP(1) [s].[code], [s].[curqty], [s].[etebar], [s].[firstqty], [s].[maxetebar], [s].[onvan], [s].[type]
+FROM [SANDOGH] AS [s]
+WHERE [s].[code] = '01'
+2025-06-06 00:37:02.408 +03:30 [INF] Executed DbCommand (1,039ms) [Parameters=[@__get_Chars_0='?' (Size = 1)], CommandType='"Text"', CommandTimeout='3000']
+SELECT [v].[Code], [v].[FullName], [v].[Moaref], [v].[HesabNo], [v].[Sex], [v].[City], [v].[MonthQty], [v].[Mojodi], [v].[ReqNo], [v].[Type], [v].[DateD], [v].[MblgVam], [v].[PKarmozd], [v].[MKarmozd], [v].[GstNo], [v].[GstPay], [v].[LastDate], [v].[PaidVam], [v].[CurrentGstNo], [v].[CurrentGstDate], [v].[CurrentPaidDate], [v].[CurrentGstMblg], CAST(0 AS bit) AS [CurrentGstSaved], [v].[MelliCode] AS [Mellicode]
+FROM [vwPersonLastGst] AS [v]
+WHERE [v].[Type] = @__get_Chars_0
+2025-06-06 00:37:46.810 +03:30 [INF] Executed DbCommand (21ms) [Parameters=[@__nReqNo_0='?' (DbType = Int32), @__nGstNo_1='?' (Size = 1) (DbType = Byte)], CommandType='"Text"', CommandTimeout='3000']
+SELECT TOP(1) [d].[req_no], [d].[gst_no], [d].[date_g], [d].[date_p], [d].[gstmblg], [d].[pasandaz], [d].[status]
+FROM [DARGST] AS [d]
+WHERE [d].[req_no] = @__nReqNo_0 AND [d].[gst_no] = @__nGstNo_1
+2025-06-06 00:37:47.161 +03:30 [INF] Executed DbCommand (339ms) [Parameters=[@p5='?' (Size = 1) (DbType = Byte), @p6='?' (DbType = Int32), @p0='?' (Size = 10) (DbType = AnsiStringFixedLength), @p1='?' (Size = 10) (DbType = AnsiStringFixedLength), @p2='?' (DbType = Int64), @p3='?' (DbType = Int64), @p4='?' (Size = 1) (DbType = AnsiStringFixedLength)], CommandType='"Text"', CommandTimeout='3000']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+UPDATE [DARGST] SET [date_g] = @p0, [date_p] = @p1, [gstmblg] = @p2, [pasandaz] = @p3, [status] = @p4
+WHERE [gst_no] = @p5 AND [req_no] = @p6;
+SELECT @@ROWCOUNT;
+2025-06-06 00:37:47.171 +03:30 [INF] Executed DbCommand (9ms) [Parameters=[], CommandType='"Text"', CommandTimeout='3000']
+SELECT TOP(1) [s].[code], [s].[curqty], [s].[etebar], [s].[firstqty], [s].[maxetebar], [s].[onvan], [s].[type]
+FROM [SANDOGH] AS [s]
+WHERE [s].[code] = '01'
+2025-06-06 00:37:53.559 +03:30 [INF] Executed DbCommand (15ms) [Parameters=[], CommandType='"Text"', CommandTimeout='3000']
+SELECT TOP(1) [s].[code], [s].[curqty], [s].[etebar], [s].[firstqty], [s].[maxetebar], [s].[onvan], [s].[type]
+FROM [SANDOGH] AS [s]
+WHERE [s].[code] = '01'
+2025-06-06 00:37:54.005 +03:30 [INF] Executed DbCommand (445ms) [Parameters=[@__get_Chars_0='?' (Size = 1)], CommandType='"Text"', CommandTimeout='3000']
+SELECT [v].[Code], COALESCE([v].[FullName], N'') + N'ش.حساب:' + COALESCE(CAST([v].[HesabNo] AS nvarchar(max)), N'') + N' معرف: ' + COALESCE(CAST([v].[Moaref] AS nvarchar(max)), N'') AS [FullName], [v].[HesabNo], [v].[Moaref], [v].[ReqNo]
+FROM [vwPersonLastGst] AS [v]
+WHERE [v].[Type] = @__get_Chars_0
+2025-06-06 00:37:54.162 +03:30 [INF] Executed DbCommand (87ms) [Parameters=[@__get_Chars_0='?' (Size = 1), @__selectedPerson_ReqNo_1='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='3000']
+SELECT [v].[Code], COALESCE([v].[FullName], N'') + N' حساب: ' + COALESCE(CAST([v].[HesabNo] AS nvarchar(max)), N'') + N' معرف: ' + COALESCE(CAST([v].[Moaref] AS nvarchar(max)), N'') AS [FullName], [v].[HesabNo], [v].[Moaref], [v].[MonthQty], [v].[Mojodi], [v].[ReqNo], [v].[Type], [v].[DateD], [v].[MblgVam], [v].[gst_no] AS [GstNo], [v].[GstMblg], [v].[date_g] AS [GstDate], [v].[date_p] AS [PaidDate], CASE
+    WHEN [v].[date_p] IS NOT NULL AND [v].[date_p] <> N'' THEN CAST(1 AS bit)
+    ELSE CAST(0 AS bit)
+END AS [CurrentGstSaved]
+FROM [vwPersonTotalGst] AS [v]
+WHERE [v].[Type] = @__get_Chars_0 AND [v].[ReqNo] = @__selectedPerson_ReqNo_1
+ORDER BY [v].[gst_no]
+2025-06-06 00:37:58.646 +03:30 [INF] Executed DbCommand (15ms) [Parameters=[@__nReqNo_0='?' (DbType = Int32), @__nGstNo_1='?' (Size = 1) (DbType = Byte)], CommandType='"Text"', CommandTimeout='3000']
+SELECT TOP(1) [d].[req_no], [d].[gst_no], [d].[date_g], [d].[date_p], [d].[gstmblg], [d].[pasandaz], [d].[status]
+FROM [DARGST] AS [d]
+WHERE [d].[req_no] = @__nReqNo_0 AND [d].[gst_no] = @__nGstNo_1
+2025-06-06 00:37:58.955 +03:30 [INF] Executed DbCommand (298ms) [Parameters=[@p5='?' (Size = 1) (DbType = Byte), @p6='?' (DbType = Int32), @p0='?' (Size = 10) (DbType = AnsiStringFixedLength), @p1='?' (Size = 10) (DbType = AnsiStringFixedLength), @p2='?' (DbType = Int64), @p3='?' (DbType = Int64), @p4='?' (Size = 1) (DbType = AnsiStringFixedLength)], CommandType='"Text"', CommandTimeout='3000']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+UPDATE [DARGST] SET [date_g] = @p0, [date_p] = @p1, [gstmblg] = @p2, [pasandaz] = @p3, [status] = @p4
+WHERE [gst_no] = @p5 AND [req_no] = @p6;
+SELECT @@ROWCOUNT;
+2025-06-06 00:37:58.962 +03:30 [INF] Executed DbCommand (6ms) [Parameters=[], CommandType='"Text"', CommandTimeout='3000']
+SELECT TOP(1) [s].[code], [s].[curqty], [s].[etebar], [s].[firstqty], [s].[maxetebar], [s].[onvan], [s].[type]
+FROM [SANDOGH] AS [s]
+WHERE [s].[code] = '01'
+2025-06-06 00:38:00.451 +03:30 [INF] Executed DbCommand (10ms) [Parameters=[@__nReqNo_0='?' (DbType = Int32), @__nGstNo_1='?' (Size = 1) (DbType = Byte)], CommandType='"Text"', CommandTimeout='3000']
+SELECT TOP(1) [d].[req_no], [d].[gst_no], [d].[date_g], [d].[date_p], [d].[gstmblg], [d].[pasandaz], [d].[status]
+FROM [DARGST] AS [d]
+WHERE [d].[req_no] = @__nReqNo_0 AND [d].[gst_no] = @__nGstNo_1
+2025-06-06 00:38:00.702 +03:30 [INF] Executed DbCommand (238ms) [Parameters=[@p5='?' (Size = 1) (DbType = Byte), @p6='?' (DbType = Int32), @p0='?' (Size = 10) (DbType = AnsiStringFixedLength), @p1='?' (Size = 10) (DbType = AnsiStringFixedLength), @p2='?' (DbType = Int64), @p3='?' (DbType = Int64), @p4='?' (Size = 1) (DbType = AnsiStringFixedLength)], CommandType='"Text"', CommandTimeout='3000']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+UPDATE [DARGST] SET [date_g] = @p0, [date_p] = @p1, [gstmblg] = @p2, [pasandaz] = @p3, [status] = @p4
+WHERE [gst_no] = @p5 AND [req_no] = @p6;
+SELECT @@ROWCOUNT;
+2025-06-06 00:38:00.710 +03:30 [INF] Executed DbCommand (7ms) [Parameters=[], CommandType='"Text"', CommandTimeout='3000']
+SELECT TOP(1) [s].[code], [s].[curqty], [s].[etebar], [s].[firstqty], [s].[maxetebar], [s].[onvan], [s].[type]
+FROM [SANDOGH] AS [s]
+WHERE [s].[code] = '01'
+2025-06-06 00:38:01.566 +03:30 [INF] Executed DbCommand (10ms) [Parameters=[@__nReqNo_0='?' (DbType = Int32), @__nGstNo_1='?' (Size = 1) (DbType = Byte)], CommandType='"Text"', CommandTimeout='3000']
+SELECT TOP(1) [d].[req_no], [d].[gst_no], [d].[date_g], [d].[date_p], [d].[gstmblg], [d].[pasandaz], [d].[status]
+FROM [DARGST] AS [d]
+WHERE [d].[req_no] = @__nReqNo_0 AND [d].[gst_no] = @__nGstNo_1
+2025-06-06 00:38:01.812 +03:30 [INF] Executed DbCommand (238ms) [Parameters=[@p5='?' (Size = 1) (DbType = Byte), @p6='?' (DbType = Int32), @p0='?' (Size = 10) (DbType = AnsiStringFixedLength), @p1='?' (Size = 10) (DbType = AnsiStringFixedLength), @p2='?' (DbType = Int64), @p3='?' (DbType = Int64), @p4='?' (Size = 1) (DbType = AnsiStringFixedLength)], CommandType='"Text"', CommandTimeout='3000']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+UPDATE [DARGST] SET [date_g] = @p0, [date_p] = @p1, [gstmblg] = @p2, [pasandaz] = @p3, [status] = @p4
+WHERE [gst_no] = @p5 AND [req_no] = @p6;
+SELECT @@ROWCOUNT;
+2025-06-06 00:38:01.821 +03:30 [INF] Executed DbCommand (8ms) [Parameters=[], CommandType='"Text"', CommandTimeout='3000']
+SELECT TOP(1) [s].[code], [s].[curqty], [s].[etebar], [s].[firstqty], [s].[maxetebar], [s].[onvan], [s].[type]
+FROM [SANDOGH] AS [s]
+WHERE [s].[code] = '01'
+2025-06-06 00:40:18.891 +03:30 [INF] Executed DbCommand (7ms) [Parameters=[], CommandType='"Text"', CommandTimeout='3000']
+SELECT TOP(1) [s].[code], [s].[curqty], [s].[etebar], [s].[firstqty], [s].[maxetebar], [s].[onvan], [s].[type]
+FROM [SANDOGH] AS [s]
+WHERE [s].[code] = '01'
+2025-06-06 00:40:19.845 +03:30 [INF] Executed DbCommand (953ms) [Parameters=[@__get_Chars_0='?' (Size = 1)], CommandType='"Text"', CommandTimeout='3000']
+SELECT [v].[Code], [v].[FullName], [v].[Moaref], [v].[HesabNo], [v].[Sex], [v].[City], [v].[MonthQty], [v].[Mojodi], [v].[ReqNo], [v].[Type], [v].[DateD], [v].[MblgVam], [v].[PKarmozd], [v].[MKarmozd], [v].[GstNo], [v].[GstPay], [v].[LastDate], [v].[PaidVam], [v].[CurrentGstNo], [v].[CurrentGstDate], [v].[CurrentPaidDate], [v].[CurrentGstMblg], CAST(0 AS bit) AS [CurrentGstSaved], [v].[MelliCode] AS [Mellicode]
+FROM [vwPersonLastGst] AS [v]
+WHERE [v].[Type] = @__get_Chars_0
+2025-06-06 00:40:26.667 +03:30 [INF] Executed DbCommand (7ms) [Parameters=[], CommandType='"Text"', CommandTimeout='3000']
+SELECT TOP(1) [s].[code], [s].[curqty], [s].[etebar], [s].[firstqty], [s].[maxetebar], [s].[onvan], [s].[type]
+FROM [SANDOGH] AS [s]
+WHERE [s].[code] = '01'
+2025-06-06 00:40:27.160 +03:30 [INF] Executed DbCommand (490ms) [Parameters=[@__get_Chars_0='?' (Size = 1)], CommandType='"Text"', CommandTimeout='3000']
+SELECT [v].[Code], COALESCE([v].[FullName], N'') + N'ش.حساب:' + COALESCE(CAST([v].[HesabNo] AS nvarchar(max)), N'') + N' معرف: ' + COALESCE(CAST([v].[Moaref] AS nvarchar(max)), N'') AS [FullName], [v].[HesabNo], [v].[Moaref], [v].[ReqNo]
+FROM [vwPersonLastGst] AS [v]
+WHERE [v].[Type] = @__get_Chars_0
+2025-06-06 00:40:27.299 +03:30 [INF] Executed DbCommand (85ms) [Parameters=[@__get_Chars_0='?' (Size = 1), @__selectedPerson_ReqNo_1='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='3000']
+SELECT [v].[Code], COALESCE([v].[FullName], N'') + N' حساب: ' + COALESCE(CAST([v].[HesabNo] AS nvarchar(max)), N'') + N' معرف: ' + COALESCE(CAST([v].[Moaref] AS nvarchar(max)), N'') AS [FullName], [v].[HesabNo], [v].[Moaref], [v].[MonthQty], [v].[Mojodi], [v].[ReqNo], [v].[Type], [v].[DateD], [v].[MblgVam], [v].[gst_no] AS [GstNo], [v].[GstMblg], [v].[date_g] AS [GstDate], [v].[date_p] AS [PaidDate], CASE
+    WHEN [v].[date_p] IS NOT NULL AND [v].[date_p] <> N'' THEN CAST(1 AS bit)
+    ELSE CAST(0 AS bit)
+END AS [CurrentGstSaved]
+FROM [vwPersonTotalGst] AS [v]
+WHERE [v].[Type] = @__get_Chars_0 AND [v].[ReqNo] = @__selectedPerson_ReqNo_1
+ORDER BY [v].[gst_no]
+2025-06-06 00:43:03.435 +03:30 [INF] Request starting HTTP/2 POST https://localhost:5001/_blazor/negotiate?negotiateVersion=1 - null 0
+2025-06-06 00:43:03.436 +03:30 [INF] Executing endpoint '/_blazor/negotiate'
+2025-06-06 00:43:03.437 +03:30 [INF] Executed endpoint '/_blazor/negotiate'
+2025-06-06 00:43:03.437 +03:30 [INF] Request finished HTTP/2 POST https://localhost:5001/_blazor/negotiate?negotiateVersion=1 - 200 316 application/json 2.0724ms
+2025-06-06 00:43:03.441 +03:30 [INF] Request starting HTTP/2 POST https://localhost:5001/_blazor/negotiate?negotiateVersion=1 - null 0
+2025-06-06 00:43:03.493 +03:30 [INF] Executing endpoint '/_blazor/negotiate'
+2025-06-06 00:43:03.494 +03:30 [INF] Executed endpoint '/_blazor/negotiate'
+2025-06-06 00:43:03.494 +03:30 [INF] Request finished HTTP/2 POST https://localhost:5001/_blazor/negotiate?negotiateVersion=1 - 200 316 application/json 53.1006ms
+2025-06-06 00:43:03.503 +03:30 [INF] Request starting HTTP/2 CONNECT https://localhost:5001/_blazor?id=qoDdcUpGbqt-5BDadH43_w - null null
+2025-06-06 00:43:03.504 +03:30 [INF] Executing endpoint '/_blazor'
+2025-06-06 00:43:03.669 +03:30 [INF] Executed endpoint '/_blazor'
+2025-06-06 00:43:03.673 +03:30 [INF] Request finished HTTP/2 CONNECT https://localhost:5001/_blazor?id=T0R15jvnyryclXdVieASUA - 200 null null 776653.5216ms
+2025-06-06 00:43:03.674 +03:30 [INF] Connection id "0HND4EB1DM32Q", Request id "0HND4EB1DM32Q:00000003": the application completed without reading the entire request body.
+2025-06-06 00:44:20.482 +03:30 [INF] User profile is available. Using 'C:\Users\mebrahimian\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-06-06 00:44:21.458 +03:30 [INF] Now listening on: https://localhost:5001
+2025-06-06 00:44:21.637 +03:30 [INF] Application started. Press Ctrl+C to shut down.
+2025-06-06 00:44:21.638 +03:30 [INF] Hosting environment: Development
+2025-06-06 00:44:21.638 +03:30 [INF] Content root path: D:\NewVam_S
+2025-06-06 00:44:23.068 +03:30 [INF] Request starting HTTP/2 GET https://localhost:5001/ - null null
+2025-06-06 00:44:23.412 +03:30 [INF] Executing endpoint '/_Host'
+2025-06-06 00:44:23.457 +03:30 [INF] Route matched with {page = "/_Host"}. Executing page /_Host
+2025-06-06 00:44:23.485 +03:30 [INF] Executing an implicit handler method - ModelState is "Valid"
+2025-06-06 00:44:23.487 +03:30 [INF] Executed an implicit handler method, returned result Microsoft.AspNetCore.Mvc.RazorPages.PageResult.
+2025-06-06 00:44:30.113 +03:30 [INF] Executed DbCommand (16ms) [Parameters=[], CommandType='"Text"', CommandTimeout='3000']
+SELECT TOP(1) [s].[onvan]
+FROM [SANDOGH] AS [s]
+WHERE [s].[code] = '01'
+2025-06-06 00:44:30.857 +03:30 [INF] Request starting HTTP/2 GET https://localhost:5001/_framework/blazor.server.js - null null
+2025-06-06 00:44:30.857 +03:30 [INF] Request starting HTTP/2 GET https://localhost:5001/_framework/aspnetcore-browser-refresh.js - null null
+2025-06-06 00:44:30.876 +03:30 [INF] Executing endpoint 'Blazor static files'
+2025-06-06 00:44:30.891 +03:30 [INF] Executed page /_Host in 7418.5929ms
+2025-06-06 00:44:30.892 +03:30 [INF] Request finished HTTP/2 GET https://localhost:5001/_framework/aspnetcore-browser-refresh.js - 200 13768 application/javascript; charset=utf-8 35.1628ms
+2025-06-06 00:44:30.893 +03:30 [INF] Executed endpoint '/_Host'
+2025-06-06 00:44:30.920 +03:30 [INF] Request starting HTTP/2 GET https://localhost:5001/_vs/browserLink - null null
+2025-06-06 00:44:30.940 +03:30 [INF] The file /_framework/blazor.server.js was not modified
+2025-06-06 00:44:30.946 +03:30 [INF] Executed endpoint 'Blazor static files'
+2025-06-06 00:44:30.947 +03:30 [INF] Request finished HTTP/2 GET https://localhost:5001/_framework/blazor.server.js - 304 null text/javascript 91.3476ms
+2025-06-06 00:44:31.002 +03:30 [INF] Request finished HTTP/2 GET https://localhost:5001/ - 200 null text/html; charset=utf-8 7986.8825ms
+2025-06-06 00:44:31.079 +03:30 [INF] Request finished HTTP/2 GET https://localhost:5001/_vs/browserLink - 200 null text/javascript; charset=UTF-8 159.4199ms
+2025-06-06 00:44:31.158 +03:30 [INF] Request starting HTTP/2 GET https://localhost:5001/_blazor/initializers - null null
+2025-06-06 00:44:31.163 +03:30 [INF] Executing endpoint 'Blazor initializers'
+2025-06-06 00:44:31.168 +03:30 [INF] Executed endpoint 'Blazor initializers'
+2025-06-06 00:44:31.168 +03:30 [INF] Request finished HTTP/2 GET https://localhost:5001/_blazor/initializers - 200 null application/json; charset=utf-8 10.1446ms
+2025-06-06 00:44:31.216 +03:30 [INF] Request starting HTTP/2 POST https://localhost:5001/_blazor/negotiate?negotiateVersion=1 - null 0
+2025-06-06 00:44:31.227 +03:30 [INF] Executing endpoint '/_blazor/negotiate'
+2025-06-06 00:44:31.270 +03:30 [INF] Executed endpoint '/_blazor/negotiate'
+2025-06-06 00:44:31.320 +03:30 [INF] Request finished HTTP/2 POST https://localhost:5001/_blazor/negotiate?negotiateVersion=1 - 200 316 application/json 104.3133ms
+2025-06-06 00:44:31.330 +03:30 [INF] Request starting HTTP/2 CONNECT https://localhost:5001/_blazor?id=oLlcCfu3yPZBev4UFFr7pw - null null
+2025-06-06 00:44:31.331 +03:30 [INF] Executing endpoint '/_blazor'
+2025-06-06 00:44:31.899 +03:30 [INF] Executed DbCommand (15ms) [Parameters=[], CommandType='"Text"', CommandTimeout='3000']
+SELECT TOP(1) [s].[onvan]
+FROM [SANDOGH] AS [s]
+WHERE [s].[code] = '01'
+2025-06-06 00:45:42.886 +03:30 [INF] Executed DbCommand (11ms) [Parameters=[], CommandType='"Text"', CommandTimeout='3000']
+SELECT TOP(1) [s].[code], [s].[curqty], [s].[etebar], [s].[firstqty], [s].[maxetebar], [s].[onvan], [s].[type]
+FROM [SANDOGH] AS [s]
+WHERE [s].[code] = '01'
+2025-06-06 00:45:43.856 +03:30 [INF] Executed DbCommand (800ms) [Parameters=[@__get_Chars_0='?' (Size = 1)], CommandType='"Text"', CommandTimeout='3000']
+SELECT [v].[Code], COALESCE([v].[FullName], N'') + N'ش.حساب:' + COALESCE(CAST([v].[HesabNo] AS nvarchar(max)), N'') + N' معرف: ' + COALESCE(CAST([v].[Moaref] AS nvarchar(max)), N'') AS [FullName], [v].[HesabNo], [v].[Moaref], [v].[ReqNo]
+FROM [vwPersonLastGst] AS [v]
+WHERE [v].[Type] = @__get_Chars_0
+2025-06-06 00:45:44.670 +03:30 [INF] Executed DbCommand (68ms) [Parameters=[@__get_Chars_0='?' (Size = 1), @__selectedPerson_ReqNo_1='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='3000']
+SELECT [v].[Code], COALESCE([v].[FullName], N'') + N' حساب: ' + COALESCE(CAST([v].[HesabNo] AS nvarchar(max)), N'') + N' معرف: ' + COALESCE(CAST([v].[Moaref] AS nvarchar(max)), N'') AS [FullName], [v].[HesabNo], [v].[Moaref], [v].[MonthQty], [v].[Mojodi], [v].[ReqNo], [v].[Type], [v].[DateD], [v].[MblgVam], [v].[gst_no] AS [GstNo], [v].[GstMblg], [v].[date_g] AS [GstDate], [v].[date_p] AS [PaidDate], CASE
+    WHEN [v].[date_p] IS NOT NULL AND [v].[date_p] <> N'' THEN CAST(1 AS bit)
+    ELSE CAST(0 AS bit)
+END AS [CurrentGstSaved]
+FROM [vwPersonTotalGst] AS [v]
+WHERE [v].[Type] = @__get_Chars_0 AND [v].[ReqNo] = @__selectedPerson_ReqNo_1
+ORDER BY [v].[gst_no]
+2025-06-06 00:46:28.523 +03:30 [INF] Executed DbCommand (9ms) [Parameters=[], CommandType='"Text"', CommandTimeout='3000']
+SELECT TOP(1) [s].[code], [s].[curqty], [s].[etebar], [s].[firstqty], [s].[maxetebar], [s].[onvan], [s].[type]
+FROM [SANDOGH] AS [s]
+WHERE [s].[code] = '01'
+2025-06-06 00:46:29.288 +03:30 [INF] Executed DbCommand (749ms) [Parameters=[@__get_Chars_0='?' (Size = 1)], CommandType='"Text"', CommandTimeout='3000']
+SELECT [v].[Code], [v].[FullName], [v].[Moaref], [v].[HesabNo], [v].[Sex], [v].[City], [v].[MonthQty], [v].[Mojodi], [v].[ReqNo], [v].[Type], [v].[DateD], [v].[MblgVam], [v].[PKarmozd], [v].[MKarmozd], [v].[GstNo], [v].[GstPay], [v].[LastDate], [v].[PaidVam], [v].[CurrentGstNo], [v].[CurrentGstDate], [v].[CurrentPaidDate], [v].[CurrentGstMblg], CAST(0 AS bit) AS [CurrentGstSaved], [v].[MelliCode] AS [Mellicode]
+FROM [vwPersonLastGst] AS [v]
+WHERE [v].[Type] = @__get_Chars_0
+2025-06-06 00:47:04.404 +03:30 [INF] Request starting HTTP/2 POST https://localhost:5001/_blazor/negotiate?negotiateVersion=1 - null 0
+2025-06-06 00:47:04.405 +03:30 [INF] Executing endpoint '/_blazor/negotiate'
+2025-06-06 00:47:04.406 +03:30 [INF] Executed endpoint '/_blazor/negotiate'
+2025-06-06 00:47:04.407 +03:30 [INF] Request finished HTTP/2 POST https://localhost:5001/_blazor/negotiate?negotiateVersion=1 - 200 316 application/json 3.1627ms
+2025-06-06 00:47:04.414 +03:30 [INF] Request starting HTTP/2 CONNECT https://localhost:5001/_blazor?id=4kLhQVeEMZfj-78WNGPfng - null null
+2025-06-06 00:47:04.415 +03:30 [INF] Executing endpoint '/_blazor'
+2025-06-06 00:47:04.524 +03:30 [INF] Executed endpoint '/_blazor'
+2025-06-06 00:47:04.524 +03:30 [INF] Request finished HTTP/2 CONNECT https://localhost:5001/_blazor?id=oLlcCfu3yPZBev4UFFr7pw - 200 null null 153194.0626ms
+2025-06-06 00:47:04.526 +03:30 [INF] Connection id "0HND4ENODBC89", Request id "0HND4ENODBC89:0000000D": the application completed without reading the entire request body.
+2025-06-06 00:47:15.796 +03:30 [INF] Executed DbCommand (11ms) [Parameters=[@__nReqNo_0='?' (DbType = Int32), @__nGstNo_1='?' (Size = 1) (DbType = Byte)], CommandType='"Text"', CommandTimeout='3000']
+SELECT TOP(1) [d].[req_no], [d].[gst_no], [d].[date_g], [d].[date_p], [d].[gstmblg], [d].[pasandaz], [d].[status]
+FROM [DARGST] AS [d]
+WHERE [d].[req_no] = @__nReqNo_0 AND [d].[gst_no] = @__nGstNo_1
+2025-06-06 00:47:16.586 +03:30 [INF] Executed DbCommand (397ms) [Parameters=[@p5='?' (Size = 1) (DbType = Byte), @p6='?' (DbType = Int32), @p0='?' (Size = 10) (DbType = AnsiStringFixedLength), @p1='?' (Size = 10) (DbType = AnsiStringFixedLength), @p2='?' (DbType = Int64), @p3='?' (DbType = Int64), @p4='?' (Size = 1) (DbType = AnsiStringFixedLength)], CommandType='"Text"', CommandTimeout='3000']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+UPDATE [DARGST] SET [date_g] = @p0, [date_p] = @p1, [gstmblg] = @p2, [pasandaz] = @p3, [status] = @p4
+WHERE [gst_no] = @p5 AND [req_no] = @p6;
+SELECT @@ROWCOUNT;
+2025-06-06 00:47:16.614 +03:30 [INF] Executed DbCommand (9ms) [Parameters=[], CommandType='"Text"', CommandTimeout='3000']
+SELECT TOP(1) [s].[code], [s].[curqty], [s].[etebar], [s].[firstqty], [s].[maxetebar], [s].[onvan], [s].[type]
+FROM [SANDOGH] AS [s]
+WHERE [s].[code] = '01'
+2025-06-06 00:47:25.288 +03:30 [INF] Executed DbCommand (13ms) [Parameters=[@__nReqNo_0='?' (DbType = Int32), @__nGstNo_1='?' (Size = 1) (DbType = Byte)], CommandType='"Text"', CommandTimeout='3000']
+SELECT TOP(1) [d].[req_no], [d].[gst_no], [d].[date_g], [d].[date_p], [d].[gstmblg], [d].[pasandaz], [d].[status]
+FROM [DARGST] AS [d]
+WHERE [d].[req_no] = @__nReqNo_0 AND [d].[gst_no] = @__nGstNo_1
+2025-06-06 00:47:25.583 +03:30 [INF] Executed DbCommand (267ms) [Parameters=[@p5='?' (Size = 1) (DbType = Byte), @p6='?' (DbType = Int32), @p0='?' (Size = 10) (DbType = AnsiStringFixedLength), @p1='?' (Size = 10) (DbType = AnsiStringFixedLength), @p2='?' (DbType = Int64), @p3='?' (DbType = Int64), @p4='?' (Size = 1) (DbType = AnsiStringFixedLength)], CommandType='"Text"', CommandTimeout='3000']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+UPDATE [DARGST] SET [date_g] = @p0, [date_p] = @p1, [gstmblg] = @p2, [pasandaz] = @p3, [status] = @p4
+WHERE [gst_no] = @p5 AND [req_no] = @p6;
+SELECT @@ROWCOUNT;
+2025-06-06 00:47:25.589 +03:30 [INF] Executed DbCommand (5ms) [Parameters=[], CommandType='"Text"', CommandTimeout='3000']
+SELECT TOP(1) [s].[code], [s].[curqty], [s].[etebar], [s].[firstqty], [s].[maxetebar], [s].[onvan], [s].[type]
+FROM [SANDOGH] AS [s]
+WHERE [s].[code] = '01'
+2025-06-06 00:47:27.388 +03:30 [INF] Executed DbCommand (11ms) [Parameters=[@__nReqNo_0='?' (DbType = Int32), @__nGstNo_1='?' (Size = 1) (DbType = Byte)], CommandType='"Text"', CommandTimeout='3000']
+SELECT TOP(1) [d].[req_no], [d].[gst_no], [d].[date_g], [d].[date_p], [d].[gstmblg], [d].[pasandaz], [d].[status]
+FROM [DARGST] AS [d]
+WHERE [d].[req_no] = @__nReqNo_0 AND [d].[gst_no] = @__nGstNo_1
+2025-06-06 00:47:27.646 +03:30 [INF] Executed DbCommand (250ms) [Parameters=[@p5='?' (Size = 1) (DbType = Byte), @p6='?' (DbType = Int32), @p0='?' (Size = 10) (DbType = AnsiStringFixedLength), @p1='?' (Size = 10) (DbType = AnsiStringFixedLength), @p2='?' (DbType = Int64), @p3='?' (DbType = Int64), @p4='?' (Size = 1) (DbType = AnsiStringFixedLength)], CommandType='"Text"', CommandTimeout='3000']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+UPDATE [DARGST] SET [date_g] = @p0, [date_p] = @p1, [gstmblg] = @p2, [pasandaz] = @p3, [status] = @p4
+WHERE [gst_no] = @p5 AND [req_no] = @p6;
+SELECT @@ROWCOUNT;
+2025-06-06 00:47:27.654 +03:30 [INF] Executed DbCommand (7ms) [Parameters=[], CommandType='"Text"', CommandTimeout='3000']
+SELECT TOP(1) [s].[code], [s].[curqty], [s].[etebar], [s].[firstqty], [s].[maxetebar], [s].[onvan], [s].[type]
+FROM [SANDOGH] AS [s]
+WHERE [s].[code] = '01'
+2025-06-06 00:47:28.516 +03:30 [INF] Executed DbCommand (11ms) [Parameters=[@__nReqNo_0='?' (DbType = Int32), @__nGstNo_1='?' (Size = 1) (DbType = Byte)], CommandType='"Text"', CommandTimeout='3000']
+SELECT TOP(1) [d].[req_no], [d].[gst_no], [d].[date_g], [d].[date_p], [d].[gstmblg], [d].[pasandaz], [d].[status]
+FROM [DARGST] AS [d]
+WHERE [d].[req_no] = @__nReqNo_0 AND [d].[gst_no] = @__nGstNo_1
+2025-06-06 00:47:28.675 +03:30 [INF] Executed DbCommand (151ms) [Parameters=[@p5='?' (Size = 1) (DbType = Byte), @p6='?' (DbType = Int32), @p0='?' (Size = 10) (DbType = AnsiStringFixedLength), @p1='?' (Size = 10) (DbType = AnsiStringFixedLength), @p2='?' (DbType = Int64), @p3='?' (DbType = Int64), @p4='?' (Size = 1) (DbType = AnsiStringFixedLength)], CommandType='"Text"', CommandTimeout='3000']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+UPDATE [DARGST] SET [date_g] = @p0, [date_p] = @p1, [gstmblg] = @p2, [pasandaz] = @p3, [status] = @p4
+WHERE [gst_no] = @p5 AND [req_no] = @p6;
+SELECT @@ROWCOUNT;
+2025-06-06 00:47:28.683 +03:30 [INF] Executed DbCommand (6ms) [Parameters=[], CommandType='"Text"', CommandTimeout='3000']
+SELECT TOP(1) [s].[code], [s].[curqty], [s].[etebar], [s].[firstqty], [s].[maxetebar], [s].[onvan], [s].[type]
+FROM [SANDOGH] AS [s]
+WHERE [s].[code] = '01'
+2025-06-06 00:47:29.375 +03:30 [INF] Executed DbCommand (13ms) [Parameters=[@__nReqNo_0='?' (DbType = Int32), @__nGstNo_1='?' (Size = 1) (DbType = Byte)], CommandType='"Text"', CommandTimeout='3000']
+SELECT TOP(1) [d].[req_no], [d].[gst_no], [d].[date_g], [d].[date_p], [d].[gstmblg], [d].[pasandaz], [d].[status]
+FROM [DARGST] AS [d]
+WHERE [d].[req_no] = @__nReqNo_0 AND [d].[gst_no] = @__nGstNo_1
+2025-06-06 00:47:29.667 +03:30 [INF] Executed DbCommand (283ms) [Parameters=[@p5='?' (Size = 1) (DbType = Byte), @p6='?' (DbType = Int32), @p0='?' (Size = 10) (DbType = AnsiStringFixedLength), @p1='?' (Size = 10) (DbType = AnsiStringFixedLength), @p2='?' (DbType = Int64), @p3='?' (DbType = Int64), @p4='?' (Size = 1) (DbType = AnsiStringFixedLength)], CommandType='"Text"', CommandTimeout='3000']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+UPDATE [DARGST] SET [date_g] = @p0, [date_p] = @p1, [gstmblg] = @p2, [pasandaz] = @p3, [status] = @p4
+WHERE [gst_no] = @p5 AND [req_no] = @p6;
+SELECT @@ROWCOUNT;
+2025-06-06 00:47:29.676 +03:30 [INF] Executed DbCommand (7ms) [Parameters=[], CommandType='"Text"', CommandTimeout='3000']
+SELECT TOP(1) [s].[code], [s].[curqty], [s].[etebar], [s].[firstqty], [s].[maxetebar], [s].[onvan], [s].[type]
+FROM [SANDOGH] AS [s]
+WHERE [s].[code] = '01'
+2025-06-06 00:47:29.691 +03:30 [INF] Request starting HTTP/2 GET https://localhost:5001/Images/15.Jpeg - null null
+2025-06-06 00:47:29.751 +03:30 [INF] Sending file. Request path: '/Images/15.Jpeg'. Physical path: 'D:\NewVam_S\wwwroot\Images\15.JPEG'
+2025-06-06 00:47:29.751 +03:30 [INF] Request finished HTTP/2 GET https://localhost:5001/Images/15.Jpeg - 200 4793 image/jpeg 60.4566ms
+2025-06-06 01:21:31.926 +03:30 [INF] User profile is available. Using 'C:\Users\mebrahimian\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-06-06 01:21:32.611 +03:30 [INF] Now listening on: https://localhost:5001
+2025-06-06 01:21:32.714 +03:30 [INF] Application started. Press Ctrl+C to shut down.
+2025-06-06 01:21:32.715 +03:30 [INF] Hosting environment: Development
+2025-06-06 01:21:32.715 +03:30 [INF] Content root path: D:\NewVam_S
+2025-06-06 01:21:34.038 +03:30 [INF] Request starting HTTP/2 GET https://localhost:5001/ - null null
+2025-06-06 01:21:34.342 +03:30 [INF] Executing endpoint '/_Host'
+2025-06-06 01:21:34.440 +03:30 [INF] Route matched with {page = "/_Host"}. Executing page /_Host
+2025-06-06 01:21:34.457 +03:30 [INF] Executing an implicit handler method - ModelState is "Valid"
+2025-06-06 01:21:34.458 +03:30 [INF] Executed an implicit handler method, returned result Microsoft.AspNetCore.Mvc.RazorPages.PageResult.
+2025-06-06 01:21:38.727 +03:30 [INF] Executed DbCommand (15ms) [Parameters=[], CommandType='"Text"', CommandTimeout='3000']
+SELECT TOP(1) [s].[onvan]
+FROM [SANDOGH] AS [s]
+WHERE [s].[code] = '01'
+2025-06-06 01:21:39.239 +03:30 [INF] Executed page /_Host in 4790.5429ms
+2025-06-06 01:21:39.241 +03:30 [INF] Executed endpoint '/_Host'
+2025-06-06 01:21:39.249 +03:30 [INF] Request starting HTTP/2 GET https://localhost:5001/_framework/blazor.server.js - null null
+2025-06-06 01:21:39.249 +03:30 [INF] Request starting HTTP/2 GET https://localhost:5001/_framework/aspnetcore-browser-refresh.js - null null
+2025-06-06 01:21:39.259 +03:30 [INF] Executing endpoint 'Blazor static files'
+2025-06-06 01:21:39.282 +03:30 [INF] Request finished HTTP/2 GET https://localhost:5001/_framework/aspnetcore-browser-refresh.js - 200 13768 application/javascript; charset=utf-8 24.6977ms
+2025-06-06 01:21:39.288 +03:30 [INF] Request starting HTTP/2 GET https://localhost:5001/_vs/browserLink - null null
+2025-06-06 01:21:39.291 +03:30 [INF] The file /_framework/blazor.server.js was not modified
+2025-06-06 01:21:39.295 +03:30 [INF] Executed endpoint 'Blazor static files'
+2025-06-06 01:21:39.296 +03:30 [INF] Request finished HTTP/2 GET https://localhost:5001/_framework/blazor.server.js - 304 null text/javascript 48.6752ms
+2025-06-06 01:21:39.329 +03:30 [INF] Request finished HTTP/2 GET https://localhost:5001/ - 200 null text/html; charset=utf-8 5310.9107ms
+2025-06-06 01:21:39.445 +03:30 [INF] Request starting HTTP/2 GET https://localhost:5001/_blazor/initializers - null null
+2025-06-06 01:21:39.452 +03:30 [INF] Executing endpoint 'Blazor initializers'
+2025-06-06 01:21:39.455 +03:30 [INF] Request finished HTTP/2 GET https://localhost:5001/_vs/browserLink - 200 null text/javascript; charset=UTF-8 171.4568ms
+2025-06-06 01:21:39.456 +03:30 [INF] Executed endpoint 'Blazor initializers'
+2025-06-06 01:21:39.456 +03:30 [INF] Request finished HTTP/2 GET https://localhost:5001/_blazor/initializers - 200 null application/json; charset=utf-8 10.6181ms
+2025-06-06 01:21:39.472 +03:30 [INF] Request starting HTTP/2 POST https://localhost:5001/_blazor/negotiate?negotiateVersion=1 - null 0
+2025-06-06 01:21:39.474 +03:30 [INF] Executing endpoint '/_blazor/negotiate'
+2025-06-06 01:21:39.505 +03:30 [INF] Executed endpoint '/_blazor/negotiate'
+2025-06-06 01:21:39.505 +03:30 [INF] Request finished HTTP/2 POST https://localhost:5001/_blazor/negotiate?negotiateVersion=1 - 200 316 application/json 33.2976ms
+2025-06-06 01:21:39.523 +03:30 [INF] Request starting HTTP/2 CONNECT https://localhost:5001/_blazor?id=duepRi35SAPZ6vPBpwwzqg - null null
+2025-06-06 01:21:39.524 +03:30 [INF] Executing endpoint '/_blazor'
+2025-06-06 01:21:39.975 +03:30 [INF] Executed DbCommand (10ms) [Parameters=[], CommandType='"Text"', CommandTimeout='3000']
+SELECT TOP(1) [s].[onvan]
+FROM [SANDOGH] AS [s]
+WHERE [s].[code] = '01'
+2025-06-06 01:23:18.864 +03:30 [INF] Request starting HTTP/2 GET https://localhost:5001/ - null null
+2025-06-06 01:23:18.874 +03:30 [INF] Executing endpoint '/_Host'
+2025-06-06 01:23:18.875 +03:30 [INF] Route matched with {page = "/_Host"}. Executing page /_Host
+2025-06-06 01:23:18.877 +03:30 [INF] Executing an implicit handler method - ModelState is "Valid"
+2025-06-06 01:23:18.877 +03:30 [INF] Executed an implicit handler method, returned result Microsoft.AspNetCore.Mvc.RazorPages.PageResult.
+2025-06-06 01:23:19.081 +03:30 [INF] Executed DbCommand (9ms) [Parameters=[], CommandType='"Text"', CommandTimeout='3000']
+SELECT TOP(1) [s].[onvan]
+FROM [SANDOGH] AS [s]
+WHERE [s].[code] = '01'
+2025-06-06 01:23:19.097 +03:30 [INF] Executed page /_Host in 221.6695ms
+2025-06-06 01:23:19.097 +03:30 [INF] Executed endpoint '/_Host'
+2025-06-06 01:23:19.100 +03:30 [INF] Request finished HTTP/2 GET https://localhost:5001/ - 200 null text/html; charset=utf-8 236.5323ms
+2025-06-06 01:23:19.108 +03:30 [INF] Request starting HTTP/2 POST https://localhost:5001/_blazor/disconnect - multipart/form-data; boundary=----WebKitFormBoundaryioEH9zHSRbF8WomH 359
+2025-06-06 01:23:19.108 +03:30 [INF] Executing endpoint 'Blazor disconnect'
+2025-06-06 01:23:19.142 +03:30 [INF] Executed endpoint '/_blazor'
+2025-06-06 01:23:19.143 +03:30 [INF] Request finished HTTP/2 CONNECT https://localhost:5001/_blazor?id=duepRi35SAPZ6vPBpwwzqg - 200 null null 99621.7842ms
+2025-06-06 01:23:19.147 +03:30 [INF] Request starting HTTP/2 GET https://localhost:5001/_framework/aspnetcore-browser-refresh.js - null null
+2025-06-06 01:23:19.149 +03:30 [INF] Request finished HTTP/2 GET https://localhost:5001/_framework/aspnetcore-browser-refresh.js - 200 13768 application/javascript; charset=utf-8 2.1216ms
+2025-06-06 01:23:19.154 +03:30 [INF] Request starting HTTP/2 GET https://localhost:5001/_framework/blazor.server.js - null null
+2025-06-06 01:23:19.162 +03:30 [INF] Executing endpoint 'Blazor static files'
+2025-06-06 01:23:19.165 +03:30 [INF] The file /_framework/blazor.server.js was not modified
+2025-06-06 01:23:19.165 +03:30 [INF] Executed endpoint 'Blazor static files'
+2025-06-06 01:23:19.165 +03:30 [INF] Request finished HTTP/2 GET https://localhost:5001/_framework/blazor.server.js - 304 null text/javascript 11.3255ms
+2025-06-06 01:23:19.181 +03:30 [INF] Request starting HTTP/2 GET https://localhost:5001/_vs/browserLink - null null
+2025-06-06 01:23:19.210 +03:30 [INF] Request finished HTTP/2 GET https://localhost:5001/_vs/browserLink - 200 null text/javascript; charset=UTF-8 29.3091ms
+2025-06-06 01:23:19.266 +03:30 [INF] Request starting HTTP/2 GET https://localhost:5001/_blazor/initializers - null null
+2025-06-06 01:23:19.266 +03:30 [INF] Executing endpoint 'Blazor initializers'
+2025-06-06 01:23:19.266 +03:30 [INF] Executed endpoint 'Blazor initializers'
+2025-06-06 01:23:19.266 +03:30 [INF] Request finished HTTP/2 GET https://localhost:5001/_blazor/initializers - 200 null application/json; charset=utf-8 0.8392ms
+2025-06-06 01:23:19.273 +03:30 [INF] Executed endpoint 'Blazor disconnect'
+2025-06-06 01:23:19.273 +03:30 [INF] Request finished HTTP/2 POST https://localhost:5001/_blazor/disconnect - 200 0 null 166.4182ms
+2025-06-06 01:23:19.321 +03:30 [INF] Request starting HTTP/2 POST https://localhost:5001/_blazor/negotiate?negotiateVersion=1 - null 0
+2025-06-06 01:23:19.321 +03:30 [INF] Executing endpoint '/_blazor/negotiate'
+2025-06-06 01:23:19.322 +03:30 [INF] Executed endpoint '/_blazor/negotiate'
+2025-06-06 01:23:19.323 +03:30 [INF] Request finished HTTP/2 POST https://localhost:5001/_blazor/negotiate?negotiateVersion=1 - 200 316 application/json 2.4074ms
+2025-06-06 01:23:19.352 +03:30 [INF] Request starting HTTP/2 CONNECT https://localhost:5001/_blazor?id=qGg4w9pFJGFoXhpE8rDl6w - null null
+2025-06-06 01:23:19.353 +03:30 [INF] Executing endpoint '/_blazor'
+2025-06-06 01:23:19.499 +03:30 [INF] Executed DbCommand (5ms) [Parameters=[], CommandType='"Text"', CommandTimeout='3000']
+SELECT TOP(1) [s].[onvan]
+FROM [SANDOGH] AS [s]
+WHERE [s].[code] = '01'
+2025-06-06 01:23:28.234 +03:30 [INF] Executed endpoint '/_blazor'
+2025-06-06 01:23:28.235 +03:30 [INF] Request finished HTTP/2 CONNECT https://localhost:5001/_blazor?id=qGg4w9pFJGFoXhpE8rDl6w - 200 null null 8882.5608ms
+2025-06-06 01:23:42.959 +03:30 [INF] User profile is available. Using 'C:\Users\mebrahimian\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-06-06 01:23:43.588 +03:30 [INF] Now listening on: https://localhost:5001
+2025-06-06 01:23:43.670 +03:30 [INF] Application started. Press Ctrl+C to shut down.
+2025-06-06 01:23:43.670 +03:30 [INF] Hosting environment: Development
+2025-06-06 01:23:43.670 +03:30 [INF] Content root path: D:\NewVam_S
+2025-06-06 01:23:44.731 +03:30 [INF] Request starting HTTP/2 GET https://localhost:5001/ - null null
+2025-06-06 01:23:45.070 +03:30 [INF] Executing endpoint '/_Host'
+2025-06-06 01:23:45.100 +03:30 [INF] Route matched with {page = "/_Host"}. Executing page /_Host
+2025-06-06 01:23:45.118 +03:30 [INF] Executing an implicit handler method - ModelState is "Valid"
+2025-06-06 01:23:45.119 +03:30 [INF] Executed an implicit handler method, returned result Microsoft.AspNetCore.Mvc.RazorPages.PageResult.
+2025-06-06 01:23:48.446 +03:30 [INF] Executed DbCommand (6ms) [Parameters=[], CommandType='"Text"', CommandTimeout='3000']
+SELECT TOP(1) [s].[onvan]
+FROM [SANDOGH] AS [s]
+WHERE [s].[code] = '01'
+2025-06-06 01:23:48.913 +03:30 [INF] Request starting HTTP/2 GET https://localhost:5001/_framework/aspnetcore-browser-refresh.js - null null
+2025-06-06 01:23:48.913 +03:30 [INF] Request starting HTTP/2 GET https://localhost:5001/_framework/blazor.server.js - null null
+2025-06-06 01:23:48.924 +03:30 [INF] Executed page /_Host in 3814.8268ms
+2025-06-06 01:23:48.926 +03:30 [INF] Executing endpoint 'Blazor static files'
+2025-06-06 01:23:48.934 +03:30 [INF] Executed endpoint '/_Host'
+2025-06-06 01:23:48.937 +03:30 [INF] Request finished HTTP/2 GET https://localhost:5001/_framework/aspnetcore-browser-refresh.js - 200 13768 application/javascript; charset=utf-8 25.0582ms
+2025-06-06 01:23:48.947 +03:30 [INF] The file /_framework/blazor.server.js was not modified
+2025-06-06 01:23:48.951 +03:30 [INF] Executed endpoint 'Blazor static files'
+2025-06-06 01:23:48.952 +03:30 [INF] Request starting HTTP/2 GET https://localhost:5001/_vs/browserLink - null null
+2025-06-06 01:23:48.952 +03:30 [INF] Request finished HTTP/2 GET https://localhost:5001/_framework/blazor.server.js - 304 null text/javascript 41.6284ms
+2025-06-06 01:23:48.999 +03:30 [INF] Request finished HTTP/2 GET https://localhost:5001/ - 200 null text/html; charset=utf-8 4295.632ms
+2025-06-06 01:23:49.027 +03:30 [INF] Request finished HTTP/2 GET https://localhost:5001/_vs/browserLink - 200 null text/javascript; charset=UTF-8 75.8008ms
+2025-06-06 01:23:49.116 +03:30 [INF] Request starting HTTP/2 GET https://localhost:5001/_blazor/initializers - null null
+2025-06-06 01:23:49.119 +03:30 [INF] Executing endpoint 'Blazor initializers'
+2025-06-06 01:23:49.125 +03:30 [INF] Executed endpoint 'Blazor initializers'
+2025-06-06 01:23:49.126 +03:30 [INF] Request finished HTTP/2 GET https://localhost:5001/_blazor/initializers - 200 null application/json; charset=utf-8 9.7649ms
+2025-06-06 01:23:49.159 +03:30 [INF] Request starting HTTP/2 POST https://localhost:5001/_blazor/negotiate?negotiateVersion=1 - null 0
+2025-06-06 01:23:49.162 +03:30 [INF] Executing endpoint '/_blazor/negotiate'
+2025-06-06 01:23:49.190 +03:30 [INF] Executed endpoint '/_blazor/negotiate'
+2025-06-06 01:23:49.194 +03:30 [INF] Request finished HTTP/2 POST https://localhost:5001/_blazor/negotiate?negotiateVersion=1 - 200 316 application/json 35.1174ms
+2025-06-06 01:23:49.219 +03:30 [INF] Request starting HTTP/2 CONNECT https://localhost:5001/_blazor?id=qtm-0B3RMJDSHoyab89tmg - null null
+2025-06-06 01:23:49.220 +03:30 [INF] Executing endpoint '/_blazor'
+2025-06-06 01:23:49.499 +03:30 [INF] Executed DbCommand (3ms) [Parameters=[], CommandType='"Text"', CommandTimeout='3000']
+SELECT TOP(1) [s].[onvan]
+FROM [SANDOGH] AS [s]
+WHERE [s].[code] = '01'
+2025-06-06 01:40:33.637 +03:30 [INF] Executed DbCommand (370ms) [Parameters=[], CommandType='"Text"', CommandTimeout='3000']
+SELECT [v].[city], [v].[CityDesc], [v].[Code], [v].[CurrentGstDate], [v].[CurrentGstMblg], [v].[CurrentGstNo], [v].[DateVam], [v].[DelayGst], [v].[FullName], [v].[Gst1], [v].[Gst2], [v].[GstNo], [v].[GstPay], [v].[hesab_no], [v].[MKarmozd], [v].[MblgVam], [v].[Moaref], [v].[Mojodi], [v].[MonthQty], [v].[PKarmozd], [v].[PaidVam], [v].[RemainVam], [v].[ReqNo], [v].[sex], [v].[SexDesc], [v].[Type]
+FROM [vwPersonStatusCurrent] AS [v]
+ORDER BY [v].[DelayGst] DESC, [v].[Moaref]
+2025-06-06 01:41:59.268 +03:30 [INF] User profile is available. Using 'C:\Users\mebrahimian\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-06-06 01:41:59.896 +03:30 [INF] Now listening on: https://localhost:5001
+2025-06-06 01:41:59.992 +03:30 [INF] Application started. Press Ctrl+C to shut down.
+2025-06-06 01:41:59.992 +03:30 [INF] Hosting environment: Development
+2025-06-06 01:41:59.992 +03:30 [INF] Content root path: D:\NewVam_S
+2025-06-06 01:42:01.300 +03:30 [INF] Request starting HTTP/2 GET https://localhost:5001/ - null null
+2025-06-06 01:42:01.522 +03:30 [INF] Executing endpoint '/_Host'
+2025-06-06 01:42:01.560 +03:30 [INF] Route matched with {page = "/_Host"}. Executing page /_Host
+2025-06-06 01:42:01.579 +03:30 [INF] Executing an implicit handler method - ModelState is "Valid"
+2025-06-06 01:42:01.581 +03:30 [INF] Executed an implicit handler method, returned result Microsoft.AspNetCore.Mvc.RazorPages.PageResult.
+2025-06-06 01:42:05.507 +03:30 [INF] Executed DbCommand (11ms) [Parameters=[], CommandType='"Text"', CommandTimeout='3000']
+SELECT TOP(1) [s].[onvan]
+FROM [SANDOGH] AS [s]
+WHERE [s].[code] = '01'
+2025-06-06 01:42:06.062 +03:30 [INF] Executed page /_Host in 4494.3996ms
+2025-06-06 01:42:06.063 +03:30 [INF] Executed endpoint '/_Host'
+2025-06-06 01:42:06.082 +03:30 [INF] Request starting HTTP/2 GET https://localhost:5001/_framework/aspnetcore-browser-refresh.js - null null
+2025-06-06 01:42:06.082 +03:30 [INF] Request starting HTTP/2 GET https://localhost:5001/_framework/blazor.server.js - null null
+2025-06-06 01:42:06.096 +03:30 [INF] Executing endpoint 'Blazor static files'
+2025-06-06 01:42:06.098 +03:30 [INF] Request finished HTTP/2 GET https://localhost:5001/_framework/aspnetcore-browser-refresh.js - 200 13768 application/javascript; charset=utf-8 15.985ms
+2025-06-06 01:42:06.115 +03:30 [INF] The file /_framework/blazor.server.js was not modified
+2025-06-06 01:42:06.119 +03:30 [INF] Request starting HTTP/2 GET https://localhost:5001/_vs/browserLink - null null
+2025-06-06 01:42:06.126 +03:30 [INF] Executed endpoint 'Blazor static files'
+2025-06-06 01:42:06.128 +03:30 [INF] Request finished HTTP/2 GET https://localhost:5001/_framework/blazor.server.js - 304 null text/javascript 45.9708ms
+2025-06-06 01:42:06.158 +03:30 [INF] Request finished HTTP/2 GET https://localhost:5001/ - 200 null text/html; charset=utf-8 4877.3406ms
+2025-06-06 01:42:06.195 +03:30 [INF] Request finished HTTP/2 GET https://localhost:5001/_vs/browserLink - 200 null text/javascript; charset=UTF-8 75.6865ms
+2025-06-06 01:42:06.274 +03:30 [INF] Request starting HTTP/2 GET https://localhost:5001/_blazor/initializers - null null
+2025-06-06 01:42:06.279 +03:30 [INF] Executing endpoint 'Blazor initializers'
+2025-06-06 01:42:06.284 +03:30 [INF] Executed endpoint 'Blazor initializers'
+2025-06-06 01:42:06.285 +03:30 [INF] Request finished HTTP/2 GET https://localhost:5001/_blazor/initializers - 200 null application/json; charset=utf-8 10.3567ms
+2025-06-06 01:42:06.326 +03:30 [INF] Request starting HTTP/2 POST https://localhost:5001/_blazor/negotiate?negotiateVersion=1 - null 0
+2025-06-06 01:42:06.328 +03:30 [INF] Executing endpoint '/_blazor/negotiate'
+2025-06-06 01:42:06.355 +03:30 [INF] Executed endpoint '/_blazor/negotiate'
+2025-06-06 01:42:06.355 +03:30 [INF] Request finished HTTP/2 POST https://localhost:5001/_blazor/negotiate?negotiateVersion=1 - 200 316 application/json 29.5669ms
+2025-06-06 01:42:06.379 +03:30 [INF] Request starting HTTP/2 CONNECT https://localhost:5001/_blazor?id=vFGCj5njOdfBPC2kNCB4Gg - null null
+2025-06-06 01:42:06.384 +03:30 [INF] Executing endpoint '/_blazor'
+2025-06-06 01:42:06.718 +03:30 [INF] Executed DbCommand (6ms) [Parameters=[], CommandType='"Text"', CommandTimeout='3000']
+SELECT TOP(1) [s].[onvan]
+FROM [SANDOGH] AS [s]
+WHERE [s].[code] = '01'
+2025-06-06 01:46:19.739 +03:30 [INF] Request starting HTTP/2 GET https://localhost:5001/pagevampriority - null null
+2025-06-06 01:46:19.760 +03:30 [INF] Executing endpoint '/_Host'
+2025-06-06 01:46:19.766 +03:30 [INF] Route matched with {page = "/_Host"}. Executing page /_Host
+2025-06-06 01:46:19.768 +03:30 [INF] Executing an implicit handler method - ModelState is "Valid"
+2025-06-06 01:46:19.768 +03:30 [INF] Executed an implicit handler method, returned result Microsoft.AspNetCore.Mvc.RazorPages.PageResult.
+2025-06-06 01:46:19.997 +03:30 [INF] Executed DbCommand (11ms) [Parameters=[], CommandType='"Text"', CommandTimeout='3000']
+SELECT TOP(1) [s].[onvan]
+FROM [SANDOGH] AS [s]
+WHERE [s].[code] = '01'
+2025-06-06 01:46:20.015 +03:30 [INF] Executed page /_Host in 248.9171ms
+2025-06-06 01:46:20.015 +03:30 [INF] Executed endpoint '/_Host'
+2025-06-06 01:46:20.023 +03:30 [INF] Request finished HTTP/2 GET https://localhost:5001/pagevampriority - 200 null text/html; charset=utf-8 284.4804ms
+2025-06-06 01:46:20.028 +03:30 [INF] Request starting HTTP/2 POST https://localhost:5001/_blazor/disconnect - multipart/form-data; boundary=----WebKitFormBoundary3NUwGFrcABfg5M9j 359
+2025-06-06 01:46:20.028 +03:30 [INF] Executing endpoint 'Blazor disconnect'
+2025-06-06 01:46:20.061 +03:30 [INF] Request starting HTTP/2 GET https://localhost:5001/_framework/aspnetcore-browser-refresh.js - null null
+2025-06-06 01:46:20.063 +03:30 [INF] Request finished HTTP/2 GET https://localhost:5001/_framework/aspnetcore-browser-refresh.js - 200 13768 application/javascript; charset=utf-8 1.7342ms
+2025-06-06 01:46:20.071 +03:30 [INF] Executed endpoint '/_blazor'
+2025-06-06 01:46:20.071 +03:30 [INF] Request finished HTTP/2 CONNECT https://localhost:5001/_blazor?id=vFGCj5njOdfBPC2kNCB4Gg - 200 null null 253692.5288ms
+2025-06-06 01:46:20.080 +03:30 [INF] Request starting HTTP/2 GET https://localhost:5001/_framework/blazor.server.js - null null
+2025-06-06 01:46:20.081 +03:30 [INF] Executing endpoint 'Blazor static files'
+2025-06-06 01:46:20.081 +03:30 [INF] The file /_framework/blazor.server.js was not modified
+2025-06-06 01:46:20.082 +03:30 [INF] Executed endpoint 'Blazor static files'
+2025-06-06 01:46:20.082 +03:30 [INF] Request finished HTTP/2 GET https://localhost:5001/_framework/blazor.server.js - 304 null text/javascript 2.1812ms
+2025-06-06 01:46:20.130 +03:30 [INF] Request starting HTTP/2 GET https://localhost:5001/_blazor/initializers - null null
+2025-06-06 01:46:20.132 +03:30 [INF] Request starting HTTP/2 GET https://localhost:5001/_vs/browserLink - null null
+2025-06-06 01:46:20.133 +03:30 [INF] Executing endpoint 'Blazor initializers'
+2025-06-06 01:46:20.133 +03:30 [INF] Executed endpoint 'Blazor initializers'
+2025-06-06 01:46:20.135 +03:30 [INF] Request finished HTTP/2 GET https://localhost:5001/_blazor/initializers - 200 null application/json; charset=utf-8 35.8018ms
+2025-06-06 01:46:20.142 +03:30 [INF] Request starting HTTP/2 POST https://localhost:5001/_blazor/negotiate?negotiateVersion=1 - null 0
+2025-06-06 01:46:20.143 +03:30 [INF] Executing endpoint '/_blazor/negotiate'
+2025-06-06 01:46:20.145 +03:30 [INF] Executed endpoint '/_blazor/negotiate'
+2025-06-06 01:46:20.145 +03:30 [INF] Request finished HTTP/2 POST https://localhost:5001/_blazor/negotiate?negotiateVersion=1 - 200 316 application/json 2.886ms
+2025-06-06 01:46:20.149 +03:30 [INF] Request starting HTTP/2 CONNECT https://localhost:5001/_blazor?id=9ELXGjPkykN9lYzHQSgjPA - null null
+2025-06-06 01:46:20.149 +03:30 [INF] Executing endpoint '/_blazor'
+2025-06-06 01:46:20.181 +03:30 [INF] Request finished HTTP/2 GET https://localhost:5001/_vs/browserLink - 200 null text/javascript; charset=UTF-8 50.8123ms
+2025-06-06 01:46:20.190 +03:30 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='3000']
+SELECT TOP(1) [s].[onvan]
+FROM [SANDOGH] AS [s]
+WHERE [s].[code] = '01'
+2025-06-06 01:46:20.299 +03:30 [INF] Executed endpoint 'Blazor disconnect'
+2025-06-06 01:46:20.299 +03:30 [INF] Request finished HTTP/2 POST https://localhost:5001/_blazor/disconnect - 200 0 null 272.3642ms
+2025-06-06 01:55:15.489 +03:30 [INF] Executed DbCommand (14ms) [Parameters=[], CommandType='"Text"', CommandTimeout='3000']
+SELECT COUNT(*)
+FROM [HESAB] AS [h]
+2025-06-06 01:55:15.708 +03:30 [INF] Executed DbCommand (37ms) [Parameters=[@__p_0='?' (DbType = Int32), @__p_1='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='3000']
+SELECT [p].[code], [p].[address], [p].[BankType], [p].[CardBank], [p].[city], [p].[family], [p].[father], [p].[HesabBank], [p].[id___di], [p].[issue_no], [p].[mellicode], [p].[name], [p].[sex], [p].[Status], [p].[tel], [h].[scode], CASE
+    WHEN [h].[pcode] IS NULL OR [h].[pcode] LIKE '' THEN ''
+    ELSE [h].[pcode]
+END, [h].[hesab_no], [h].[date], [h].[firstqty], [h].[monthqty], [h].[curqty], [h].[p], [h].[p1], [h].[id___di], [h].[pcode]
+FROM [PERSON] AS [p]
+INNER JOIN [HESAB] AS [h] ON [p].[code] = [h].[pcode]
+ORDER BY [p].[code]
+OFFSET @__p_0 ROWS FETCH NEXT @__p_1 ROWS ONLY
+2025-06-06 01:55:16.121 +03:30 [INF] Executed DbCommand (48ms) [Parameters=[], CommandType='"Text"', CommandTimeout='3000']
+SELECT CASE
+    WHEN [p].[mellicode] IS NULL OR [p].[mellicode] = N'' THEN CAST(1 AS bit)
+    ELSE CAST(0 AS bit)
+END, [p].[code], [p].[address], [p].[BankType], [p].[CardBank], [p].[city], [p].[family], [p].[father], [p].[HesabBank], [p].[id___di], [p].[issue_no], [p].[mellicode], [p].[name], [p].[sex], [p].[Status], [p].[tel]
+FROM [PERSON] AS [p]
+WHERE [p].[code] NOT IN ('000000', '001000')
+2025-06-06 01:55:16.562 +03:30 [INF] Executed DbCommand (13ms) [Parameters=[], CommandType='"Text"', CommandTimeout='3000']
+SELECT TOP(1) [t].[GDate], [t].[DayName], [t].[GDay], [t].[GMonthLen], [t].[GMonthName], [t].[GMonthNo], [t].[GWeekDayName], [t].[GWeekDayNo], [t].[GWeekNo], [t].[GYear], [t].[GYrMth], [t].[HDate], [t].[HDay], [t].[HMonthLen], [t].[HMonthName], [t].[HMonthNo], [t].[HWeekDayName], [t].[HWeekDayNo], [t].[HWeekNo], [t].[HYear], [t].[HYrMth]
+FROM [tblDate10] AS [t]
+WHERE [t].[GDate] = CONVERT(date, GETDATE())
+2025-06-06 01:55:21.461 +03:30 [INF] Executed DbCommand (62ms) [Parameters=[], CommandType='"Text"', CommandTimeout='3000']
+SELECT DISTINCT CASE
+    WHEN [v].[MelliCode] IS NULL OR [v].[MelliCode] = N'' THEN COALESCE([v].[FullName], N'') + N'حساب : ' + COALESCE(CAST([v].[HesabNo] AS nvarchar(max)), N'')
+    ELSE COALESCE([v].[FullName], N'') + N'حساب : ' + COALESCE(CAST([v].[HesabNo] AS nvarchar(max)), N'') + N' کدملی : ' + COALESCE([v].[MelliCode], N'')
+END AS [FullNameWCode], [v].[FullName], [v].[Code], [v].[HesabNo], [v].[Mojodi], [v].[MelliCode]
+FROM [vwPersonFullData] AS [v]
+WHERE [v].[Code] NOT IN (N'000000', N'001000')
+2025-06-06 01:55:24.300 +03:30 [INF] Executed DbCommand (5ms) [Parameters=[], CommandType='"Text"', CommandTimeout='3000']
+SELECT COUNT(*)
+FROM [QVAM] AS [q]
+2025-06-06 01:55:24.354 +03:30 [INF] Executed DbCommand (36ms) [Parameters=[], CommandType='"Text"', CommandTimeout='3000']
+SELECT [p].[code], [p].[address], [p].[BankType], [p].[CardBank], [p].[city], [p].[family], [p].[father], [p].[HesabBank], [p].[id___di], [p].[issue_no], [p].[mellicode], [p].[name], [p].[sex], [p].[Status], [p].[tel], CASE
+    WHEN [q].[PCODE] LIKE '' THEN [p].[code]
+    ELSE [q].[PCODE]
+END, [q].[REQ_NO], [q].[DATE], [q].[MBLG], [q].[STATUS], [h].[hesab_no], [q].[PCODE], [q].[SABTDATE], [q].[TYPE], CASE
+    WHEN [q].[STATUS] = N'0' THEN CAST(1 AS bit)
+    ELSE CAST(0 AS bit)
+END
+FROM [QVAM] AS [q]
+INNER JOIN [PERSON] AS [p] ON [q].[PCODE] = [p].[code]
+INNER JOIN [HESAB] AS [h] ON [p].[code] = [h].[pcode]
+ORDER BY [q].[REQ_NO], [p].[family]
+2025-06-06 01:55:24.438 +03:30 [INF] Executed DbCommand (13ms) [Parameters=[], CommandType='"Text"', CommandTimeout='3000']
+SELECT DISTINCT CASE
+    WHEN [v].[MelliCode] IS NULL OR [v].[MelliCode] = N'' THEN COALESCE([v].[FullName], N'') + N'حساب : ' + COALESCE(CAST([v].[HesabNo] AS nvarchar(max)), N'')
+    ELSE COALESCE([v].[FullName], N'') + N'حساب : ' + COALESCE(CAST([v].[HesabNo] AS nvarchar(max)), N'') + N' کدملی : ' + COALESCE([v].[MelliCode], N'')
+END AS [FullNameWCode], [v].[FullName], [v].[HesabNo], [v].[Code]
+FROM [vwPersonFullData] AS [v]
+WHERE [v].[Code] NOT IN (N'00000', N'00100')
+2025-06-06 01:55:27.304 +03:30 [INF] Executed DbCommand (5ms) [Parameters=[], CommandType='"Text"', CommandTimeout='3000']
+SELECT COUNT(*)
+FROM [PVAM] AS [p]
+2025-06-06 01:55:27.363 +03:30 [INF] Executed DbCommand (22ms) [Parameters=[], CommandType='"Text"', CommandTimeout='3000']
+SELECT [p].[code], [p].[address], [p].[BankType], [p].[CardBank], [p].[city], [p].[family], [p].[father], [p].[HesabBank], [p].[id___di], [p].[issue_no], [p].[mellicode], [p].[name], [p].[sex], [p].[Status], [p].[tel], [h].[hesab_no], [q].[REQ_NO], [q].[MBLG], [q].[TYPE], CASE
+    WHEN [p0].[req_no] IS NOT NULL THEN [p0].[req_no]
+    ELSE 0
+END, CASE
+    WHEN [p0].[req_no] IS NOT NULL THEN [p0].[mblgvam]
+    ELSE CAST(0 AS bigint)
+END, CASE
+    WHEN [p0].[req_no] IS NOT NULL THEN [p0].[gst1]
+    ELSE CAST(0 AS bigint)
+END, CASE
+    WHEN [p0].[req_no] IS NOT NULL THEN [p0].[gst2]
+    ELSE CAST(0 AS bigint)
+END, CASE
+    WHEN [p0].[req_no] IS NOT NULL THEN [p0].[pkarmozd]
+    ELSE 0
+END, CASE
+    WHEN [p0].[req_no] IS NOT NULL THEN [p0].[mkarmozd]
+    ELSE 0
+END, CASE
+    WHEN [p0].[req_no] IS NOT NULL THEN [p0].[gst_no]
+    ELSE CAST(0 AS tinyint)
+END, CASE
+    WHEN [p0].[req_no] IS NOT NULL THEN [p0].[gst_pay]
+    ELSE 0
+END, CASE
+    WHEN [p0].[req_no] IS NOT NULL THEN [p0].[date_d]
+    ELSE ''
+END, CASE
+    WHEN [p0].[req_no] IS NOT NULL THEN [p0].[date_g]
+    ELSE ''
+END, CASE
+    WHEN [p0].[req_no] IS NOT NULL THEN [p0].[type]
+    ELSE '1'
+END, [q].[STATUS], CASE
+    WHEN CASE
+        WHEN [p0].[req_no] IS NOT NULL THEN [p0].[gst_pay]
+        ELSE 0
+    END = 0 AND CASE
+        WHEN [p0].[req_no] IS NOT NULL THEN [p0].[gst_pay]
+        ELSE 0
+    END IS NOT NULL THEN CAST(1 AS bit)
+    ELSE CAST(0 AS bit)
+END
+FROM [PERSON] AS [p]
+INNER JOIN [QVAM] AS [q] ON [p].[code] = [q].[PCODE]
+INNER JOIN [HESAB] AS [h] ON [p].[code] = [h].[pcode]
+LEFT JOIN [PVAM] AS [p0] ON [q].[REQ_NO] = [p0].[req_no]
+2025-06-06 02:01:36.231 +03:30 [INF] User profile is available. Using 'C:\Users\mebrahimian\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-06-06 02:01:36.904 +03:30 [INF] Now listening on: https://localhost:5001
+2025-06-06 02:01:37.000 +03:30 [INF] Application started. Press Ctrl+C to shut down.
+2025-06-06 02:01:37.001 +03:30 [INF] Hosting environment: Development
+2025-06-06 02:01:37.001 +03:30 [INF] Content root path: D:\NewVam_S
+2025-06-06 02:01:37.922 +03:30 [INF] Request starting HTTP/2 GET https://localhost:5001/ - null null
+2025-06-06 02:01:38.207 +03:30 [INF] Executing endpoint '/_Host'
+2025-06-06 02:01:38.248 +03:30 [INF] Route matched with {page = "/_Host"}. Executing page /_Host
+2025-06-06 02:01:38.267 +03:30 [INF] Executing an implicit handler method - ModelState is "Valid"
+2025-06-06 02:01:38.268 +03:30 [INF] Executed an implicit handler method, returned result Microsoft.AspNetCore.Mvc.RazorPages.PageResult.
+2025-06-06 02:01:42.251 +03:30 [INF] Executed DbCommand (17ms) [Parameters=[], CommandType='"Text"', CommandTimeout='3000']
+SELECT TOP(1) [s].[onvan]
+FROM [SANDOGH] AS [s]
+WHERE [s].[code] = '01'
+2025-06-06 02:01:42.823 +03:30 [INF] Executed page /_Host in 4565.2902ms
+2025-06-06 02:01:42.835 +03:30 [INF] Executed endpoint '/_Host'
+2025-06-06 02:01:42.836 +03:30 [INF] Request starting HTTP/2 GET https://localhost:5001/_framework/aspnetcore-browser-refresh.js - null null
+2025-06-06 02:01:42.836 +03:30 [INF] Request starting HTTP/2 GET https://localhost:5001/_framework/blazor.server.js - null null
+2025-06-06 02:01:42.846 +03:30 [INF] Executing endpoint 'Blazor static files'
+2025-06-06 02:01:42.861 +03:30 [INF] Request finished HTTP/2 GET https://localhost:5001/_framework/aspnetcore-browser-refresh.js - 200 13768 application/javascript; charset=utf-8 24.538ms
+2025-06-06 02:01:42.882 +03:30 [INF] Request starting HTTP/2 GET https://localhost:5001/_vs/browserLink - null null
+2025-06-06 02:01:42.885 +03:30 [INF] The file /_framework/blazor.server.js was not modified
+2025-06-06 02:01:42.890 +03:30 [INF] Executed endpoint 'Blazor static files'
+2025-06-06 02:01:42.892 +03:30 [INF] Request finished HTTP/2 GET https://localhost:5001/_framework/blazor.server.js - 304 null text/javascript 57.3289ms
+2025-06-06 02:01:42.928 +03:30 [INF] Request finished HTTP/2 GET https://localhost:5001/ - 200 null text/html; charset=utf-8 5030.615ms
+2025-06-06 02:01:42.976 +03:30 [INF] Request finished HTTP/2 GET https://localhost:5001/_vs/browserLink - 200 null text/javascript; charset=UTF-8 94.2941ms
+2025-06-06 02:01:43.047 +03:30 [INF] Request starting HTTP/2 GET https://localhost:5001/_blazor/initializers - null null
+2025-06-06 02:01:43.051 +03:30 [INF] Executing endpoint 'Blazor initializers'
+2025-06-06 02:01:43.055 +03:30 [INF] Executed endpoint 'Blazor initializers'
+2025-06-06 02:01:43.056 +03:30 [INF] Request finished HTTP/2 GET https://localhost:5001/_blazor/initializers - 200 null application/json; charset=utf-8 8.4384ms
+2025-06-06 02:01:43.107 +03:30 [INF] Request starting HTTP/2 POST https://localhost:5001/_blazor/negotiate?negotiateVersion=1 - null 0
+2025-06-06 02:01:43.110 +03:30 [INF] Executing endpoint '/_blazor/negotiate'
+2025-06-06 02:01:43.142 +03:30 [INF] Executed endpoint '/_blazor/negotiate'
+2025-06-06 02:01:43.142 +03:30 [INF] Request finished HTTP/2 POST https://localhost:5001/_blazor/negotiate?negotiateVersion=1 - 200 316 application/json 35.7511ms
+2025-06-06 02:01:43.162 +03:30 [INF] Request starting HTTP/2 CONNECT https://localhost:5001/_blazor?id=IIJuByJMjSXqMEsJPYg5CQ - null null
+2025-06-06 02:01:43.163 +03:30 [INF] Executing endpoint '/_blazor'
+2025-06-06 02:01:43.649 +03:30 [INF] Executed DbCommand (5ms) [Parameters=[], CommandType='"Text"', CommandTimeout='3000']
+SELECT TOP(1) [s].[onvan]
+FROM [SANDOGH] AS [s]
+WHERE [s].[code] = '01'
+2025-06-06 02:02:50.626 +03:30 [INF] Request starting HTTP/2 GET https://localhost:5001/pagevampriority - null null
+2025-06-06 02:02:50.632 +03:30 [INF] Executing endpoint '/_Host'
+2025-06-06 02:02:50.640 +03:30 [INF] Route matched with {page = "/_Host"}. Executing page /_Host
+2025-06-06 02:02:50.642 +03:30 [INF] Executing an implicit handler method - ModelState is "Valid"
+2025-06-06 02:02:50.642 +03:30 [INF] Executed an implicit handler method, returned result Microsoft.AspNetCore.Mvc.RazorPages.PageResult.
+2025-06-06 02:02:50.882 +03:30 [INF] Executed DbCommand (13ms) [Parameters=[], CommandType='"Text"', CommandTimeout='3000']
+SELECT TOP(1) [s].[onvan]
+FROM [SANDOGH] AS [s]
+WHERE [s].[code] = '01'
+2025-06-06 02:02:50.902 +03:30 [INF] Executed page /_Host in 262.4267ms
+2025-06-06 02:02:50.903 +03:30 [INF] Executed endpoint '/_Host'
+2025-06-06 02:02:50.910 +03:30 [INF] Request finished HTTP/2 GET https://localhost:5001/pagevampriority - 200 null text/html; charset=utf-8 284.1643ms
+2025-06-06 02:02:50.916 +03:30 [INF] Request starting HTTP/2 POST https://localhost:5001/_blazor/disconnect - multipart/form-data; boundary=----WebKitFormBoundary2oO6p6u80n91fAyh 359
+2025-06-06 02:02:50.918 +03:30 [INF] Executing endpoint 'Blazor disconnect'
+2025-06-06 02:02:50.956 +03:30 [INF] Executed endpoint '/_blazor'
+2025-06-06 02:02:50.957 +03:30 [INF] Request finished HTTP/2 CONNECT https://localhost:5001/_blazor?id=IIJuByJMjSXqMEsJPYg5CQ - 200 null null 67794.2742ms
+2025-06-06 02:02:50.958 +03:30 [INF] Request starting HTTP/2 GET https://localhost:5001/_framework/aspnetcore-browser-refresh.js - null null
+2025-06-06 02:02:50.959 +03:30 [INF] Request starting HTTP/2 GET https://localhost:5001/_framework/blazor.server.js - null null
+2025-06-06 02:02:50.961 +03:30 [INF] Executing endpoint 'Blazor static files'
+2025-06-06 02:02:50.961 +03:30 [INF] Request finished HTTP/2 GET https://localhost:5001/_framework/aspnetcore-browser-refresh.js - 200 13768 application/javascript; charset=utf-8 2.8357ms
+2025-06-06 02:02:50.961 +03:30 [INF] The file /_framework/blazor.server.js was not modified
+2025-06-06 02:02:50.962 +03:30 [INF] Executed endpoint 'Blazor static files'
+2025-06-06 02:02:50.962 +03:30 [INF] Request finished HTTP/2 GET https://localhost:5001/_framework/blazor.server.js - 304 null text/javascript 3.2002ms
+2025-06-06 02:02:50.973 +03:30 [INF] Request starting HTTP/2 GET https://localhost:5001/_vs/browserLink - null null
+2025-06-06 02:02:50.993 +03:30 [INF] Request starting HTTP/2 GET https://localhost:5001/_blazor/initializers - null null
+2025-06-06 02:02:50.996 +03:30 [INF] Executing endpoint 'Blazor initializers'
+2025-06-06 02:02:50.997 +03:30 [INF] Executed endpoint 'Blazor initializers'
+2025-06-06 02:02:50.998 +03:30 [INF] Request finished HTTP/2 GET https://localhost:5001/_blazor/initializers - 200 null application/json; charset=utf-8 5.7263ms
+2025-06-06 02:02:51.000 +03:30 [INF] Request finished HTTP/2 GET https://localhost:5001/_vs/browserLink - 200 null text/javascript; charset=UTF-8 26.7597ms
+2025-06-06 02:02:51.054 +03:30 [INF] Request starting HTTP/2 POST https://localhost:5001/_blazor/negotiate?negotiateVersion=1 - null 0
+2025-06-06 02:02:51.056 +03:30 [INF] Executing endpoint '/_blazor/negotiate'
+2025-06-06 02:02:51.057 +03:30 [INF] Executed endpoint '/_blazor/negotiate'
+2025-06-06 02:02:51.058 +03:30 [INF] Request finished HTTP/2 POST https://localhost:5001/_blazor/negotiate?negotiateVersion=1 - 200 316 application/json 4.1093ms
+2025-06-06 02:02:51.064 +03:30 [INF] Executed endpoint 'Blazor disconnect'
+2025-06-06 02:02:51.064 +03:30 [INF] Request finished HTTP/2 POST https://localhost:5001/_blazor/disconnect - 200 0 null 148.8791ms
+2025-06-06 02:02:51.068 +03:30 [INF] Request starting HTTP/2 CONNECT https://localhost:5001/_blazor?id=U2gRUrED7MGD9KPkAvyeDA - null null
+2025-06-06 02:02:51.068 +03:30 [INF] Executing endpoint '/_blazor'
+2025-06-06 02:02:51.127 +03:30 [INF] Executed DbCommand (15ms) [Parameters=[], CommandType='"Text"', CommandTimeout='3000']
+SELECT TOP(1) [s].[onvan]
+FROM [SANDOGH] AS [s]
+WHERE [s].[code] = '01'
+2025-06-06 02:03:15.748 +03:30 [INF] Request starting HTTP/2 GET https://localhost:5001/pagevampriority - null null
+2025-06-06 02:03:15.751 +03:30 [INF] Executing endpoint '/_Host'
+2025-06-06 02:03:15.753 +03:30 [INF] Route matched with {page = "/_Host"}. Executing page /_Host
+2025-06-06 02:03:15.757 +03:30 [INF] Executing an implicit handler method - ModelState is "Valid"
+2025-06-06 02:03:15.757 +03:30 [INF] Executed an implicit handler method, returned result Microsoft.AspNetCore.Mvc.RazorPages.PageResult.
+2025-06-06 02:03:15.979 +03:30 [INF] Executed DbCommand (13ms) [Parameters=[], CommandType='"Text"', CommandTimeout='3000']
+SELECT TOP(1) [s].[onvan]
+FROM [SANDOGH] AS [s]
+WHERE [s].[code] = '01'
+2025-06-06 02:03:15.995 +03:30 [INF] Executed page /_Host in 241.4184ms
+2025-06-06 02:03:15.995 +03:30 [INF] Executed endpoint '/_Host'
+2025-06-06 02:03:15.998 +03:30 [INF] Request finished HTTP/2 GET https://localhost:5001/pagevampriority - 200 null text/html; charset=utf-8 250.0164ms
+2025-06-06 02:03:16.003 +03:30 [INF] Request starting HTTP/2 POST https://localhost:5001/_blazor/disconnect - multipart/form-data; boundary=----WebKitFormBoundarynHEMHi3JyRtS449J 359
+2025-06-06 02:03:16.007 +03:30 [INF] Executing endpoint 'Blazor disconnect'
+2025-06-06 02:03:16.007 +03:30 [INF] Executed endpoint '/_blazor'
+2025-06-06 02:03:16.008 +03:30 [INF] Request finished HTTP/2 CONNECT https://localhost:5001/_blazor?id=U2gRUrED7MGD9KPkAvyeDA - 200 null null 24939.9436ms
+2025-06-06 02:03:16.022 +03:30 [INF] Executed endpoint 'Blazor disconnect'
+2025-06-06 02:03:16.022 +03:30 [INF] Request finished HTTP/2 POST https://localhost:5001/_blazor/disconnect - 200 0 null 19.361ms
+2025-06-06 02:03:16.031 +03:30 [INF] Request starting HTTP/2 GET https://localhost:5001/_framework/aspnetcore-browser-refresh.js - null null
+2025-06-06 02:03:16.033 +03:30 [INF] Request starting HTTP/2 GET https://localhost:5001/_framework/blazor.server.js - null null
+2025-06-06 02:03:16.033 +03:30 [INF] Request finished HTTP/2 GET https://localhost:5001/_framework/aspnetcore-browser-refresh.js - 200 13768 application/javascript; charset=utf-8 1.6212ms
+2025-06-06 02:03:16.035 +03:30 [INF] Executing endpoint 'Blazor static files'
+2025-06-06 02:03:16.035 +03:30 [INF] The file /_framework/blazor.server.js was not modified
+2025-06-06 02:03:16.036 +03:30 [INF] Executed endpoint 'Blazor static files'
+2025-06-06 02:03:16.036 +03:30 [INF] Request finished HTTP/2 GET https://localhost:5001/_framework/blazor.server.js - 304 null text/javascript 3.1355ms
+2025-06-06 02:03:16.061 +03:30 [INF] Request starting HTTP/2 GET https://localhost:5001/_vs/browserLink - null null
+2025-06-06 02:03:16.070 +03:30 [INF] Request starting HTTP/2 GET https://localhost:5001/_blazor/initializers - null null
+2025-06-06 02:03:16.072 +03:30 [INF] Executing endpoint 'Blazor initializers'
+2025-06-06 02:03:16.073 +03:30 [INF] Executed endpoint 'Blazor initializers'
+2025-06-06 02:03:16.073 +03:30 [INF] Request finished HTTP/2 GET https://localhost:5001/_blazor/initializers - 200 null application/json; charset=utf-8 3.441ms
+2025-06-06 02:03:16.090 +03:30 [INF] Request finished HTTP/2 GET https://localhost:5001/_vs/browserLink - 200 null text/javascript; charset=UTF-8 36.2952ms
+2025-06-06 02:03:16.147 +03:30 [INF] Request starting HTTP/2 POST https://localhost:5001/_blazor/negotiate?negotiateVersion=1 - null 0
+2025-06-06 02:03:16.148 +03:30 [INF] Executing endpoint '/_blazor/negotiate'
+2025-06-06 02:03:16.152 +03:30 [INF] Executed endpoint '/_blazor/negotiate'
+2025-06-06 02:03:16.153 +03:30 [INF] Request finished HTTP/2 POST https://localhost:5001/_blazor/negotiate?negotiateVersion=1 - 200 316 application/json 6.1818ms
+2025-06-06 02:03:16.165 +03:30 [INF] Request starting HTTP/2 CONNECT https://localhost:5001/_blazor?id=nFMMTmRMBD4ndl-QGK9J9w - null null
+2025-06-06 02:03:16.166 +03:30 [INF] Executing endpoint '/_blazor'
+2025-06-06 02:03:16.220 +03:30 [INF] Executed DbCommand (4ms) [Parameters=[], CommandType='"Text"', CommandTimeout='3000']
+SELECT TOP(1) [s].[onvan]
+FROM [SANDOGH] AS [s]
+WHERE [s].[code] = '01'
+2025-06-06 02:05:46.487 +03:30 [INF] Request starting HTTP/2 GET https://localhost:5001/pagevampriority - null null
+2025-06-06 02:05:46.500 +03:30 [INF] Executing endpoint '/_Host'
+2025-06-06 02:05:46.502 +03:30 [INF] Route matched with {page = "/_Host"}. Executing page /_Host
+2025-06-06 02:05:46.503 +03:30 [INF] Executing an implicit handler method - ModelState is "Valid"
+2025-06-06 02:05:46.503 +03:30 [INF] Executed an implicit handler method, returned result Microsoft.AspNetCore.Mvc.RazorPages.PageResult.
+2025-06-06 02:05:46.743 +03:30 [INF] Executed DbCommand (3ms) [Parameters=[], CommandType='"Text"', CommandTimeout='3000']
+SELECT TOP(1) [s].[onvan]
+FROM [SANDOGH] AS [s]
+WHERE [s].[code] = '01'
+2025-06-06 02:05:46.760 +03:30 [INF] Executed page /_Host in 257.3842ms
+2025-06-06 02:05:46.760 +03:30 [INF] Executed endpoint '/_Host'
+2025-06-06 02:05:46.764 +03:30 [INF] Request finished HTTP/2 GET https://localhost:5001/pagevampriority - 200 null text/html; charset=utf-8 276.5731ms
+2025-06-06 02:05:46.767 +03:30 [INF] Request starting HTTP/2 POST https://localhost:5001/_blazor/disconnect - multipart/form-data; boundary=----WebKitFormBoundaryXPzH6nKPYwic05J7 359
+2025-06-06 02:05:46.771 +03:30 [INF] Executed endpoint '/_blazor'
+2025-06-06 02:05:46.771 +03:30 [INF] Request finished HTTP/2 CONNECT https://localhost:5001/_blazor?id=nFMMTmRMBD4ndl-QGK9J9w - 200 null null 150606.3594ms
+2025-06-06 02:05:46.771 +03:30 [INF] Executing endpoint 'Blazor disconnect'
+2025-06-06 02:05:46.781 +03:30 [INF] Executed endpoint 'Blazor disconnect'
+2025-06-06 02:05:46.781 +03:30 [INF] Request finished HTTP/2 POST https://localhost:5001/_blazor/disconnect - 200 0 null 14.2181ms
+2025-06-06 02:05:46.789 +03:30 [INF] Request starting HTTP/2 GET https://localhost:5001/_framework/blazor.server.js - null null
+2025-06-06 02:05:46.790 +03:30 [INF] Executing endpoint 'Blazor static files'
+2025-06-06 02:05:46.790 +03:30 [INF] The file /_framework/blazor.server.js was not modified
+2025-06-06 02:05:46.790 +03:30 [INF] Executed endpoint 'Blazor static files'
+2025-06-06 02:05:46.790 +03:30 [INF] Request finished HTTP/2 GET https://localhost:5001/_framework/blazor.server.js - 304 null text/javascript 0.8664ms
+2025-06-06 02:05:46.794 +03:30 [INF] Request starting HTTP/2 GET https://localhost:5001/_vs/browserLink - null null
+2025-06-06 02:05:46.794 +03:30 [INF] Request starting HTTP/2 GET https://localhost:5001/_framework/aspnetcore-browser-refresh.js - null null
+2025-06-06 02:05:46.797 +03:30 [INF] Request finished HTTP/2 GET https://localhost:5001/_framework/aspnetcore-browser-refresh.js - 200 13768 application/javascript; charset=utf-8 3.2755ms
+2025-06-06 02:05:46.807 +03:30 [INF] Request finished HTTP/2 GET https://localhost:5001/_vs/browserLink - 200 null text/javascript; charset=UTF-8 12.7302ms
+2025-06-06 02:05:46.816 +03:30 [INF] Request starting HTTP/2 GET https://localhost:5001/_blazor/initializers - null null
+2025-06-06 02:05:46.817 +03:30 [INF] Executing endpoint 'Blazor initializers'
+2025-06-06 02:05:46.817 +03:30 [INF] Executed endpoint 'Blazor initializers'
+2025-06-06 02:05:46.817 +03:30 [INF] Request finished HTTP/2 GET https://localhost:5001/_blazor/initializers - 200 null application/json; charset=utf-8 1.8834ms
+2025-06-06 02:05:46.837 +03:30 [INF] Request starting HTTP/2 POST https://localhost:5001/_blazor/negotiate?negotiateVersion=1 - null 0
+2025-06-06 02:05:46.837 +03:30 [INF] Executing endpoint '/_blazor/negotiate'
+2025-06-06 02:05:46.837 +03:30 [INF] Executed endpoint '/_blazor/negotiate'
+2025-06-06 02:05:46.838 +03:30 [INF] Request finished HTTP/2 POST https://localhost:5001/_blazor/negotiate?negotiateVersion=1 - 200 316 application/json 1.1268ms
+2025-06-06 02:05:46.850 +03:30 [INF] Request starting HTTP/2 CONNECT https://localhost:5001/_blazor?id=BtJRyvQnWVK9QYuDd-Ns9g - null null
+2025-06-06 02:05:46.851 +03:30 [INF] Executing endpoint '/_blazor'
+2025-06-06 02:05:46.911 +03:30 [INF] Executed DbCommand (4ms) [Parameters=[], CommandType='"Text"', CommandTimeout='3000']
+SELECT TOP(1) [s].[onvan]
+FROM [SANDOGH] AS [s]
+WHERE [s].[code] = '01'
+2025-06-06 02:07:09.833 +03:30 [INF] Request starting HTTP/2 GET https://localhost:5001/_framework/clear-browser-cache - null null
+2025-06-06 02:07:09.835 +03:30 [INF] Request finished HTTP/2 GET https://localhost:5001/_framework/clear-browser-cache - 200 0 null 1.2689ms
+2025-06-06 02:07:09.882 +03:30 [INF] Request starting HTTP/2 GET https://localhost:5001/VamBlazor.Client.styles.css?__browserLink_refresh=723623b0ad664816b431378b2717a645 - null null
+2025-06-06 02:07:09.941 +03:30 [INF] Request starting HTTP/2 GET https://localhost:5001/css/bootstrap/bootstrap.min.css?nonce=1749163029936 - null null
+2025-06-06 02:07:09.943 +03:30 [INF] Request starting HTTP/2 GET https://localhost:5001/css/site.css?nonce=1749163029937 - null null
+2025-06-06 02:07:09.975 +03:30 [INF] Sending file. Request path: '/VamBlazor.Client.styles.css'. Physical path: 'D:\NewVam_S\obj\Release\net8.0\scopedcss\bundle\VamBlazor.Client.styles.css'
+2025-06-06 02:07:09.975 +03:30 [INF] Request finished HTTP/2 GET https://localhost:5001/VamBlazor.Client.styles.css?__browserLink_refresh=723623b0ad664816b431378b2717a645 - 200 12889 text/css 93.0836ms
+2025-06-06 02:07:09.975 +03:30 [INF] Sending file. Request path: '/css/bootstrap/bootstrap.min.css'. Physical path: 'D:\NewVam_S\wwwroot\css\bootstrap\bootstrap.min.css'
+2025-06-06 02:07:09.975 +03:30 [INF] Sending file. Request path: '/css/site.css'. Physical path: 'D:\NewVam_S\wwwroot\css\site.css'
+2025-06-06 02:07:09.975 +03:30 [INF] Request finished HTTP/2 GET https://localhost:5001/css/bootstrap/bootstrap.min.css?nonce=1749163029936 - 200 168057 text/css 34.8157ms
+2025-06-06 02:07:09.975 +03:30 [INF] Request finished HTTP/2 GET https://localhost:5001/css/site.css?nonce=1749163029937 - 200 5776 text/css 32.5988ms
+2025-06-06 02:07:09.980 +03:30 [INF] Request starting HTTP/2 GET https://localhost:5001/VamBlazor.Client.styles.css?nonce=1749163029938 - null null
+2025-06-06 02:07:09.980 +03:30 [INF] Request starting HTTP/2 GET https://localhost:5001/_content/MudBlazor/MudBlazor.min.css?nonce=1749163029938 - null null
+2025-06-06 02:07:09.982 +03:30 [INF] Sending file. Request path: '/VamBlazor.Client.styles.css'. Physical path: 'D:\NewVam_S\obj\Release\net8.0\scopedcss\bundle\VamBlazor.Client.styles.css'
+2025-06-06 02:07:09.983 +03:30 [INF] Request finished HTTP/2 GET https://localhost:5001/VamBlazor.Client.styles.css?nonce=1749163029938 - 200 12889 text/css 3.169ms
+2025-06-06 02:07:09.987 +03:30 [INF] Request starting HTTP/2 GET https://localhost:5001/favicon.png?nonce=1749163029941 - null null
+2025-06-06 02:07:09.987 +03:30 [INF] Request starting HTTP/2 GET https://localhost:5001/css/open-iconic/font/css/open-iconic-bootstrap.min.css - null null
+2025-06-06 02:07:09.990 +03:30 [INF] Sending file. Request path: '/css/open-iconic/font/css/open-iconic-bootstrap.min.css'. Physical path: 'D:\NewVam_S\wwwroot\css\open-iconic\font\css\open-iconic-bootstrap.min.css'
+2025-06-06 02:07:09.990 +03:30 [INF] Request finished HTTP/2 GET https://localhost:5001/css/open-iconic/font/css/open-iconic-bootstrap.min.css - 200 11706 text/css 3.2045ms
+2025-06-06 02:07:10.016 +03:30 [INF] Sending file. Request path: '/favicon.png'. Physical path: 'D:\NewVam_S\wwwroot\favicon.png'
+2025-06-06 02:07:10.016 +03:30 [INF] Request finished HTTP/2 GET https://localhost:5001/favicon.png?nonce=1749163029941 - 200 1148 image/png 28.8195ms
+2025-06-06 02:07:10.051 +03:30 [INF] Sending file. Request path: '/_content/MudBlazor/MudBlazor.min.css'. Physical path: 'C:\Users\mebrahimian\.nuget\packages\mudblazor\7.15.0\staticwebassets\MudBlazor.min.css'
+2025-06-06 02:07:10.051 +03:30 [INF] Request finished HTTP/2 GET https://localhost:5001/_content/MudBlazor/MudBlazor.min.css?nonce=1749163029938 - 200 580975 text/css 71.8815ms
+2025-06-06 02:12:45.187 +03:30 [INF] User profile is available. Using 'C:\Users\mebrahimian\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-06-06 02:12:45.800 +03:30 [INF] Now listening on: https://localhost:5001
+2025-06-06 02:12:45.869 +03:30 [INF] Application started. Press Ctrl+C to shut down.
+2025-06-06 02:12:45.869 +03:30 [INF] Hosting environment: Development
+2025-06-06 02:12:45.869 +03:30 [INF] Content root path: D:\NewVam_S
+2025-06-06 02:12:47.335 +03:30 [INF] Request starting HTTP/2 GET https://localhost:5001/ - null null
+2025-06-06 02:12:47.679 +03:30 [INF] Executing endpoint '/_Host'
+2025-06-06 02:12:47.715 +03:30 [INF] Route matched with {page = "/_Host"}. Executing page /_Host
+2025-06-06 02:12:47.738 +03:30 [INF] Executing an implicit handler method - ModelState is "Valid"
+2025-06-06 02:12:47.739 +03:30 [INF] Executed an implicit handler method, returned result Microsoft.AspNetCore.Mvc.RazorPages.PageResult.
+2025-06-06 02:12:51.478 +03:30 [INF] Executed DbCommand (12ms) [Parameters=[], CommandType='"Text"', CommandTimeout='3000']
+SELECT TOP(1) [s].[onvan]
+FROM [SANDOGH] AS [s]
+WHERE [s].[code] = '01'
+2025-06-06 02:12:51.991 +03:30 [INF] Request starting HTTP/2 GET https://localhost:5001/css/bootstrap/bootstrap.min.css - null null
+2025-06-06 02:12:51.991 +03:30 [INF] Request starting HTTP/2 GET https://localhost:5001/css/site.css - null null
+2025-06-06 02:12:51.995 +03:30 [INF] Request starting HTTP/2 GET https://localhost:5001/_content/MudBlazor/MudBlazor.min.css - null null
+2025-06-06 02:12:52.007 +03:30 [INF] Request starting HTTP/2 GET https://localhost:5001/VamBlazor.Client.styles.css - null null
+2025-06-06 02:12:52.034 +03:30 [INF] Request starting HTTP/2 GET https://localhost:5001/_content/MudBlazor/MudBlazor.min.js - null null
+2025-06-06 02:12:52.084 +03:30 [INF] Request starting HTTP/2 GET https://localhost:5001/_framework/blazor.server.js - null null
+2025-06-06 02:12:52.084 +03:30 [INF] Executed page /_Host in 4346.9629ms
+2025-06-06 02:12:52.091 +03:30 [INF] Request starting HTTP/2 GET https://localhost:5001/_framework/aspnetcore-browser-refresh.js - null null
+2025-06-06 02:12:52.096 +03:30 [INF] Executed endpoint '/_Host'
+2025-06-06 02:12:52.102 +03:30 [INF] Executing endpoint 'Blazor static files'
+2025-06-06 02:12:52.103 +03:30 [INF] Sending file. Request path: '/VamBlazor.Client.styles.css'. Physical path: 'D:\NewVam_S\obj\Release\net8.0\scopedcss\bundle\VamBlazor.Client.styles.css'
+2025-06-06 02:12:52.103 +03:30 [INF] Sending file. Request path: '/css/site.css'. Physical path: 'D:\NewVam_S\wwwroot\css\site.css'
+2025-06-06 02:12:52.113 +03:30 [INF] Request finished HTTP/2 GET https://localhost:5001/VamBlazor.Client.styles.css - 200 12883 text/css 104.3429ms
+2025-06-06 02:12:52.113 +03:30 [INF] Request finished HTTP/2 GET https://localhost:5001/css/site.css - 200 5776 text/css 114.8382ms
+2025-06-06 02:12:52.114 +03:30 [INF] Request finished HTTP/2 GET https://localhost:5001/_framework/aspnetcore-browser-refresh.js - 200 13768 application/javascript; charset=utf-8 23.7065ms
+2025-06-06 02:12:52.165 +03:30 [INF] Sending file. Request path: '/_framework/blazor.server.js'. Physical path: 'N/A'
+2025-06-06 02:12:52.165 +03:30 [INF] Executed endpoint 'Blazor static files'
+2025-06-06 02:12:52.166 +03:30 [INF] Request finished HTTP/2 GET https://localhost:5001/_framework/blazor.server.js - 200 151672 text/javascript 82.2506ms
+2025-06-06 02:12:52.195 +03:30 [INF] Sending file. Request path: '/css/bootstrap/bootstrap.min.css'. Physical path: 'D:\NewVam_S\wwwroot\css\bootstrap\bootstrap.min.css'
+2025-06-06 02:12:52.195 +03:30 [INF] Request finished HTTP/2 GET https://localhost:5001/css/bootstrap/bootstrap.min.css - 200 168057 text/css 205.3258ms
+2025-06-06 02:12:52.211 +03:30 [INF] Request finished HTTP/2 GET https://localhost:5001/ - 200 null text/html; charset=utf-8 4897.5086ms
+2025-06-06 02:12:52.271 +03:30 [INF] Sending file. Request path: '/_content/MudBlazor/MudBlazor.min.css'. Physical path: 'C:\Users\mebrahimian\.nuget\packages\mudblazor\7.15.0\staticwebassets\MudBlazor.min.css'
+2025-06-06 02:12:52.271 +03:30 [INF] Request finished HTTP/2 GET https://localhost:5001/_content/MudBlazor/MudBlazor.min.css - 200 580975 text/css 276.1974ms
+2025-06-06 02:12:52.283 +03:30 [INF] Request starting HTTP/2 GET https://localhost:5001/_vs/browserLink - null null
+2025-06-06 02:12:52.381 +03:30 [INF] Request finished HTTP/2 GET https://localhost:5001/_vs/browserLink - 200 null text/javascript; charset=UTF-8 98.5318ms
+2025-06-06 02:12:52.413 +03:30 [INF] Sending file. Request path: '/_content/MudBlazor/MudBlazor.min.js'. Physical path: 'C:\Users\mebrahimian\.nuget\packages\mudblazor\7.15.0\staticwebassets\MudBlazor.min.js'
+2025-06-06 02:12:52.413 +03:30 [INF] Request finished HTTP/2 GET https://localhost:5001/_content/MudBlazor/MudBlazor.min.js - 200 49823 text/javascript 383.9782ms
+2025-06-06 02:12:52.529 +03:30 [INF] Request starting HTTP/2 GET https://localhost:5001/css/open-iconic/font/fonts/Vazir-Bold-UI.woff2 - null null
+2025-06-06 02:12:52.530 +03:30 [INF] Request starting HTTP/2 GET https://localhost:5001/_blazor/initializers - null null
+2025-06-06 02:12:52.537 +03:30 [INF] Executing endpoint 'Blazor initializers'
+2025-06-06 02:12:52.547 +03:30 [INF] Executed endpoint 'Blazor initializers'
+2025-06-06 02:12:52.547 +03:30 [INF] Request finished HTTP/2 GET https://localhost:5001/_blazor/initializers - 200 null application/json; charset=utf-8 17.1477ms
+2025-06-06 02:12:52.559 +03:30 [INF] Sending file. Request path: '/css/open-iconic/font/fonts/Vazir-Bold-UI.woff2'. Physical path: 'D:\NewVam_S\wwwroot\css\open-iconic\font\fonts\Vazir-Bold-UI.woff2'
+2025-06-06 02:12:52.560 +03:30 [INF] Request finished HTTP/2 GET https://localhost:5001/css/open-iconic/font/fonts/Vazir-Bold-UI.woff2 - 200 44476 font/woff2 30.5575ms
+2025-06-06 02:12:52.623 +03:30 [INF] Request starting HTTP/2 POST https://localhost:5001/_blazor/negotiate?negotiateVersion=1 - null 0
+2025-06-06 02:12:52.625 +03:30 [INF] Executing endpoint '/_blazor/negotiate'
+2025-06-06 02:12:52.646 +03:30 [INF] Executed endpoint '/_blazor/negotiate'
+2025-06-06 02:12:52.646 +03:30 [INF] Request finished HTTP/2 POST https://localhost:5001/_blazor/negotiate?negotiateVersion=1 - 200 316 application/json 23.0431ms
+2025-06-06 02:12:52.677 +03:30 [INF] Request starting HTTP/2 CONNECT https://localhost:5001/_blazor?id=iZtXzkxcUyETu4Vh-wPWEA - null null
+2025-06-06 02:12:52.677 +03:30 [INF] Executing endpoint '/_blazor'
+2025-06-06 02:12:53.155 +03:30 [INF] Executed DbCommand (7ms) [Parameters=[], CommandType='"Text"', CommandTimeout='3000']
+SELECT TOP(1) [s].[onvan]
+FROM [SANDOGH] AS [s]
+WHERE [s].[code] = '01'
+2025-06-06 02:13:45.088 +03:30 [INF] Request starting HTTP/2 POST https://localhost:5001/_blazor/disconnect - multipart/form-data; boundary=----WebKitFormBoundaryNoEZyLAOBpgjF4AA 359
+2025-06-06 02:13:45.092 +03:30 [INF] Executing endpoint 'Blazor disconnect'
+2025-06-06 02:32:21.740 +03:30 [INF] User profile is available. Using 'C:\Users\mebrahimian\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-06-06 02:32:22.375 +03:30 [INF] Now listening on: https://localhost:5001
+2025-06-06 02:32:22.454 +03:30 [INF] Application started. Press Ctrl+C to shut down.
+2025-06-06 02:32:22.454 +03:30 [INF] Hosting environment: Development
+2025-06-06 02:32:22.454 +03:30 [INF] Content root path: D:\NewVam_S
+2025-06-06 02:32:23.768 +03:30 [INF] Request starting HTTP/2 GET https://localhost:5001/ - null null
+2025-06-06 02:32:24.066 +03:30 [INF] Executing endpoint '/_Host'
+2025-06-06 02:32:24.101 +03:30 [INF] Route matched with {page = "/_Host"}. Executing page /_Host
+2025-06-06 02:32:24.117 +03:30 [INF] Executing an implicit handler method - ModelState is "Valid"
+2025-06-06 02:32:24.118 +03:30 [INF] Executed an implicit handler method, returned result Microsoft.AspNetCore.Mvc.RazorPages.PageResult.
+2025-06-06 02:32:27.541 +03:30 [INF] Executed DbCommand (14ms) [Parameters=[], CommandType='"Text"', CommandTimeout='3000']
+SELECT TOP(1) [s].[onvan]
+FROM [SANDOGH] AS [s]
+WHERE [s].[code] = '01'
+2025-06-06 02:32:28.006 +03:30 [INF] Executed page /_Host in 3896.1043ms
+2025-06-06 02:32:28.008 +03:30 [INF] Executed endpoint '/_Host'
+2025-06-06 02:32:28.016 +03:30 [INF] Request starting HTTP/2 GET https://localhost:5001/_framework/blazor.server.js - null null
+2025-06-06 02:32:28.016 +03:30 [INF] Request starting HTTP/2 GET https://localhost:5001/_framework/aspnetcore-browser-refresh.js - null null
+2025-06-06 02:32:28.016 +03:30 [INF] Request starting HTTP/2 GET https://localhost:5001/VamBlazor.Client.styles.css - null null
+2025-06-06 02:32:28.042 +03:30 [INF] Executing endpoint 'Blazor static files'
+2025-06-06 02:32:28.047 +03:30 [INF] The file /_framework/blazor.server.js was not modified
+2025-06-06 02:32:28.047 +03:30 [INF] The file /VamBlazor.Client.styles.css was not modified
+2025-06-06 02:32:28.048 +03:30 [INF] Request finished HTTP/2 GET https://localhost:5001/_framework/aspnetcore-browser-refresh.js - 200 13768 application/javascript; charset=utf-8 31.6791ms
+2025-06-06 02:32:28.050 +03:30 [INF] Request finished HTTP/2 GET https://localhost:5001/VamBlazor.Client.styles.css - 304 null text/css 34.1474ms
+2025-06-06 02:32:28.051 +03:30 [INF] Executed endpoint 'Blazor static files'
+2025-06-06 02:32:28.052 +03:30 [INF] Request finished HTTP/2 GET https://localhost:5001/_framework/blazor.server.js - 304 null text/javascript 37.3313ms
+2025-06-06 02:32:28.076 +03:30 [INF] Request starting HTTP/2 GET https://localhost:5001/_vs/browserLink - null null
+2025-06-06 02:32:28.113 +03:30 [INF] Request finished HTTP/2 GET https://localhost:5001/ - 200 null text/html; charset=utf-8 4368.7447ms
+2025-06-06 02:32:28.163 +03:30 [INF] Request finished HTTP/2 GET https://localhost:5001/_vs/browserLink - 200 null text/javascript; charset=UTF-8 87.1543ms
+2025-06-06 02:32:28.203 +03:30 [INF] Request starting HTTP/2 GET https://localhost:5001/_blazor/initializers - null null
+2025-06-06 02:32:28.207 +03:30 [INF] Executing endpoint 'Blazor initializers'
+2025-06-06 02:32:28.213 +03:30 [INF] Executed endpoint 'Blazor initializers'
+2025-06-06 02:32:28.213 +03:30 [INF] Request finished HTTP/2 GET https://localhost:5001/_blazor/initializers - 200 null application/json; charset=utf-8 10.9921ms
+2025-06-06 02:32:28.278 +03:30 [INF] Request starting HTTP/2 POST https://localhost:5001/_blazor/negotiate?negotiateVersion=1 - null 0
+2025-06-06 02:32:28.280 +03:30 [INF] Executing endpoint '/_blazor/negotiate'
+2025-06-06 02:32:28.314 +03:30 [INF] Executed endpoint '/_blazor/negotiate'
+2025-06-06 02:32:28.315 +03:30 [INF] Request finished HTTP/2 POST https://localhost:5001/_blazor/negotiate?negotiateVersion=1 - 200 316 application/json 36.2906ms
+2025-06-06 02:32:28.348 +03:30 [INF] Request starting HTTP/2 CONNECT https://localhost:5001/_blazor?id=a4hTvEI2CHebSlyMbbxuiw - null null
+2025-06-06 02:32:28.349 +03:30 [INF] Executing endpoint '/_blazor'
+2025-06-06 02:32:28.775 +03:30 [INF] Executed DbCommand (23ms) [Parameters=[], CommandType='"Text"', CommandTimeout='3000']
+SELECT TOP(1) [s].[onvan]
+FROM [SANDOGH] AS [s]
+WHERE [s].[code] = '01'
+2025-06-06 02:37:29.734 +03:30 [INF] User profile is available. Using 'C:\Users\mebrahimian\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-06-06 02:37:30.285 +03:30 [INF] Now listening on: https://localhost:5001
+2025-06-06 02:37:30.380 +03:30 [INF] Application started. Press Ctrl+C to shut down.
+2025-06-06 02:37:30.381 +03:30 [INF] Hosting environment: Development
+2025-06-06 02:37:30.381 +03:30 [INF] Content root path: D:\NewVam_S
+2025-06-06 02:37:31.769 +03:30 [INF] Request starting HTTP/2 GET https://localhost:5001/ - null null
+2025-06-06 02:37:32.074 +03:30 [INF] Executing endpoint '/_Host'
+2025-06-06 02:37:32.120 +03:30 [INF] Route matched with {page = "/_Host"}. Executing page /_Host
+2025-06-06 02:37:32.143 +03:30 [INF] Executing an implicit handler method - ModelState is "Valid"
+2025-06-06 02:37:32.144 +03:30 [INF] Executed an implicit handler method, returned result Microsoft.AspNetCore.Mvc.RazorPages.PageResult.
+2025-06-06 02:37:35.893 +03:30 [INF] Executed DbCommand (11ms) [Parameters=[], CommandType='"Text"', CommandTimeout='3000']
+SELECT TOP(1) [s].[onvan]
+FROM [SANDOGH] AS [s]
+WHERE [s].[code] = '01'
+2025-06-06 02:37:36.490 +03:30 [INF] Executed page /_Host in 4361.5486ms
+2025-06-06 02:37:36.492 +03:30 [INF] Executed endpoint '/_Host'
+2025-06-06 02:37:36.494 +03:30 [INF] Request starting HTTP/2 GET https://localhost:5001/_framework/aspnetcore-browser-refresh.js - null null
+2025-06-06 02:37:36.494 +03:30 [INF] Request starting HTTP/2 GET https://localhost:5001/_framework/blazor.server.js - null null
+2025-06-06 02:37:36.494 +03:30 [INF] Request starting HTTP/2 GET https://localhost:5001/VamBlazor.Client.styles.css - null null
+2025-06-06 02:37:36.528 +03:30 [INF] Executing endpoint 'Blazor static files'
+2025-06-06 02:37:36.592 +03:30 [INF] Request finished HTTP/2 GET https://localhost:5001/_framework/aspnetcore-browser-refresh.js - 200 13768 application/javascript; charset=utf-8 87.5096ms
+2025-06-06 02:37:36.594 +03:30 [INF] The file /VamBlazor.Client.styles.css was not modified
+2025-06-06 02:37:36.594 +03:30 [INF] The file /_framework/blazor.server.js was not modified
+2025-06-06 02:37:36.598 +03:30 [INF] Request finished HTTP/2 GET https://localhost:5001/VamBlazor.Client.styles.css - 304 null text/css 106.4291ms
+2025-06-06 02:37:36.599 +03:30 [INF] Executed endpoint 'Blazor static files'
+2025-06-06 02:37:36.600 +03:30 [INF] Request finished HTTP/2 GET https://localhost:5001/_framework/blazor.server.js - 304 null text/javascript 106.0134ms
+2025-06-06 02:37:36.608 +03:30 [INF] Request starting HTTP/2 GET https://localhost:5001/_vs/browserLink - null null
+2025-06-06 02:37:36.650 +03:30 [INF] Request finished HTTP/2 GET https://localhost:5001/ - 200 null text/html; charset=utf-8 4898.6516ms
+2025-06-06 02:37:36.699 +03:30 [INF] Request finished HTTP/2 GET https://localhost:5001/_vs/browserLink - 200 null text/javascript; charset=UTF-8 91.4606ms
+2025-06-06 02:37:36.759 +03:30 [INF] Request starting HTTP/2 GET https://localhost:5001/_blazor/initializers - null null
+2025-06-06 02:37:36.764 +03:30 [INF] Executing endpoint 'Blazor initializers'
+2025-06-06 02:37:36.767 +03:30 [INF] Executed endpoint 'Blazor initializers'
+2025-06-06 02:37:36.767 +03:30 [INF] Request finished HTTP/2 GET https://localhost:5001/_blazor/initializers - 200 null application/json; charset=utf-8 8.8203ms
+2025-06-06 02:37:36.826 +03:30 [INF] Request starting HTTP/2 POST https://localhost:5001/_blazor/negotiate?negotiateVersion=1 - null 0
+2025-06-06 02:37:36.830 +03:30 [INF] Executing endpoint '/_blazor/negotiate'
+2025-06-06 02:37:36.873 +03:30 [INF] Executed endpoint '/_blazor/negotiate'
+2025-06-06 02:37:36.873 +03:30 [INF] Request finished HTTP/2 POST https://localhost:5001/_blazor/negotiate?negotiateVersion=1 - 200 316 application/json 47.7615ms
+2025-06-06 02:37:36.906 +03:30 [INF] Request starting HTTP/2 CONNECT https://localhost:5001/_blazor?id=0HzE0dEzcsDY3jFlgFYfKQ - null null
+2025-06-06 02:37:36.906 +03:30 [INF] Executing endpoint '/_blazor'
+2025-06-06 02:37:37.228 +03:30 [INF] Executed DbCommand (18ms) [Parameters=[], CommandType='"Text"', CommandTimeout='3000']
+SELECT TOP(1) [s].[onvan]
+FROM [SANDOGH] AS [s]
+WHERE [s].[code] = '01'
+2025-06-06 02:42:00.091 +03:30 [INF] Executed DbCommand (176,296ms) [Parameters=[p0='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='3000']
+EXEC sp_PersonStatusUpTo @cDateTo = @p0
+2025-06-06 02:42:00.371 +03:30 [INF] Executed DbCommand (187ms) [Parameters=[@__cDate_0='?' (Size = 10) (DbType = AnsiStringFixedLength)], CommandType='"Text"', CommandTimeout='3000']
+SELECT COALESCE(SUM((([v].[GstPaid] + [v].[Pasandaz]) - [v].[Vam]) - [v].[Karmozd]), CAST(0 AS bigint))
+FROM [vwPersonAllTransactions] AS [v]
+WHERE [v].[Date] <= @__cDate_0
+2025-06-06 02:42:00.516 +03:30 [ERR] Navigation failed when changing the location to /PriorityRep?nSaghfVam=300000000&nMinMojodi=150000000&nPer=7
+System.Threading.Tasks.TaskCanceledException: A task was canceled.
+   at Microsoft.JSInterop.JSRuntime.InvokeAsync[TValue](Int64 targetInstanceId, String identifier, Object[] args)
+   at Microsoft.JSInterop.JSRuntimeExtensions.InvokeVoidAsync(IJSRuntime jsRuntime, String identifier, Object[] args)
+   at Microsoft.AspNetCore.Components.Server.Circuits.RemoteNavigationManager.<>c__DisplayClass13_0.<<NavigateToCore>g__PerformNavigationAsync|0>d.MoveNext()
+2025-06-06 02:42:00.610 +03:30 [ERR] Unhandled exception in circuit '4__zQYEsjfwpmSiWzRynBrOVnn8wMuIJeoSi3Kt6Zw4'.
+System.Threading.Tasks.TaskCanceledException: A task was canceled.
+   at Microsoft.JSInterop.JSRuntime.InvokeAsync[TValue](Int64 targetInstanceId, String identifier, Object[] args)
+   at Microsoft.JSInterop.JSRuntimeExtensions.InvokeVoidAsync(IJSRuntime jsRuntime, String identifier, Object[] args)
+   at Microsoft.AspNetCore.Components.Server.Circuits.RemoteNavigationManager.<>c__DisplayClass13_0.<<NavigateToCore>g__PerformNavigationAsync|0>d.MoveNext()
+2025-06-06 02:42:14.578 +03:30 [INF] User profile is available. Using 'C:\Users\mebrahimian\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-06-06 02:42:15.127 +03:30 [INF] Now listening on: https://localhost:5001
+2025-06-06 02:42:15.215 +03:30 [INF] Application started. Press Ctrl+C to shut down.
+2025-06-06 02:42:15.216 +03:30 [INF] Hosting environment: Development
+2025-06-06 02:42:15.216 +03:30 [INF] Content root path: D:\NewVam_S
+2025-06-06 02:42:15.716 +03:30 [INF] Request starting HTTP/2 GET https://localhost:5001/ - null null
+2025-06-06 02:42:15.892 +03:30 [INF] Executing endpoint '/_Host'
+2025-06-06 02:42:15.913 +03:30 [INF] Route matched with {page = "/_Host"}. Executing page /_Host
+2025-06-06 02:42:15.928 +03:30 [INF] Executing an implicit handler method - ModelState is "Valid"
+2025-06-06 02:42:15.929 +03:30 [INF] Executed an implicit handler method, returned result Microsoft.AspNetCore.Mvc.RazorPages.PageResult.
+2025-06-06 02:42:18.750 +03:30 [INF] Executed DbCommand (5ms) [Parameters=[], CommandType='"Text"', CommandTimeout='3000']
+SELECT TOP(1) [s].[onvan]
+FROM [SANDOGH] AS [s]
+WHERE [s].[code] = '01'
+2025-06-06 02:42:19.083 +03:30 [INF] Request starting HTTP/2 GET https://localhost:5001/_framework/aspnetcore-browser-refresh.js - null null
+2025-06-06 02:42:19.083 +03:30 [INF] Request starting HTTP/2 GET https://localhost:5001/_framework/blazor.server.js - null null
+2025-06-06 02:42:19.083 +03:30 [INF] Request starting HTTP/2 GET https://localhost:5001/VamBlazor.Client.styles.css - null null
+2025-06-06 02:42:19.140 +03:30 [INF] Executing endpoint 'Blazor static files'
+2025-06-06 02:42:19.146 +03:30 [INF] Executed page /_Host in 3172.1061ms
+2025-06-06 02:42:19.148 +03:30 [INF] Executed endpoint '/_Host'
+2025-06-06 02:42:19.150 +03:30 [INF] The file /_framework/blazor.server.js was not modified
+2025-06-06 02:42:19.150 +03:30 [INF] The file /VamBlazor.Client.styles.css was not modified
+2025-06-06 02:42:19.154 +03:30 [INF] Request finished HTTP/2 GET https://localhost:5001/VamBlazor.Client.styles.css - 304 null text/css 71.7192ms
+2025-06-06 02:42:19.155 +03:30 [INF] Executed endpoint 'Blazor static files'
+2025-06-06 02:42:19.155 +03:30 [INF] Request finished HTTP/2 GET https://localhost:5001/_framework/aspnetcore-browser-refresh.js - 200 13768 application/javascript; charset=utf-8 69.4908ms
+2025-06-06 02:42:19.156 +03:30 [INF] Request finished HTTP/2 GET https://localhost:5001/_framework/blazor.server.js - 304 null text/javascript 74.3405ms
+2025-06-06 02:42:19.181 +03:30 [INF] Request starting HTTP/2 GET https://localhost:5001/_vs/browserLink - null null
+2025-06-06 02:42:19.182 +03:30 [INF] Request finished HTTP/2 GET https://localhost:5001/ - 200 null text/html; charset=utf-8 3484.0973ms
+2025-06-06 02:42:19.247 +03:30 [INF] Request finished HTTP/2 GET https://localhost:5001/_vs/browserLink - 200 null text/javascript; charset=UTF-8 66.3097ms
+2025-06-06 02:42:19.296 +03:30 [INF] Request starting HTTP/2 GET https://localhost:5001/_blazor/initializers - null null
+2025-06-06 02:42:19.300 +03:30 [INF] Executing endpoint 'Blazor initializers'
+2025-06-06 02:42:19.303 +03:30 [INF] Executed endpoint 'Blazor initializers'
+2025-06-06 02:42:19.303 +03:30 [INF] Request finished HTTP/2 GET https://localhost:5001/_blazor/initializers - 200 null application/json; charset=utf-8 7.235ms
+2025-06-06 02:42:19.355 +03:30 [INF] Request starting HTTP/2 POST https://localhost:5001/_blazor/negotiate?negotiateVersion=1 - null 0
+2025-06-06 02:42:19.357 +03:30 [INF] Executing endpoint '/_blazor/negotiate'
+2025-06-06 02:42:19.382 +03:30 [INF] Executed endpoint '/_blazor/negotiate'
+2025-06-06 02:42:19.382 +03:30 [INF] Request finished HTTP/2 POST https://localhost:5001/_blazor/negotiate?negotiateVersion=1 - 200 316 application/json 26.9325ms
+2025-06-06 02:42:19.412 +03:30 [INF] Request starting HTTP/2 CONNECT https://localhost:5001/_blazor?id=8kFocLb_ZgP5aViQMpdz3Q - null null
+2025-06-06 02:42:19.412 +03:30 [INF] Executing endpoint '/_blazor'
+2025-06-06 02:42:19.655 +03:30 [INF] Executed DbCommand (3ms) [Parameters=[], CommandType='"Text"', CommandTimeout='3000']
+SELECT TOP(1) [s].[onvan]
+FROM [SANDOGH] AS [s]
+WHERE [s].[code] = '01'
+2025-06-06 02:46:19.880 +03:30 [INF] Executed DbCommand (219,459ms) [Parameters=[p0='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='3000']
+EXEC sp_PersonStatusUpTo @cDateTo = @p0
+2025-06-06 02:46:28.263 +03:30 [INF] Executed DbCommand (151ms) [Parameters=[@__cDate_0='?' (Size = 10) (DbType = AnsiStringFixedLength)], CommandType='"Text"', CommandTimeout='3000']
+SELECT COALESCE(SUM((([v].[GstPaid] + [v].[Pasandaz]) - [v].[Vam]) - [v].[Karmozd]), CAST(0 AS bigint))
+FROM [vwPersonAllTransactions] AS [v]
+WHERE [v].[Date] <= @__cDate_0
+2025-06-06 02:46:28.400 +03:30 [ERR] Navigation failed when changing the location to /PriorityRep?nSaghfVam=300000000&nMinMojodi=150000000&nPer=7
+System.Threading.Tasks.TaskCanceledException: A task was canceled.
+   at Microsoft.JSInterop.JSRuntime.InvokeAsync[TValue](Int64 targetInstanceId, String identifier, Object[] args)
+   at Microsoft.JSInterop.JSRuntimeExtensions.InvokeVoidAsync(IJSRuntime jsRuntime, String identifier, Object[] args)
+   at Microsoft.AspNetCore.Components.Server.Circuits.RemoteNavigationManager.<>c__DisplayClass13_0.<<NavigateToCore>g__PerformNavigationAsync|0>d.MoveNext()
+2025-06-06 02:46:28.510 +03:30 [ERR] Unhandled exception in circuit '8qJoEkGD2aTIReRvHKZQeIsoyGftjZPkylIs73e4BBA'.
+System.Threading.Tasks.TaskCanceledException: A task was canceled.
+   at Microsoft.JSInterop.JSRuntime.InvokeAsync[TValue](Int64 targetInstanceId, String identifier, Object[] args)
+   at Microsoft.JSInterop.JSRuntimeExtensions.InvokeVoidAsync(IJSRuntime jsRuntime, String identifier, Object[] args)
+   at Microsoft.AspNetCore.Components.Server.Circuits.RemoteNavigationManager.<>c__DisplayClass13_0.<<NavigateToCore>g__PerformNavigationAsync|0>d.MoveNext()
+2025-06-06 02:46:28.784 +03:30 [INF] Executed endpoint '/_blazor'
+2025-06-06 02:46:28.784 +03:30 [INF] Request finished HTTP/2 CONNECT https://localhost:5001/_blazor?id=8kFocLb_ZgP5aViQMpdz3Q - 200 null null 249372.2683ms
+2025-06-06 02:46:28.786 +03:30 [INF] Connection id "0HND4GPKHBH2R", Request id "0HND4GPKHBH2R:0000000F": the application completed without reading the entire request body.
+2025-06-06 02:48:02.651 +03:30 [INF] Request starting HTTP/2 POST https://localhost:5001/_blazor/disconnect - multipart/form-data; boundary=----WebKitFormBoundaryb8LOBQWDINkZuMY5 359
+2025-06-06 02:48:02.660 +03:30 [INF] Executing endpoint 'Blazor disconnect'
+2025-06-06 02:48:02.704 +03:30 [INF] Executed endpoint 'Blazor disconnect'
+2025-06-06 02:48:02.705 +03:30 [INF] Request finished HTTP/2 POST https://localhost:5001/_blazor/disconnect - 200 0 null 53.8421ms
+2025-06-06 03:08:07.605 +03:30 [INF] User profile is available. Using 'C:\Users\mebrahimian\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-06-06 03:08:08.330 +03:30 [INF] Now listening on: https://localhost:5001
+2025-06-06 03:08:08.447 +03:30 [INF] Application started. Press Ctrl+C to shut down.
+2025-06-06 03:08:08.448 +03:30 [INF] Hosting environment: Development
+2025-06-06 03:08:08.448 +03:30 [INF] Content root path: D:\NewVam_S
+2025-06-06 03:08:10.259 +03:30 [INF] Request starting HTTP/2 GET https://localhost:5001/ - null null
+2025-06-06 03:08:10.662 +03:30 [INF] Executing endpoint '/_Host'
+2025-06-06 03:08:10.730 +03:30 [INF] Route matched with {page = "/_Host"}. Executing page /_Host
+2025-06-06 03:08:10.767 +03:30 [INF] Executing an implicit handler method - ModelState is "Valid"
+2025-06-06 03:08:10.769 +03:30 [INF] Executed an implicit handler method, returned result Microsoft.AspNetCore.Mvc.RazorPages.PageResult.
+2025-06-06 03:08:15.755 +03:30 [INF] Executed DbCommand (19ms) [Parameters=[], CommandType='"Text"', CommandTimeout='3000']
+SELECT TOP(1) [s].[onvan]
+FROM [SANDOGH] AS [s]
+WHERE [s].[code] = '01'
+2025-06-06 03:08:16.145 +03:30 [INF] Executed page /_Host in 5407.6685ms
+2025-06-06 03:08:16.146 +03:30 [INF] Executed endpoint '/_Host'
+2025-06-06 03:08:16.194 +03:30 [INF] Request finished HTTP/2 GET https://localhost:5001/ - 200 null text/html; charset=utf-8 5956.6873ms
+2025-06-06 03:08:16.212 +03:30 [INF] Request starting HTTP/2 GET https://localhost:5001/_framework/blazor.server.js - null null
+2025-06-06 03:08:16.212 +03:30 [INF] Request starting HTTP/2 GET https://localhost:5001/VamBlazor.Client.styles.css - null null
+2025-06-06 03:08:16.212 +03:30 [INF] Request starting HTTP/2 GET https://localhost:5001/_framework/aspnetcore-browser-refresh.js - null null
+2025-06-06 03:08:16.220 +03:30 [INF] Executing endpoint 'Blazor static files'
+2025-06-06 03:08:16.234 +03:30 [INF] Request finished HTTP/2 GET https://localhost:5001/_framework/aspnetcore-browser-refresh.js - 200 13768 application/javascript; charset=utf-8 23.2118ms
+2025-06-06 03:08:16.237 +03:30 [INF] The file /_framework/blazor.server.js was not modified
+2025-06-06 03:08:16.237 +03:30 [INF] The file /VamBlazor.Client.styles.css was not modified
+2025-06-06 03:08:16.238 +03:30 [INF] Request finished HTTP/2 GET https://localhost:5001/VamBlazor.Client.styles.css - 304 null text/css 27.649ms
+2025-06-06 03:08:16.240 +03:30 [INF] Executed endpoint 'Blazor static files'
+2025-06-06 03:08:16.240 +03:30 [INF] Request finished HTTP/2 GET https://localhost:5001/_framework/blazor.server.js - 304 null text/javascript 29.6295ms
+2025-06-06 03:08:16.332 +03:30 [INF] Request starting HTTP/2 GET https://localhost:5001/_vs/browserLink - null null
+2025-06-06 03:08:16.392 +03:30 [INF] Request finished HTTP/2 GET https://localhost:5001/_vs/browserLink - 200 null text/javascript; charset=UTF-8 60.2202ms
+2025-06-06 03:08:16.522 +03:30 [INF] Request starting HTTP/2 GET https://localhost:5001/_blazor/initializers - null null
+2025-06-06 03:08:16.527 +03:30 [INF] Executing endpoint 'Blazor initializers'
+2025-06-06 03:08:16.532 +03:30 [INF] Executed endpoint 'Blazor initializers'
+2025-06-06 03:08:16.532 +03:30 [INF] Request finished HTTP/2 GET https://localhost:5001/_blazor/initializers - 200 null application/json; charset=utf-8 10.5924ms
+2025-06-06 03:08:16.645 +03:30 [INF] Request starting HTTP/2 POST https://localhost:5001/_blazor/negotiate?negotiateVersion=1 - null 0
+2025-06-06 03:08:16.647 +03:30 [INF] Executing endpoint '/_blazor/negotiate'
+2025-06-06 03:08:16.675 +03:30 [INF] Executed endpoint '/_blazor/negotiate'
+2025-06-06 03:08:16.675 +03:30 [INF] Request finished HTTP/2 POST https://localhost:5001/_blazor/negotiate?negotiateVersion=1 - 200 316 application/json 30.3548ms
+2025-06-06 03:08:16.784 +03:30 [INF] Request starting HTTP/2 CONNECT https://localhost:5001/_blazor?id=zuwy7ecB6lxntNHGf7p0FQ - null null
+2025-06-06 03:08:16.785 +03:30 [INF] Executing endpoint '/_blazor'
+2025-06-06 03:08:17.415 +03:30 [INF] Executed DbCommand (5ms) [Parameters=[], CommandType='"Text"', CommandTimeout='3000']
+SELECT TOP(1) [s].[onvan]
+FROM [SANDOGH] AS [s]
+WHERE [s].[code] = '01'
+2025-06-06 03:11:41.525 +03:30 [INF] Executed DbCommand (199,285ms) [Parameters=[p0='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='3000']
+EXEC sp_PersonStatusUpTo @cDateTo = @p0
+2025-06-06 03:11:41.674 +03:30 [ERR] Navigation failed when changing the location to /PriorityRep?nSaghfVam=300000000&nMinMojodi=150000000&nPer=7
+System.Threading.Tasks.TaskCanceledException: A task was canceled.
+   at Microsoft.JSInterop.JSRuntime.InvokeAsync[TValue](Int64 targetInstanceId, String identifier, Object[] args)
+   at Microsoft.JSInterop.JSRuntimeExtensions.InvokeVoidAsync(IJSRuntime jsRuntime, String identifier, Object[] args)
+   at Microsoft.AspNetCore.Components.Server.Circuits.RemoteNavigationManager.<>c__DisplayClass13_0.<<NavigateToCore>g__PerformNavigationAsync|0>d.MoveNext()
+2025-06-06 03:11:41.754 +03:30 [ERR] Unhandled exception in circuit 'j_72eQZx75imEAgVHu7fd44seqGgEX4TNntQIBw7-Os'.
+System.Threading.Tasks.TaskCanceledException: A task was canceled.
+   at Microsoft.JSInterop.JSRuntime.InvokeAsync[TValue](Int64 targetInstanceId, String identifier, Object[] args)
+   at Microsoft.JSInterop.JSRuntimeExtensions.InvokeVoidAsync(IJSRuntime jsRuntime, String identifier, Object[] args)
+   at Microsoft.AspNetCore.Components.Server.Circuits.RemoteNavigationManager.<>c__DisplayClass13_0.<<NavigateToCore>g__PerformNavigationAsync|0>d.MoveNext()
+2025-06-06 03:11:41.978 +03:30 [INF] Executed endpoint '/_blazor'
+2025-06-06 03:11:41.978 +03:30 [INF] Request finished HTTP/2 CONNECT https://localhost:5001/_blazor?id=zuwy7ecB6lxntNHGf7p0FQ - 200 null null 205193.8669ms
+2025-06-06 03:11:41.980 +03:30 [INF] Connection id "0HND4H83GPAIV", Request id "0HND4H83GPAIV:0000000F": the application completed without reading the entire request body.
+2025-06-06 03:41:42.288 +03:30 [INF] User profile is available. Using 'C:\Users\mebrahimian\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-06-06 03:41:42.991 +03:30 [INF] Now listening on: https://localhost:5001
+2025-06-06 03:41:43.071 +03:30 [INF] Application started. Press Ctrl+C to shut down.
+2025-06-06 03:41:43.072 +03:30 [INF] Hosting environment: Development
+2025-06-06 03:41:43.072 +03:30 [INF] Content root path: D:\NewVam_S
+2025-06-06 03:41:44.332 +03:30 [INF] Request starting HTTP/2 GET https://localhost:5001/ - null null
+2025-06-06 03:41:44.763 +03:30 [INF] Executing endpoint '/_Host'
+2025-06-06 03:41:44.803 +03:30 [INF] Route matched with {page = "/_Host"}. Executing page /_Host
+2025-06-06 03:41:44.822 +03:30 [INF] Executing an implicit handler method - ModelState is "Valid"
+2025-06-06 03:41:44.823 +03:30 [INF] Executed an implicit handler method, returned result Microsoft.AspNetCore.Mvc.RazorPages.PageResult.
+2025-06-06 03:41:49.134 +03:30 [INF] Executed DbCommand (14ms) [Parameters=[], CommandType='"Text"', CommandTimeout='3000']
+SELECT TOP(1) [s].[onvan]
+FROM [SANDOGH] AS [s]
+WHERE [s].[code] = '01'
+2025-06-06 03:41:49.602 +03:30 [INF] Executed page /_Host in 4791.8168ms
+2025-06-06 03:41:49.614 +03:30 [INF] Executed endpoint '/_Host'
+2025-06-06 03:41:49.616 +03:30 [INF] Request starting HTTP/2 GET https://localhost:5001/_framework/aspnetcore-browser-refresh.js - null null
+2025-06-06 03:41:49.616 +03:30 [INF] Request starting HTTP/2 GET https://localhost:5001/_framework/blazor.server.js - null null
+2025-06-06 03:41:49.637 +03:30 [INF] Executing endpoint 'Blazor static files'
+2025-06-06 03:41:49.647 +03:30 [INF] Request finished HTTP/2 GET https://localhost:5001/_framework/aspnetcore-browser-refresh.js - 200 13768 application/javascript; charset=utf-8 30.7226ms
+2025-06-06 03:41:49.647 +03:30 [INF] Request starting HTTP/2 GET https://localhost:5001/VamBlazor.Client.styles.css - null null
+2025-06-06 03:41:49.651 +03:30 [INF] The file /_framework/blazor.server.js was not modified
+2025-06-06 03:41:49.656 +03:30 [INF] The file /VamBlazor.Client.styles.css was not modified
+2025-06-06 03:41:49.657 +03:30 [INF] Executed endpoint 'Blazor static files'
+2025-06-06 03:41:49.657 +03:30 [INF] Request finished HTTP/2 GET https://localhost:5001/VamBlazor.Client.styles.css - 304 null text/css 10.4434ms
+2025-06-06 03:41:49.676 +03:30 [INF] Request finished HTTP/2 GET https://localhost:5001/_framework/blazor.server.js - 304 null text/javascript 61.8205ms
+2025-06-06 03:41:49.683 +03:30 [INF] Request starting HTTP/2 GET https://localhost:5001/_vs/browserLink - null null
+2025-06-06 03:41:49.730 +03:30 [INF] Request finished HTTP/2 GET https://localhost:5001/ - 200 null text/html; charset=utf-8 5416.531ms
+2025-06-06 03:41:49.767 +03:30 [INF] Request finished HTTP/2 GET https://localhost:5001/_vs/browserLink - 200 null text/javascript; charset=UTF-8 85.8371ms
+2025-06-06 03:41:49.804 +03:30 [INF] Request starting HTTP/2 GET https://localhost:5001/_blazor/initializers - null null
+2025-06-06 03:41:49.809 +03:30 [INF] Executing endpoint 'Blazor initializers'
+2025-06-06 03:41:49.812 +03:30 [INF] Executed endpoint 'Blazor initializers'
+2025-06-06 03:41:49.813 +03:30 [INF] Request finished HTTP/2 GET https://localhost:5001/_blazor/initializers - 200 null application/json; charset=utf-8 8.6726ms
+2025-06-06 03:41:49.910 +03:30 [INF] Request starting HTTP/2 POST https://localhost:5001/_blazor/negotiate?negotiateVersion=1 - null 0
+2025-06-06 03:41:49.913 +03:30 [INF] Executing endpoint '/_blazor/negotiate'
+2025-06-06 03:41:49.936 +03:30 [INF] Executed endpoint '/_blazor/negotiate'
+2025-06-06 03:41:49.937 +03:30 [INF] Request finished HTTP/2 POST https://localhost:5001/_blazor/negotiate?negotiateVersion=1 - 200 316 application/json 26.4196ms
+2025-06-06 03:41:49.962 +03:30 [INF] Request starting HTTP/2 CONNECT https://localhost:5001/_blazor?id=TKil0ikW6WtWqt1AsqpVYQ - null null
+2025-06-06 03:41:49.963 +03:30 [INF] Executing endpoint '/_blazor'
+2025-06-06 03:41:50.342 +03:30 [INF] Executed DbCommand (8ms) [Parameters=[], CommandType='"Text"', CommandTimeout='3000']
+SELECT TOP(1) [s].[onvan]
+FROM [SANDOGH] AS [s]
+WHERE [s].[code] = '01'
+2025-06-06 03:42:58.581 +03:30 [INF] User profile is available. Using 'C:\Users\mebrahimian\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-06-06 03:42:59.404 +03:30 [INF] Now listening on: https://localhost:5001
+2025-06-06 03:42:59.524 +03:30 [INF] Application started. Press Ctrl+C to shut down.
+2025-06-06 03:42:59.525 +03:30 [INF] Hosting environment: Development
+2025-06-06 03:42:59.525 +03:30 [INF] Content root path: D:\NewVam_S
+2025-06-06 03:43:00.347 +03:30 [INF] Request starting HTTP/2 GET https://localhost:5001/ - null null
+2025-06-06 03:43:00.632 +03:30 [INF] Executing endpoint '/_Host'
+2025-06-06 03:43:00.688 +03:30 [INF] Route matched with {page = "/_Host"}. Executing page /_Host
+2025-06-06 03:43:00.713 +03:30 [INF] Executing an implicit handler method - ModelState is "Valid"
+2025-06-06 03:43:00.714 +03:30 [INF] Executed an implicit handler method, returned result Microsoft.AspNetCore.Mvc.RazorPages.PageResult.
+2025-06-06 03:43:05.194 +03:30 [INF] Executed DbCommand (15ms) [Parameters=[], CommandType='"Text"', CommandTimeout='3000']
+SELECT TOP(1) [s].[onvan]
+FROM [SANDOGH] AS [s]
+WHERE [s].[code] = '01'
+2025-06-06 03:43:05.710 +03:30 [INF] Executed page /_Host in 5013.9794ms
+2025-06-06 03:43:05.712 +03:30 [INF] Executed endpoint '/_Host'
+2025-06-06 03:43:05.725 +03:30 [INF] Request starting HTTP/2 GET https://localhost:5001/_framework/blazor.server.js - null null
+2025-06-06 03:43:05.725 +03:30 [INF] Request starting HTTP/2 GET https://localhost:5001/_framework/aspnetcore-browser-refresh.js - null null
+2025-06-06 03:43:05.735 +03:30 [INF] Executing endpoint 'Blazor static files'
+2025-06-06 03:43:05.748 +03:30 [INF] Request finished HTTP/2 GET https://localhost:5001/_framework/aspnetcore-browser-refresh.js - 200 13768 application/javascript; charset=utf-8 18.4997ms
+2025-06-06 03:43:05.753 +03:30 [INF] The file /_framework/blazor.server.js was not modified
+2025-06-06 03:43:05.758 +03:30 [INF] Executed endpoint 'Blazor static files'
+2025-06-06 03:43:05.759 +03:30 [INF] Request finished HTTP/2 GET https://localhost:5001/_framework/blazor.server.js - 304 null text/javascript 34.8817ms
+2025-06-06 03:43:05.776 +03:30 [INF] Request starting HTTP/2 GET https://localhost:5001/_vs/browserLink - null null
+2025-06-06 03:43:05.802 +03:30 [INF] Request finished HTTP/2 GET https://localhost:5001/ - 200 null text/html; charset=utf-8 5474.1542ms
+2025-06-06 03:43:05.845 +03:30 [INF] Request finished HTTP/2 GET https://localhost:5001/_vs/browserLink - 200 null text/javascript; charset=UTF-8 68.961ms
+2025-06-06 03:43:05.916 +03:30 [INF] Request starting HTTP/2 GET https://localhost:5001/_blazor/initializers - null null
+2025-06-06 03:43:05.922 +03:30 [INF] Executing endpoint 'Blazor initializers'
+2025-06-06 03:43:05.926 +03:30 [INF] Executed endpoint 'Blazor initializers'
+2025-06-06 03:43:05.927 +03:30 [INF] Request finished HTTP/2 GET https://localhost:5001/_blazor/initializers - 200 null application/json; charset=utf-8 11.211ms
+2025-06-06 03:43:06.028 +03:30 [INF] Request starting HTTP/2 POST https://localhost:5001/_blazor/negotiate?negotiateVersion=1 - null 0
+2025-06-06 03:43:06.034 +03:30 [INF] Executing endpoint '/_blazor/negotiate'
+2025-06-06 03:43:06.072 +03:30 [INF] Executed endpoint '/_blazor/negotiate'
+2025-06-06 03:43:06.073 +03:30 [INF] Request finished HTTP/2 POST https://localhost:5001/_blazor/negotiate?negotiateVersion=1 - 200 316 application/json 49.0814ms
+2025-06-06 03:43:06.111 +03:30 [INF] Request starting HTTP/2 CONNECT https://localhost:5001/_blazor?id=u938AXGTk_FiWeNnbFAHFw - null null
+2025-06-06 03:43:06.112 +03:30 [INF] Executing endpoint '/_blazor'
+2025-06-06 03:43:06.428 +03:30 [INF] Executed DbCommand (3ms) [Parameters=[], CommandType='"Text"', CommandTimeout='3000']
+SELECT TOP(1) [s].[onvan]
+FROM [SANDOGH] AS [s]
+WHERE [s].[code] = '01'
+2025-06-06 03:52:21.821 +03:30 [INF] User profile is available. Using 'C:\Users\mebrahimian\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-06-06 03:52:22.450 +03:30 [INF] Now listening on: https://localhost:5001
+2025-06-06 03:52:22.546 +03:30 [INF] Application started. Press Ctrl+C to shut down.
+2025-06-06 03:52:22.547 +03:30 [INF] Hosting environment: Development
+2025-06-06 03:52:22.547 +03:30 [INF] Content root path: D:\NewVam_S
+2025-06-06 03:52:23.045 +03:30 [INF] Request starting HTTP/2 GET https://localhost:5001/ - null null
+2025-06-06 03:52:23.201 +03:30 [INF] Executing endpoint '/_Host'
+2025-06-06 03:52:23.239 +03:30 [INF] Route matched with {page = "/_Host"}. Executing page /_Host
+2025-06-06 03:52:23.262 +03:30 [INF] Executing an implicit handler method - ModelState is "Valid"
+2025-06-06 03:52:23.263 +03:30 [INF] Executed an implicit handler method, returned result Microsoft.AspNetCore.Mvc.RazorPages.PageResult.
+2025-06-06 03:52:27.049 +03:30 [INF] Executed DbCommand (11ms) [Parameters=[], CommandType='"Text"', CommandTimeout='3000']
+SELECT TOP(1) [s].[onvan]
+FROM [SANDOGH] AS [s]
+WHERE [s].[code] = '01'
+2025-06-06 03:52:27.513 +03:30 [INF] Executed page /_Host in 4266.7909ms
+2025-06-06 03:52:27.514 +03:30 [INF] Executed endpoint '/_Host'
+2025-06-06 03:52:27.536 +03:30 [INF] Request starting HTTP/2 GET https://localhost:5001/VamBlazor.Client.styles.css - null null
+2025-06-06 03:52:27.536 +03:30 [INF] Request starting HTTP/2 GET https://localhost:5001/_framework/aspnetcore-browser-refresh.js - null null
+2025-06-06 03:52:27.555 +03:30 [INF] Request starting HTTP/2 GET https://localhost:5001/_framework/blazor.server.js - null null
+2025-06-06 03:52:27.612 +03:30 [INF] Request finished HTTP/2 GET https://localhost:5001/_framework/aspnetcore-browser-refresh.js - 200 13768 application/javascript; charset=utf-8 34.2262ms
+2025-06-06 03:52:27.612 +03:30 [INF] The file /VamBlazor.Client.styles.css was not modified
+2025-06-06 03:52:27.613 +03:30 [INF] Executing endpoint 'Blazor static files'
+2025-06-06 03:52:27.615 +03:30 [INF] Request finished HTTP/2 GET https://localhost:5001/VamBlazor.Client.styles.css - 304 null text/css 81.3709ms
+2025-06-06 03:52:27.616 +03:30 [INF] The file /_framework/blazor.server.js was not modified
+2025-06-06 03:52:27.620 +03:30 [INF] Executed endpoint 'Blazor static files'
+2025-06-06 03:52:27.621 +03:30 [INF] Request finished HTTP/2 GET https://localhost:5001/_framework/blazor.server.js - 304 null text/javascript 71.6753ms
+2025-06-06 03:52:27.626 +03:30 [INF] Request starting HTTP/2 GET https://localhost:5001/_vs/browserLink - null null
+2025-06-06 03:52:27.641 +03:30 [INF] Request finished HTTP/2 GET https://localhost:5001/ - 200 null text/html; charset=utf-8 4609.584ms
+2025-06-06 03:52:27.700 +03:30 [INF] Request finished HTTP/2 GET https://localhost:5001/_vs/browserLink - 200 null text/javascript; charset=UTF-8 74.4873ms
+2025-06-06 03:52:27.795 +03:30 [INF] Request starting HTTP/2 GET https://localhost:5001/_blazor/initializers - null null
+2025-06-06 03:52:27.798 +03:30 [INF] Executing endpoint 'Blazor initializers'
+2025-06-06 03:52:27.805 +03:30 [INF] Executed endpoint 'Blazor initializers'
+2025-06-06 03:52:27.805 +03:30 [INF] Request finished HTTP/2 GET https://localhost:5001/_blazor/initializers - 200 null application/json; charset=utf-8 10.1316ms
+2025-06-06 03:52:27.872 +03:30 [INF] Request starting HTTP/2 POST https://localhost:5001/_blazor/negotiate?negotiateVersion=1 - null 0
+2025-06-06 03:52:27.874 +03:30 [INF] Executing endpoint '/_blazor/negotiate'
+2025-06-06 03:52:27.890 +03:30 [INF] Executed endpoint '/_blazor/negotiate'
+2025-06-06 03:52:27.890 +03:30 [INF] Request finished HTTP/2 POST https://localhost:5001/_blazor/negotiate?negotiateVersion=1 - 200 316 application/json 18.2178ms
+2025-06-06 03:52:27.941 +03:30 [INF] Request starting HTTP/2 CONNECT https://localhost:5001/_blazor?id=YETkYh8UQQMdajYny0oBfQ - null null
+2025-06-06 03:52:27.941 +03:30 [INF] Executing endpoint '/_blazor'
+2025-06-06 03:52:28.589 +03:30 [INF] Executed DbCommand (5ms) [Parameters=[], CommandType='"Text"', CommandTimeout='3000']
+SELECT TOP(1) [s].[onvan]
+FROM [SANDOGH] AS [s]
+WHERE [s].[code] = '01'
+2025-06-06 03:52:36.754 +03:30 [INF] Executed DbCommand (427ms) [Parameters=[], CommandType='"Text"', CommandTimeout='3000']
+SELECT [v].[city], [v].[CityDesc], [v].[Code], [v].[CurrentGstDate], [v].[CurrentGstMblg], [v].[CurrentGstNo], [v].[DateVam], [v].[DelayGst], [v].[FullName], [v].[Gst1], [v].[Gst2], [v].[GstNo], [v].[GstPay], [v].[hesab_no], [v].[MKarmozd], [v].[MblgVam], [v].[Moaref], [v].[Mojodi], [v].[MonthQty], [v].[PKarmozd], [v].[PaidVam], [v].[RemainVam], [v].[ReqNo], [v].[sex], [v].[SexDesc], [v].[Type]
+FROM [vwPersonStatusCurrent] AS [v]
+ORDER BY [v].[hesab_no]
+2025-06-06 04:00:19.786 +03:30 [INF] User profile is available. Using 'C:\Users\mebrahimian\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-06-06 04:00:20.515 +03:30 [INF] Now listening on: https://localhost:5001
+2025-06-06 04:00:20.630 +03:30 [INF] Application started. Press Ctrl+C to shut down.
+2025-06-06 04:00:20.631 +03:30 [INF] Hosting environment: Development
+2025-06-06 04:00:20.631 +03:30 [INF] Content root path: D:\NewVam_S
+2025-06-06 04:00:21.689 +03:30 [INF] Request starting HTTP/2 GET https://localhost:5001/ - null null
+2025-06-06 04:00:22.309 +03:30 [INF] Executing endpoint '/_Host'
+2025-06-06 04:00:22.360 +03:30 [INF] Route matched with {page = "/_Host"}. Executing page /_Host
+2025-06-06 04:00:22.398 +03:30 [INF] Executing an implicit handler method - ModelState is "Valid"
+2025-06-06 04:00:22.401 +03:30 [INF] Executed an implicit handler method, returned result Microsoft.AspNetCore.Mvc.RazorPages.PageResult.
+2025-06-06 04:00:26.099 +03:30 [INF] Executed DbCommand (10ms) [Parameters=[], CommandType='"Text"', CommandTimeout='3000']
+SELECT TOP(1) [s].[onvan]
+FROM [SANDOGH] AS [s]
+WHERE [s].[code] = '01'
+2025-06-06 04:00:26.558 +03:30 [INF] Executed page /_Host in 4191.5728ms
+2025-06-06 04:00:26.559 +03:30 [INF] Executed endpoint '/_Host'
+2025-06-06 04:00:26.565 +03:30 [INF] Request starting HTTP/2 GET https://localhost:5001/_framework/blazor.server.js - null null
+2025-06-06 04:00:26.565 +03:30 [INF] Request starting HTTP/2 GET https://localhost:5001/_framework/aspnetcore-browser-refresh.js - null null
+2025-06-06 04:00:26.573 +03:30 [INF] Executing endpoint 'Blazor static files'
+2025-06-06 04:00:26.610 +03:30 [INF] Request starting HTTP/2 GET https://localhost:5001/_vs/browserLink - null null
+2025-06-06 04:00:26.623 +03:30 [INF] Request finished HTTP/2 GET https://localhost:5001/_framework/aspnetcore-browser-refresh.js - 200 13768 application/javascript; charset=utf-8 57.5904ms
+2025-06-06 04:00:26.629 +03:30 [INF] The file /_framework/blazor.server.js was not modified
+2025-06-06 04:00:26.639 +03:30 [INF] Executed endpoint 'Blazor static files'
+2025-06-06 04:00:26.640 +03:30 [INF] Request finished HTTP/2 GET https://localhost:5001/_framework/blazor.server.js - 304 null text/javascript 76.6118ms
+2025-06-06 04:00:26.661 +03:30 [INF] Request finished HTTP/2 GET https://localhost:5001/ - 200 null text/html; charset=utf-8 4997.05ms
+2025-06-06 04:00:26.689 +03:30 [INF] Request finished HTTP/2 GET https://localhost:5001/_vs/browserLink - 200 null text/javascript; charset=UTF-8 78.7726ms
+2025-06-06 04:00:26.754 +03:30 [INF] Request starting HTTP/2 GET https://localhost:5001/_blazor/initializers - null null
+2025-06-06 04:00:26.759 +03:30 [INF] Executing endpoint 'Blazor initializers'
+2025-06-06 04:00:26.763 +03:30 [INF] Executed endpoint 'Blazor initializers'
+2025-06-06 04:00:26.764 +03:30 [INF] Request finished HTTP/2 GET https://localhost:5001/_blazor/initializers - 200 null application/json; charset=utf-8 10.8556ms
+2025-06-06 04:00:26.790 +03:30 [INF] Request starting HTTP/2 POST https://localhost:5001/_blazor/negotiate?negotiateVersion=1 - null 0
+2025-06-06 04:00:26.791 +03:30 [INF] Executing endpoint '/_blazor/negotiate'
+2025-06-06 04:00:26.816 +03:30 [INF] Executed endpoint '/_blazor/negotiate'
+2025-06-06 04:00:26.816 +03:30 [INF] Request finished HTTP/2 POST https://localhost:5001/_blazor/negotiate?negotiateVersion=1 - 200 316 application/json 26.3362ms
+2025-06-06 04:00:26.836 +03:30 [INF] Request starting HTTP/2 CONNECT https://localhost:5001/_blazor?id=i893ktY1rx3mxG9U11D2Aw - null null
+2025-06-06 04:00:26.837 +03:30 [INF] Executing endpoint '/_blazor'
+2025-06-06 04:00:27.126 +03:30 [INF] Executed DbCommand (6ms) [Parameters=[], CommandType='"Text"', CommandTimeout='3000']
+SELECT TOP(1) [s].[onvan]
+FROM [SANDOGH] AS [s]
+WHERE [s].[code] = '01'
+2025-06-06 04:00:36.193 +03:30 [INF] Executed DbCommand (458ms) [Parameters=[], CommandType='"Text"', CommandTimeout='3000']
+SELECT [v].[city], [v].[CityDesc], [v].[Code], [v].[CurrentGstDate], [v].[CurrentGstMblg], [v].[CurrentGstNo], [v].[DateVam], [v].[DelayGst], [v].[FullName], [v].[Gst1], [v].[Gst2], [v].[GstNo], [v].[GstPay], [v].[hesab_no], [v].[MKarmozd], [v].[MblgVam], [v].[Moaref], [v].[Mojodi], [v].[MonthQty], [v].[PKarmozd], [v].[PaidVam], [v].[RemainVam], [v].[ReqNo], [v].[sex], [v].[SexDesc], [v].[Type]
+FROM [vwPersonStatusCurrent] AS [v]
+ORDER BY [v].[hesab_no]
+2025-06-06 04:02:08.511 +03:30 [INF] User profile is available. Using 'C:\Users\mebrahimian\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-06-06 04:02:09.182 +03:30 [INF] Now listening on: https://localhost:5001
+2025-06-06 04:02:09.246 +03:30 [INF] Application started. Press Ctrl+C to shut down.
+2025-06-06 04:02:09.247 +03:30 [INF] Hosting environment: Development
+2025-06-06 04:02:09.247 +03:30 [INF] Content root path: D:\NewVam_S
+2025-06-06 04:02:10.573 +03:30 [INF] Request starting HTTP/2 GET https://localhost:5001/ - null null
+2025-06-06 04:02:10.779 +03:30 [INF] Executing endpoint '/_Host'
+2025-06-06 04:02:10.807 +03:30 [INF] Route matched with {page = "/_Host"}. Executing page /_Host
+2025-06-06 04:02:10.821 +03:30 [INF] Executing an implicit handler method - ModelState is "Valid"
+2025-06-06 04:02:10.822 +03:30 [INF] Executed an implicit handler method, returned result Microsoft.AspNetCore.Mvc.RazorPages.PageResult.
+2025-06-06 04:02:14.676 +03:30 [INF] Executed DbCommand (12ms) [Parameters=[], CommandType='"Text"', CommandTimeout='3000']
+SELECT TOP(1) [s].[onvan]
+FROM [SANDOGH] AS [s]
+WHERE [s].[code] = '01'
+2025-06-06 04:02:15.230 +03:30 [INF] Executed page /_Host in 4410.3923ms
+2025-06-06 04:02:15.232 +03:30 [INF] Executed endpoint '/_Host'
+2025-06-06 04:02:15.233 +03:30 [INF] Request starting HTTP/2 GET https://localhost:5001/_framework/blazor.server.js - null null
+2025-06-06 04:02:15.233 +03:30 [INF] Request starting HTTP/2 GET https://localhost:5001/_framework/aspnetcore-browser-refresh.js - null null
+2025-06-06 04:02:15.242 +03:30 [INF] Executing endpoint 'Blazor static files'
+2025-06-06 04:02:15.257 +03:30 [INF] Request finished HTTP/2 GET https://localhost:5001/_framework/aspnetcore-browser-refresh.js - 200 13768 application/javascript; charset=utf-8 23.4121ms
+2025-06-06 04:02:15.264 +03:30 [INF] The file /_framework/blazor.server.js was not modified
+2025-06-06 04:02:15.271 +03:30 [INF] Request starting HTTP/2 GET https://localhost:5001/_vs/browserLink - null null
+2025-06-06 04:02:15.272 +03:30 [INF] Executed endpoint 'Blazor static files'
+2025-06-06 04:02:15.273 +03:30 [INF] Request finished HTTP/2 GET https://localhost:5001/_framework/blazor.server.js - 304 null text/javascript 40.8893ms
+2025-06-06 04:02:15.311 +03:30 [INF] Request finished HTTP/2 GET https://localhost:5001/ - 200 null text/html; charset=utf-8 4756.7658ms
+2025-06-06 04:02:15.384 +03:30 [INF] Request finished HTTP/2 GET https://localhost:5001/_vs/browserLink - 200 null text/javascript; charset=UTF-8 112.9734ms
+2025-06-06 04:02:15.465 +03:30 [INF] Request starting HTTP/2 GET https://localhost:5001/_blazor/initializers - null null
+2025-06-06 04:02:15.498 +03:30 [INF] Executing endpoint 'Blazor initializers'
+2025-06-06 04:02:15.502 +03:30 [INF] Executed endpoint 'Blazor initializers'
+2025-06-06 04:02:15.502 +03:30 [INF] Request finished HTTP/2 GET https://localhost:5001/_blazor/initializers - 200 null application/json; charset=utf-8 38.392ms
+2025-06-06 04:02:15.543 +03:30 [INF] Request starting HTTP/2 POST https://localhost:5001/_blazor/negotiate?negotiateVersion=1 - null 0
+2025-06-06 04:02:15.546 +03:30 [INF] Executing endpoint '/_blazor/negotiate'
+2025-06-06 04:02:15.573 +03:30 [INF] Executed endpoint '/_blazor/negotiate'
+2025-06-06 04:02:15.574 +03:30 [INF] Request finished HTTP/2 POST https://localhost:5001/_blazor/negotiate?negotiateVersion=1 - 200 316 application/json 30.7889ms
+2025-06-06 04:02:15.640 +03:30 [INF] Request starting HTTP/2 CONNECT https://localhost:5001/_blazor?id=fdx-6zoZ58JAJJwL9xVglQ - null null
+2025-06-06 04:02:15.641 +03:30 [INF] Executing endpoint '/_blazor'
+2025-06-06 04:02:16.027 +03:30 [INF] Executed DbCommand (6ms) [Parameters=[], CommandType='"Text"', CommandTimeout='3000']
+SELECT TOP(1) [s].[onvan]
+FROM [SANDOGH] AS [s]
+WHERE [s].[code] = '01'
+2025-06-06 04:02:23.888 +03:30 [INF] Executed DbCommand (531ms) [Parameters=[], CommandType='"Text"', CommandTimeout='3000']
+SELECT [v].[city], [v].[CityDesc], [v].[Code], [v].[CurrentGstDate], [v].[CurrentGstMblg], [v].[CurrentGstNo], [v].[DateVam], [v].[DelayGst], [v].[FullName], [v].[Gst1], [v].[Gst2], [v].[GstNo], [v].[GstPay], [v].[hesab_no], [v].[MKarmozd], [v].[MblgVam], [v].[Moaref], [v].[Mojodi], [v].[MonthQty], [v].[PKarmozd], [v].[PaidVam], [v].[RemainVam], [v].[ReqNo], [v].[sex], [v].[SexDesc], [v].[Type]
+FROM [vwPersonStatusCurrent] AS [v]
+ORDER BY [v].[hesab_no]
+2025-06-06 04:11:06.639 +03:30 [INF] User profile is available. Using 'C:\Users\mebrahimian\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-06-06 04:11:07.258 +03:30 [INF] Now listening on: https://localhost:5001
+2025-06-06 04:11:07.339 +03:30 [INF] Application started. Press Ctrl+C to shut down.
+2025-06-06 04:11:07.340 +03:30 [INF] Hosting environment: Development
+2025-06-06 04:11:07.340 +03:30 [INF] Content root path: D:\NewVam_S
+2025-06-06 04:11:08.743 +03:30 [INF] Request starting HTTP/2 GET https://localhost:5001/ - null null
+2025-06-06 04:11:09.007 +03:30 [INF] Executing endpoint '/_Host'
+2025-06-06 04:11:09.043 +03:30 [INF] Route matched with {page = "/_Host"}. Executing page /_Host
+2025-06-06 04:11:09.060 +03:30 [INF] Executing an implicit handler method - ModelState is "Valid"
+2025-06-06 04:11:09.061 +03:30 [INF] Executed an implicit handler method, returned result Microsoft.AspNetCore.Mvc.RazorPages.PageResult.
+2025-06-06 04:11:13.035 +03:30 [INF] Executed DbCommand (17ms) [Parameters=[], CommandType='"Text"', CommandTimeout='3000']
+SELECT TOP(1) [s].[onvan]
+FROM [SANDOGH] AS [s]
+WHERE [s].[code] = '01'
+2025-06-06 04:11:13.524 +03:30 [INF] Executed page /_Host in 4473.7501ms
+2025-06-06 04:11:13.525 +03:30 [INF] Executed endpoint '/_Host'
+2025-06-06 04:11:13.540 +03:30 [INF] Request starting HTTP/2 GET https://localhost:5001/_framework/aspnetcore-browser-refresh.js - null null
+2025-06-06 04:11:13.540 +03:30 [INF] Request starting HTTP/2 GET https://localhost:5001/VamBlazor.Client.styles.css - null null
+2025-06-06 04:11:13.540 +03:30 [INF] Request starting HTTP/2 GET https://localhost:5001/_framework/blazor.server.js - null null
+2025-06-06 04:11:13.549 +03:30 [INF] Executing endpoint 'Blazor static files'
+2025-06-06 04:11:13.574 +03:30 [INF] Request finished HTTP/2 GET https://localhost:5001/_framework/aspnetcore-browser-refresh.js - 200 13768 application/javascript; charset=utf-8 26.3422ms
+2025-06-06 04:11:13.579 +03:30 [INF] The file /VamBlazor.Client.styles.css was not modified
+2025-06-06 04:11:13.579 +03:30 [INF] The file /_framework/blazor.server.js was not modified
+2025-06-06 04:11:13.581 +03:30 [INF] Request finished HTTP/2 GET https://localhost:5001/VamBlazor.Client.styles.css - 304 null text/css 42.6519ms
+2025-06-06 04:11:13.582 +03:30 [INF] Executed endpoint 'Blazor static files'
+2025-06-06 04:11:13.582 +03:30 [INF] Request finished HTTP/2 GET https://localhost:5001/_framework/blazor.server.js - 304 null text/javascript 43.1721ms
+2025-06-06 04:11:13.593 +03:30 [INF] Request starting HTTP/2 GET https://localhost:5001/_vs/browserLink - null null
+2025-06-06 04:11:13.605 +03:30 [INF] Request finished HTTP/2 GET https://localhost:5001/ - 200 null text/html; charset=utf-8 4881.4938ms
+2025-06-06 04:11:13.675 +03:30 [INF] Request finished HTTP/2 GET https://localhost:5001/_vs/browserLink - 200 null text/javascript; charset=UTF-8 81.6559ms
+2025-06-06 04:11:13.771 +03:30 [INF] Request starting HTTP/2 GET https://localhost:5001/_blazor/initializers - null null
+2025-06-06 04:11:13.776 +03:30 [INF] Executing endpoint 'Blazor initializers'
+2025-06-06 04:11:13.780 +03:30 [INF] Executed endpoint 'Blazor initializers'
+2025-06-06 04:11:13.780 +03:30 [INF] Request finished HTTP/2 GET https://localhost:5001/_blazor/initializers - 200 null application/json; charset=utf-8 9.1275ms
+2025-06-06 04:11:13.812 +03:30 [INF] Request starting HTTP/2 POST https://localhost:5001/_blazor/negotiate?negotiateVersion=1 - null 0
+2025-06-06 04:11:13.814 +03:30 [INF] Executing endpoint '/_blazor/negotiate'
+2025-06-06 04:11:13.837 +03:30 [INF] Executed endpoint '/_blazor/negotiate'
+2025-06-06 04:11:13.837 +03:30 [INF] Request finished HTTP/2 POST https://localhost:5001/_blazor/negotiate?negotiateVersion=1 - 200 316 application/json 24.5442ms
+2025-06-06 04:11:13.870 +03:30 [INF] Request starting HTTP/2 CONNECT https://localhost:5001/_blazor?id=A8X7ZGCrM2a60C331s3xKA - null null
+2025-06-06 04:11:13.871 +03:30 [INF] Executing endpoint '/_blazor'
+2025-06-06 04:11:14.242 +03:30 [INF] Executed DbCommand (5ms) [Parameters=[], CommandType='"Text"', CommandTimeout='3000']
+SELECT TOP(1) [s].[onvan]
+FROM [SANDOGH] AS [s]
+WHERE [s].[code] = '01'
+2025-06-06 04:11:23.365 +03:30 [INF] Executed DbCommand (345ms) [Parameters=[], CommandType='"Text"', CommandTimeout='3000']
+SELECT [v].[city], [v].[CityDesc], [v].[Code], [v].[CurrentGstDate], [v].[CurrentGstMblg], [v].[CurrentGstNo], [v].[DateVam], [v].[DelayGst], [v].[FullName], [v].[Gst1], [v].[Gst2], [v].[GstNo], [v].[GstPay], [v].[hesab_no], [v].[MKarmozd], [v].[MblgVam], [v].[Moaref], [v].[Mojodi], [v].[MonthQty], [v].[PKarmozd], [v].[PaidVam], [v].[RemainVam], [v].[ReqNo], [v].[sex], [v].[SexDesc], [v].[Type]
+FROM [vwPersonStatusCurrent] AS [v]
+ORDER BY [v].[hesab_no]
+2025-06-06 04:18:01.155 +03:30 [INF] Executed DbCommand (311ms) [Parameters=[], CommandType='"Text"', CommandTimeout='3000']
+SELECT [v].[city], [v].[CityDesc], [v].[Code], [v].[CurrentGstDate], [v].[CurrentGstMblg], [v].[CurrentGstNo], [v].[DateVam], [v].[DelayGst], [v].[FullName], [v].[Gst1], [v].[Gst2], [v].[GstNo], [v].[GstPay], [v].[hesab_no], [v].[MKarmozd], [v].[MblgVam], [v].[Moaref], [v].[Mojodi], [v].[MonthQty], [v].[PKarmozd], [v].[PaidVam], [v].[RemainVam], [v].[ReqNo], [v].[sex], [v].[SexDesc], [v].[Type]
+FROM [vwPersonStatusCurrent] AS [v]
+ORDER BY [v].[hesab_no]
+2025-06-06 04:18:54.900 +03:30 [INF] Executed DbCommand (286ms) [Parameters=[], CommandType='"Text"', CommandTimeout='3000']
+SELECT [v].[city], [v].[CityDesc], [v].[Code], [v].[CurrentGstDate], [v].[CurrentGstMblg], [v].[CurrentGstNo], [v].[DateVam], [v].[DelayGst], [v].[FullName], [v].[Gst1], [v].[Gst2], [v].[GstNo], [v].[GstPay], [v].[hesab_no], [v].[MKarmozd], [v].[MblgVam], [v].[Moaref], [v].[Mojodi], [v].[MonthQty], [v].[PKarmozd], [v].[PaidVam], [v].[RemainVam], [v].[ReqNo], [v].[sex], [v].[SexDesc], [v].[Type]
+FROM [vwPersonStatusCurrent] AS [v]
+ORDER BY [v].[hesab_no]
+2025-06-06 04:18:58.198 +03:30 [INF] Request starting HTTP/2 POST https://localhost:5001/_blazor/disconnect - multipart/form-data; boundary=----WebKitFormBoundarytWJQBBBBLDtMsiVx 359
+2025-06-06 04:18:58.202 +03:30 [INF] Executing endpoint 'Blazor disconnect'
+2025-06-06 04:18:58.232 +03:30 [INF] Executed endpoint '/_blazor'
+2025-06-06 04:18:58.232 +03:30 [INF] Request finished HTTP/2 CONNECT https://localhost:5001/_blazor?id=A8X7ZGCrM2a60C331s3xKA - 200 null null 464362.316ms
+2025-06-06 04:18:58.363 +03:30 [INF] Executed endpoint 'Blazor disconnect'
+2025-06-06 04:18:58.363 +03:30 [INF] Request finished HTTP/2 POST https://localhost:5001/_blazor/disconnect - 200 0 null 165.682ms
+2025-06-06 04:19:14.727 +03:30 [INF] User profile is available. Using 'C:\Users\mebrahimian\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-06-06 04:19:15.437 +03:30 [INF] Now listening on: https://localhost:5001
+2025-06-06 04:19:15.522 +03:30 [INF] Application started. Press Ctrl+C to shut down.
+2025-06-06 04:19:15.523 +03:30 [INF] Hosting environment: Development
+2025-06-06 04:19:15.523 +03:30 [INF] Content root path: D:\NewVam_S
+2025-06-06 04:19:16.876 +03:30 [INF] Request starting HTTP/2 GET https://localhost:5001/ - null null
+2025-06-06 04:19:17.204 +03:30 [INF] Executing endpoint '/_Host'
+2025-06-06 04:19:17.252 +03:30 [INF] Route matched with {page = "/_Host"}. Executing page /_Host
+2025-06-06 04:19:17.270 +03:30 [INF] Executing an implicit handler method - ModelState is "Valid"
+2025-06-06 04:19:17.271 +03:30 [INF] Executed an implicit handler method, returned result Microsoft.AspNetCore.Mvc.RazorPages.PageResult.
+2025-06-06 04:19:21.258 +03:30 [INF] Executed DbCommand (13ms) [Parameters=[], CommandType='"Text"', CommandTimeout='3000']
+SELECT TOP(1) [s].[onvan]
+FROM [SANDOGH] AS [s]
+WHERE [s].[code] = '01'
+2025-06-06 04:19:21.859 +03:30 [INF] Executed page /_Host in 4599.3918ms
+2025-06-06 04:19:21.861 +03:30 [INF] Executed endpoint '/_Host'
+2025-06-06 04:19:21.882 +03:30 [INF] Request starting HTTP/2 GET https://localhost:5001/_framework/aspnetcore-browser-refresh.js - null null
+2025-06-06 04:19:21.882 +03:30 [INF] Request starting HTTP/2 GET https://localhost:5001/_framework/blazor.server.js - null null
+2025-06-06 04:19:21.888 +03:30 [INF] Request starting HTTP/2 GET https://localhost:5001/_vs/browserLink - null null
+2025-06-06 04:19:21.900 +03:30 [INF] Executing endpoint 'Blazor static files'
+2025-06-06 04:19:21.911 +03:30 [INF] Request finished HTTP/2 GET https://localhost:5001/_framework/aspnetcore-browser-refresh.js - 200 13768 application/javascript; charset=utf-8 22.9669ms
+2025-06-06 04:19:21.934 +03:30 [INF] The file /_framework/blazor.server.js was not modified
+2025-06-06 04:19:21.938 +03:30 [INF] Executed endpoint 'Blazor static files'
+2025-06-06 04:19:21.939 +03:30 [INF] Request finished HTTP/2 GET https://localhost:5001/_framework/blazor.server.js - 304 null text/javascript 58.1668ms
+2025-06-06 04:19:21.941 +03:30 [INF] Request finished HTTP/2 GET https://localhost:5001/ - 200 null text/html; charset=utf-8 5089.7354ms
+2025-06-06 04:19:21.989 +03:30 [INF] Request finished HTTP/2 GET https://localhost:5001/_vs/browserLink - 200 null text/javascript; charset=UTF-8 101.4188ms
+2025-06-06 04:19:22.034 +03:30 [INF] Request starting HTTP/2 GET https://localhost:5001/_blazor/initializers - null null
+2025-06-06 04:19:22.038 +03:30 [INF] Executing endpoint 'Blazor initializers'
+2025-06-06 04:19:22.042 +03:30 [INF] Executed endpoint 'Blazor initializers'
+2025-06-06 04:19:22.042 +03:30 [INF] Request finished HTTP/2 GET https://localhost:5001/_blazor/initializers - 200 null application/json; charset=utf-8 8.5971ms
+2025-06-06 04:19:22.074 +03:30 [INF] Request starting HTTP/2 POST https://localhost:5001/_blazor/negotiate?negotiateVersion=1 - null 0
+2025-06-06 04:19:22.076 +03:30 [INF] Executing endpoint '/_blazor/negotiate'
+2025-06-06 04:19:22.101 +03:30 [INF] Executed endpoint '/_blazor/negotiate'
+2025-06-06 04:19:22.101 +03:30 [INF] Request finished HTTP/2 POST https://localhost:5001/_blazor/negotiate?negotiateVersion=1 - 200 316 application/json 27.1903ms
+2025-06-06 04:19:22.136 +03:30 [INF] Request starting HTTP/2 CONNECT https://localhost:5001/_blazor?id=-FeDZTnfsxwkBDK0LKm92Q - null null
+2025-06-06 04:19:22.136 +03:30 [INF] Executing endpoint '/_blazor'
+2025-06-06 04:19:22.482 +03:30 [INF] Executed DbCommand (6ms) [Parameters=[], CommandType='"Text"', CommandTimeout='3000']
+SELECT TOP(1) [s].[onvan]
+FROM [SANDOGH] AS [s]
+WHERE [s].[code] = '01'
+2025-06-06 04:19:42.715 +03:30 [INF] Executed DbCommand (459ms) [Parameters=[], CommandType='"Text"', CommandTimeout='3000']
+SELECT [v].[city], [v].[CityDesc], [v].[Code], [v].[CurrentGstDate], [v].[CurrentGstMblg], [v].[CurrentGstNo], [v].[DateVam], [v].[DelayGst], [v].[FullName], [v].[Gst1], [v].[Gst2], [v].[GstNo], [v].[GstPay], [v].[hesab_no], [v].[MKarmozd], [v].[MblgVam], [v].[Moaref], [v].[Mojodi], [v].[MonthQty], [v].[PKarmozd], [v].[PaidVam], [v].[RemainVam], [v].[ReqNo], [v].[sex], [v].[SexDesc], [v].[Type]
+FROM [vwPersonStatusCurrent] AS [v]
+ORDER BY [v].[hesab_no]
+2025-06-06 04:27:09.730 +03:30 [INF] User profile is available. Using 'C:\Users\mebrahimian\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-06-06 04:27:10.406 +03:30 [INF] Now listening on: https://localhost:5001
+2025-06-06 04:27:10.561 +03:30 [INF] Application started. Press Ctrl+C to shut down.
+2025-06-06 04:27:10.562 +03:30 [INF] Hosting environment: Development
+2025-06-06 04:27:10.562 +03:30 [INF] Content root path: D:\NewVam_S
+2025-06-06 04:27:11.265 +03:30 [INF] Request starting HTTP/2 GET https://localhost:5001/ - null null
+2025-06-06 04:27:11.540 +03:30 [INF] Executing endpoint '/_Host'
+2025-06-06 04:27:11.583 +03:30 [INF] Route matched with {page = "/_Host"}. Executing page /_Host
+2025-06-06 04:27:11.611 +03:30 [INF] Executing an implicit handler method - ModelState is "Valid"
+2025-06-06 04:27:11.614 +03:30 [INF] Executed an implicit handler method, returned result Microsoft.AspNetCore.Mvc.RazorPages.PageResult.
+2025-06-06 04:27:15.144 +03:30 [INF] Executed DbCommand (76ms) [Parameters=[], CommandType='"Text"', CommandTimeout='3000']
+SELECT TOP(1) [s].[onvan]
+FROM [SANDOGH] AS [s]
+WHERE [s].[code] = '01'
+2025-06-06 04:27:15.490 +03:30 [INF] Executed page /_Host in 3900.4202ms
+2025-06-06 04:27:15.491 +03:30 [INF] Request starting HTTP/2 GET https://localhost:5001/VamBlazor.Client.styles.css - null null
+2025-06-06 04:27:15.492 +03:30 [INF] Executed endpoint '/_Host'
+2025-06-06 04:27:15.495 +03:30 [INF] Request starting HTTP/2 GET https://localhost:5001/_framework/aspnetcore-browser-refresh.js - null null
+2025-06-06 04:27:15.506 +03:30 [INF] Request starting HTTP/2 GET https://localhost:5001/_framework/blazor.server.js - null null
+2025-06-06 04:27:15.523 +03:30 [INF] The file /VamBlazor.Client.styles.css was not modified
+2025-06-06 04:27:15.523 +03:30 [INF] Executing endpoint 'Blazor static files'
+2025-06-06 04:27:15.526 +03:30 [INF] Request finished HTTP/2 GET https://localhost:5001/VamBlazor.Client.styles.css - 304 null text/css 36.1419ms
+2025-06-06 04:27:15.526 +03:30 [INF] Request finished HTTP/2 GET https://localhost:5001/_framework/aspnetcore-browser-refresh.js - 200 13768 application/javascript; charset=utf-8 28.122ms
+2025-06-06 04:27:15.527 +03:30 [INF] The file /_framework/blazor.server.js was not modified
+2025-06-06 04:27:15.530 +03:30 [INF] Executed endpoint 'Blazor static files'
+2025-06-06 04:27:15.531 +03:30 [INF] Request finished HTTP/2 GET https://localhost:5001/_framework/blazor.server.js - 304 null text/javascript 25.0635ms
+2025-06-06 04:27:15.532 +03:30 [INF] Request starting HTTP/2 GET https://localhost:5001/_vs/browserLink - null null
+2025-06-06 04:27:15.568 +03:30 [INF] Request finished HTTP/2 GET https://localhost:5001/ - 200 null text/html; charset=utf-8 4321.1775ms
+2025-06-06 04:27:15.602 +03:30 [INF] Request finished HTTP/2 GET https://localhost:5001/_vs/browserLink - 200 null text/javascript; charset=UTF-8 69.727ms
+2025-06-06 04:27:15.683 +03:30 [INF] Request starting HTTP/2 GET https://localhost:5001/_blazor/initializers - null null
+2025-06-06 04:27:15.686 +03:30 [INF] Executing endpoint 'Blazor initializers'
+2025-06-06 04:27:15.688 +03:30 [INF] Executed endpoint 'Blazor initializers'
+2025-06-06 04:27:15.689 +03:30 [INF] Request finished HTTP/2 GET https://localhost:5001/_blazor/initializers - 200 null application/json; charset=utf-8 6.5182ms
+2025-06-06 04:27:15.717 +03:30 [INF] Request starting HTTP/2 POST https://localhost:5001/_blazor/negotiate?negotiateVersion=1 - null 0
+2025-06-06 04:27:15.719 +03:30 [INF] Executing endpoint '/_blazor/negotiate'
+2025-06-06 04:27:15.745 +03:30 [INF] Executed endpoint '/_blazor/negotiate'
+2025-06-06 04:27:15.745 +03:30 [INF] Request finished HTTP/2 POST https://localhost:5001/_blazor/negotiate?negotiateVersion=1 - 200 316 application/json 28.3692ms
+2025-06-06 04:27:15.771 +03:30 [INF] Request starting HTTP/2 CONNECT https://localhost:5001/_blazor?id=Oa40cHJBNrAFxiFlW9PxJg - null null
+2025-06-06 04:27:15.771 +03:30 [INF] Executing endpoint '/_blazor'
+2025-06-06 04:27:16.006 +03:30 [INF] Executed DbCommand (3ms) [Parameters=[], CommandType='"Text"', CommandTimeout='3000']
+SELECT TOP(1) [s].[onvan]
+FROM [SANDOGH] AS [s]
+WHERE [s].[code] = '01'
+2025-06-06 04:27:23.317 +03:30 [INF] Executed DbCommand (413ms) [Parameters=[], CommandType='"Text"', CommandTimeout='3000']
+SELECT [v].[city], [v].[CityDesc], [v].[Code], [v].[CurrentGstDate], [v].[CurrentGstMblg], [v].[CurrentGstNo], [v].[DateVam], [v].[DelayGst], [v].[FullName], [v].[Gst1], [v].[Gst2], [v].[GstNo], [v].[GstPay], [v].[hesab_no], [v].[MKarmozd], [v].[MblgVam], [v].[Moaref], [v].[Mojodi], [v].[MonthQty], [v].[PKarmozd], [v].[PaidVam], [v].[RemainVam], [v].[ReqNo], [v].[sex], [v].[SexDesc], [v].[Type]
+FROM [vwPersonStatusCurrent] AS [v]
+ORDER BY [v].[hesab_no]
+2025-06-06 04:29:36.691 +03:30 [INF] Request starting HTTP/2 POST https://localhost:5001/_blazor/disconnect - multipart/form-data; boundary=----WebKitFormBoundaryfTeswbIdlbmmAUC7 359
+2025-06-06 04:29:36.694 +03:30 [INF] Executing endpoint 'Blazor disconnect'
+2025-06-06 04:29:36.743 +03:30 [INF] Executed endpoint '/_blazor'
+2025-06-06 04:29:36.743 +03:30 [INF] Request finished HTTP/2 CONNECT https://localhost:5001/_blazor?id=Oa40cHJBNrAFxiFlW9PxJg - 200 null null 140972.3215ms
+2025-06-06 04:29:36.908 +03:30 [INF] Executed endpoint 'Blazor disconnect'
+2025-06-06 04:29:36.908 +03:30 [INF] Request finished HTTP/2 POST https://localhost:5001/_blazor/disconnect - 200 0 null 219.1235ms

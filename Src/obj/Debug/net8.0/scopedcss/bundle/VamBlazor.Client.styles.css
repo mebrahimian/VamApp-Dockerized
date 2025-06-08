@@ -1,0 +1,445 @@
+/* _content/VamBlazor.Client/PagesReports/BankRep.razor.rz.scp.css */
+/* تنظیمات کلی صفحه برای چاپ */
+@media print {
+    /* حذف نوار ابزار و هرچیز اضافی */
+    body[b-v5ai2tcxao] {
+        margin: 0;
+        padding: 0;
+    }
+
+    
+        .mud-table th[b-v5ai2tcxao], .mud-table td[b-v5ai2tcxao] {
+            padding: 10px;
+            text-align: right;
+            border: 1px solid #ddd;
+        }
+
+        .mud-table th[b-v5ai2tcxao] {
+            background-color: #f2f2f2;
+        }
+
+    /* اضافه کردن شکست صفحه قبل از هر رکورد */
+    .record-start[b-v5ai2tcxao] {
+        page-break-before: always;
+    }
+
+    
+    .container[b-v5ai2tcxao] {
+        margin: 0;
+        padding: 0;
+    }
+    .mud-table td[b-v5ai2tcxao] {
+        word-wrap: break-word;
+        white-space: normal;
+    }
+
+    .content-section[b-v5ai2tcxao] {
+        page-break-inside: avoid;
+        margin-bottom: 15px;
+    }
+
+    .mud-image[b-v5ai2tcxao] {
+        max-width: 100px;
+        max-height: 100px;
+        margin-bottom: 10px;
+    }
+
+    .mud-text[b-v5ai2tcxao] {
+        font-size: 12px;
+        line-height: 1.5;
+        margin-bottom: 10px;
+    }
+
+    .align-right[b-v5ai2tcxao] {
+        text-align: right;
+    }
+}
+/* _content/VamBlazor.Client/PagesReports/DelayRep.razor.rz.scp.css */
+@media print {
+    @page {
+        width:95%;
+        size: A4 landscape; /* تنظیم برای پرینت Landscape */
+        font-size:12px;
+    }
+
+    /* این تنظیمات برای مرورگر Chrome */
+    .page-content[b-khoq24cbfe] {
+        width: 95%;
+        align-content:center;
+    }
+    body[b-khoq24cbfe] {
+        margin: 0;
+        padding: 0;
+        width: 95% !important;
+        align-content: center !important;
+        font-size: 20px !important;
+    }
+
+    /* تنظیمات مخصوص جدول */
+    table[b-khoq24cbfe] {
+        width: 98% !important;
+        align-content:center !important;
+        border-collapse: collapse !important;
+        table-layout: fixed !important; /* این باعث می‌شود که عرض ستون‌ها ثابت باشد */
+    }
+
+    th[b-khoq24cbfe], td[b-khoq24cbfe] {
+        padding: 2px !important;
+        border: 1px solid black !important;
+        text-align: left !important;
+        word-wrap: break-word !important;
+        overflow: hidden !important;
+        
+    }
+        
+    /* تنظیمات برای تیتر شرکت */
+    .report-header[b-khoq24cbfe] {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        text-align: center;
+        font-size: 18px;
+        margin-bottom: 10px;
+        page-break-after: always; /* جلوگیری از تقسیم تیتر بین صفحات */
+    }
+
+    /* تنظیمات برای چاپ تیتر جدول */
+    
+    thead[b-khoq24cbfe] {
+        display: table-header-group; /* تکرار تیتر در هر صفحه */
+    }
+
+
+
+}
+/* _content/VamBlazor.Client/PagesReports/GraphCurrentVams.razor.rz.scp.css */
+@media print {
+    @page {
+        width:95%;
+        size: A4 landscape; /* تنظیم برای پرینت Landscape */
+        font-size:12px;
+    }
+
+    /* این تنظیمات برای مرورگر Chrome */
+    .page-content[b-n627lq0qw6] {
+        width: 95%;
+        align-content:center;
+    }
+    body[b-n627lq0qw6] {
+        margin: 0;
+        padding: 0;
+        width: 95% !important;
+        align-content: center !important;
+        font-size: 20px !important;
+    }
+
+    /* تنظیمات مخصوص جدول */
+    table[b-n627lq0qw6] {
+        width: 98% !important;
+        align-content:center !important;
+        border-collapse: collapse !important;
+        table-layout: fixed !important; /* این باعث می‌شود که عرض ستون‌ها ثابت باشد */
+    }
+
+    th[b-n627lq0qw6], td[b-n627lq0qw6] {
+        padding: 2px !important;
+        border: 1px solid black !important;
+        text-align: left !important;
+        word-wrap: break-word !important;
+        overflow: hidden !important;
+        
+    }
+        
+    /* تنظیمات برای تیتر شرکت */
+    .report-header[b-n627lq0qw6] {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        text-align: center;
+        font-size: 18px;
+        margin-bottom: 10px;
+        page-break-after: always; /* جلوگیری از تقسیم تیتر بین صفحات */
+    }
+
+    /* تنظیمات برای چاپ تیتر جدول */
+    
+    thead[b-n627lq0qw6] {
+        display: table-header-group; /* تکرار تیتر در هر صفحه */
+    }
+
+
+
+}
+/* _content/VamBlazor.Client/PagesReports/GraphFutureVams.razor.rz.scp.css */
+@media print {
+    @page {
+        width:95%;
+        size: A4 landscape; /* تنظیم برای پرینت Landscape */
+        font-size:12px;
+    }
+
+    /* این تنظیمات برای مرورگر Chrome */
+    .page-content[b-uhvp29tdz2] {
+        width: 80%;
+        align-content:center;
+    }
+    body[b-uhvp29tdz2] {
+        margin: 0;
+        padding: 0;
+        width: 100% !important;
+        align-content: center !important;
+        font-size: 20px !important;
+    }
+
+    /* تنظیمات مخصوص جدول */
+    table[b-uhvp29tdz2] {
+        width: 98% !important;
+        align-content:center !important;
+        border-collapse: collapse !important;
+        table-layout: fixed !important; /* این باعث می‌شود که عرض ستون‌ها ثابت باشد */
+    }
+
+    th[b-uhvp29tdz2], td[b-uhvp29tdz2] {
+        padding: 2px !important;
+        border: 1px solid black !important;
+        text-align: left !important;
+        word-wrap: break-word !important;
+        overflow: hidden !important;
+        
+    }
+        
+    /* تنظیمات برای تیتر شرکت */
+    .report-header[b-uhvp29tdz2] {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        text-align: center;
+        font-size: 18px;
+        margin-bottom: 10px;
+        page-break-after: always; /* جلوگیری از تقسیم تیتر بین صفحات */
+    }
+
+    /* تنظیمات برای چاپ تیتر جدول */
+    
+    thead[b-uhvp29tdz2] {
+        display: table-header-group; /* تکرار تیتر در هر صفحه */
+    }
+
+
+
+}
+/* _content/VamBlazor.Client/PagesReports/SandoghRep.razor.rz.scp.css */
+/* تنظیمات کلی صفحه برای چاپ */
+@media print {
+    /* حذف نوار ابزار و هرچیز اضافی */
+    body[b-9303npvdwu] {
+        margin: 0;
+        padding: 0;
+    }
+
+    
+        .mud-table th[b-9303npvdwu], .mud-table td[b-9303npvdwu] {
+            padding: 10px;
+            text-align: right;
+            border: 1px solid #ddd;
+        }
+
+        .mud-table th[b-9303npvdwu] {
+            background-color: #f2f2f2;
+        }
+
+    /* اضافه کردن شکست صفحه قبل از هر رکورد */
+    .record-start[b-9303npvdwu] {
+        page-break-before: always;
+    }
+
+    
+    .container[b-9303npvdwu] {
+        margin: 0;
+        padding: 0;
+    }
+    .mud-table td[b-9303npvdwu] {
+        word-wrap: break-word;
+        white-space: normal;
+    }
+
+    .content-section[b-9303npvdwu] {
+        page-break-inside: avoid;
+        margin-bottom: 15px;
+    }
+
+    .mud-image[b-9303npvdwu] {
+        max-width: 100px;
+        max-height: 100px;
+        margin-bottom: 10px;
+    }
+
+    .mud-text[b-9303npvdwu] {
+        font-size: 12px;
+        line-height: 1.5;
+        margin-bottom: 10px;
+    }
+
+    .align-right[b-9303npvdwu] {
+        text-align: right;
+    }
+}
+/* _content/VamBlazor.Client/Shared/MainLayout.razor.rz.scp.css */
+.page[b-idx9frpvsx] {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+}
+
+main[b-idx9frpvsx] {
+    flex: 1;
+}
+
+.sidebar[b-idx9frpvsx] {
+    background-image: linear-gradient(180deg, rgb(5, 39, 103) 0%, #3a0647 70%);
+}
+
+.top-row[b-idx9frpvsx] {
+    background-color: #f7f7f7;
+    border-bottom: 1px solid #d6d5d5;
+    justify-content: flex-end;
+    height: 3.5rem;
+    display: flex;
+    align-items: center;
+}
+
+    .top-row[b-idx9frpvsx]  a, .top-row .btn-link[b-idx9frpvsx] {
+        white-space: nowrap;
+        margin-left: 1.5rem;
+    }
+
+    .top-row a:first-child[b-idx9frpvsx] {
+        overflow: hidden;
+        text-overflow: ellipsis;
+    }
+
+@media (max-width: 640.98px) {
+    .top-row:not(.auth)[b-idx9frpvsx] {
+        display: none;
+    }
+
+    .top-row.auth[b-idx9frpvsx] {
+        justify-content: space-between;
+    }
+
+    .top-row a[b-idx9frpvsx], .top-row .btn-link[b-idx9frpvsx] {
+        margin-left: 0;
+    }
+}
+
+@media (min-width: 641px) {
+    .page[b-idx9frpvsx] {
+        flex-direction: row;
+    }
+
+    .sidebar[b-idx9frpvsx] {
+        width: 250px;
+        height: 100vh;
+        position: sticky;
+        top: 0;
+    }
+
+    .top-row[b-idx9frpvsx] {
+        position: sticky;
+        top: 0;
+        z-index: 1;
+    }
+
+    .top-row[b-idx9frpvsx], article[b-idx9frpvsx] {
+        padding-left: 2rem !important;
+        padding-right: 1.5rem !important;
+    }
+    .full-page[b-idx9frpvsx] {
+        display: flex;
+        flex-direction: column;
+        min-height: 100vh; /* حداقل ارتفاع صفحه برابر با ارتفاع صفحه نمایش باشد */
+    }
+
+    .mud-main-content[b-idx9frpvsx] {
+        flex-grow: 1; /* محتوای اصلی صفحه فضای باقی‌مانده را اشغال می‌کند */
+    }
+
+    .footer[b-idx9frpvsx] {
+        background-color: #f1f1f1;
+        text-align: center;
+        padding: 10px;
+        margin-top: auto; /* این باعث می‌شود که فوتر همیشه در پایین صفحه قرار گیرد */
+    }
+}
+/* _content/VamBlazor.Client/Shared/NavMenu.razor.rz.scp.css */
+.navbar-toggler[b-rlrbej0spu] {
+    background-color: rgba(255, 255, 255, 0.1);
+}
+
+.top-row[b-rlrbej0spu] {
+    height: 3.5rem;
+    background-color: rgba(0,0,0,0.4);
+}
+
+.navbar-brand[b-rlrbej0spu] {
+    font-size: 1.1rem;
+}
+
+.oi[b-rlrbej0spu] {
+    width: 2rem;
+    font-size: 1.1rem;
+    vertical-align: text-top;
+    top: -2px;
+}
+
+.nav-item[b-rlrbej0spu] {
+    font-size: 0.9rem;
+    padding-bottom: 0.5rem;
+}
+
+    .nav-item:first-of-type[b-rlrbej0spu] {
+        padding-top: 1rem;
+    }
+
+    .nav-item:last-of-type[b-rlrbej0spu] {
+        padding-bottom: 1rem;
+    }
+
+    .nav-item[b-rlrbej0spu]  a {
+        color: #d7d7d7;
+        border-radius: 4px;
+        height: 3rem;
+        display: flex;
+        align-items: center;
+        line-height: 3rem;
+    }
+
+.nav-item[b-rlrbej0spu]  a.active {
+    background-color: rgba(255,255,255,0.25);
+    color: white;
+}
+
+.nav-item[b-rlrbej0spu]  a:hover {
+    background-color: rgba(255,255,255,0.1);
+    color: white;
+}
+
+@media (min-width: 641px) {
+    .navbar-toggler[b-rlrbej0spu] {
+        display: none;
+    }
+
+    .collapse[b-rlrbej0spu] {
+        /* Never collapse the sidebar for wide screens */
+        display: block;
+    }
+    
+    .nav-scrollable[b-rlrbej0spu] {
+        /* Allow sidebar to scroll for tall menus */
+        height: calc(100vh - 3.5rem);
+        overflow-y: auto;
+    }
+}

@@ -1,0 +1,1681 @@
+{
+  "Files": [
+    {
+      "Id": "D:\\NewVam_S\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\VamBlazor.Client.bundle.scp.css",
+      "PackagePath": "staticwebassets\\VamBlazor.Client.w5e3b3k42g.bundle.scp.css"
+    },
+    {
+      "Id": "D:\\NewVam_S\\wwwroot\\Images\\00004.png",
+      "PackagePath": "staticwebassets\\Images\\00004.png"
+    },
+    {
+      "Id": "D:\\NewVam_S\\wwwroot\\Images\\00005.jpg",
+      "PackagePath": "staticwebassets\\Images\\00005.jpg"
+    },
+    {
+      "Id": "D:\\NewVam_S\\wwwroot\\Images\\00006.gif",
+      "PackagePath": "staticwebassets\\Images\\00006.gif"
+    },
+    {
+      "Id": "D:\\NewVam_S\\wwwroot\\Images\\00007.jpeg",
+      "PackagePath": "staticwebassets\\Images\\00007.jpeg"
+    },
+    {
+      "Id": "D:\\NewVam_S\\wwwroot\\Images\\00069.jpg",
+      "PackagePath": "staticwebassets\\Images\\00069.jpg"
+    },
+    {
+      "Id": "D:\\NewVam_S\\wwwroot\\Images\\01077.jpeg",
+      "PackagePath": "staticwebassets\\Images\\01077.jpeg"
+    },
+    {
+      "Id": "D:\\NewVam_S\\wwwroot\\Images\\10.jpeg",
+      "PackagePath": "staticwebassets\\Images\\10.jpeg"
+    },
+    {
+      "Id": "D:\\NewVam_S\\wwwroot\\Images\\1020.jpeg",
+      "PackagePath": "staticwebassets\\Images\\1020.jpeg"
+    },
+    {
+      "Id": "D:\\NewVam_S\\wwwroot\\Images\\1021.jpeg",
+      "PackagePath": "staticwebassets\\Images\\1021.jpeg"
+    },
+    {
+      "Id": "D:\\NewVam_S\\wwwroot\\Images\\1022.jpeg",
+      "PackagePath": "staticwebassets\\Images\\1022.jpeg"
+    },
+    {
+      "Id": "D:\\NewVam_S\\wwwroot\\Images\\1023.jpeg",
+      "PackagePath": "staticwebassets\\Images\\1023.jpeg"
+    },
+    {
+      "Id": "D:\\NewVam_S\\wwwroot\\Images\\1035.jpeg",
+      "PackagePath": "staticwebassets\\Images\\1035.jpeg"
+    },
+    {
+      "Id": "D:\\NewVam_S\\wwwroot\\Images\\1036.jpeg",
+      "PackagePath": "staticwebassets\\Images\\1036.jpeg"
+    },
+    {
+      "Id": "D:\\NewVam_S\\wwwroot\\Images\\1037.jpeg",
+      "PackagePath": "staticwebassets\\Images\\1037.jpeg"
+    },
+    {
+      "Id": "D:\\NewVam_S\\wwwroot\\Images\\1038.jpeg",
+      "PackagePath": "staticwebassets\\Images\\1038.jpeg"
+    },
+    {
+      "Id": "D:\\NewVam_S\\wwwroot\\Images\\1046.jpeg",
+      "PackagePath": "staticwebassets\\Images\\1046.jpeg"
+    },
+    {
+      "Id": "D:\\NewVam_S\\wwwroot\\Images\\1055.jpeg",
+      "PackagePath": "staticwebassets\\Images\\1055.jpeg"
+    },
+    {
+      "Id": "D:\\NewVam_S\\wwwroot\\Images\\1056.jpeg",
+      "PackagePath": "staticwebassets\\Images\\1056.jpeg"
+    },
+    {
+      "Id": "D:\\NewVam_S\\wwwroot\\Images\\1057.jpeg",
+      "PackagePath": "staticwebassets\\Images\\1057.jpeg"
+    },
+    {
+      "Id": "D:\\NewVam_S\\wwwroot\\Images\\1060.jpeg",
+      "PackagePath": "staticwebassets\\Images\\1060.jpeg"
+    },
+    {
+      "Id": "D:\\NewVam_S\\wwwroot\\Images\\1061.jpEg",
+      "PackagePath": "staticwebassets\\Images\\1061.jpEg"
+    },
+    {
+      "Id": "D:\\NewVam_S\\wwwroot\\Images\\1062.jpEg",
+      "PackagePath": "staticwebassets\\Images\\1062.jpEg"
+    },
+    {
+      "Id": "D:\\NewVam_S\\wwwroot\\Images\\1063.jpEg",
+      "PackagePath": "staticwebassets\\Images\\1063.jpEg"
+    },
+    {
+      "Id": "D:\\NewVam_S\\wwwroot\\Images\\1064.jpEg",
+      "PackagePath": "staticwebassets\\Images\\1064.jpEg"
+    },
+    {
+      "Id": "D:\\NewVam_S\\wwwroot\\Images\\1067.jpeg",
+      "PackagePath": "staticwebassets\\Images\\1067.jpeg"
+    },
+    {
+      "Id": "D:\\NewVam_S\\wwwroot\\Images\\1090.jpeg",
+      "PackagePath": "staticwebassets\\Images\\1090.jpeg"
+    },
+    {
+      "Id": "D:\\NewVam_S\\wwwroot\\Images\\1092.jpeg",
+      "PackagePath": "staticwebassets\\Images\\1092.jpeg"
+    },
+    {
+      "Id": "D:\\NewVam_S\\wwwroot\\Images\\11.JPEG",
+      "PackagePath": "staticwebassets\\Images\\11.JPEG"
+    },
+    {
+      "Id": "D:\\NewVam_S\\wwwroot\\Images\\1100.JPEG",
+      "PackagePath": "staticwebassets\\Images\\1100.JPEG"
+    },
+    {
+      "Id": "D:\\NewVam_S\\wwwroot\\Images\\1101.JPEG",
+      "PackagePath": "staticwebassets\\Images\\1101.JPEG"
+    },
+    {
+      "Id": "D:\\NewVam_S\\wwwroot\\Images\\1104.jpeg",
+      "PackagePath": "staticwebassets\\Images\\1104.jpeg"
+    },
+    {
+      "Id": "D:\\NewVam_S\\wwwroot\\Images\\1105.jpeg",
+      "PackagePath": "staticwebassets\\Images\\1105.jpeg"
+    },
+    {
+      "Id": "D:\\NewVam_S\\wwwroot\\Images\\1110.jpeg",
+      "PackagePath": "staticwebassets\\Images\\1110.jpeg"
+    },
+    {
+      "Id": "D:\\NewVam_S\\wwwroot\\Images\\1111.jpeg",
+      "PackagePath": "staticwebassets\\Images\\1111.jpeg"
+    },
+    {
+      "Id": "D:\\NewVam_S\\wwwroot\\Images\\1115.jpeg",
+      "PackagePath": "staticwebassets\\Images\\1115.jpeg"
+    },
+    {
+      "Id": "D:\\NewVam_S\\wwwroot\\Images\\1125.jpeg",
+      "PackagePath": "staticwebassets\\Images\\1125.jpeg"
+    },
+    {
+      "Id": "D:\\NewVam_S\\wwwroot\\Images\\1126.jpeg",
+      "PackagePath": "staticwebassets\\Images\\1126.jpeg"
+    },
+    {
+      "Id": "D:\\NewVam_S\\wwwroot\\Images\\1130.jpeg",
+      "PackagePath": "staticwebassets\\Images\\1130.jpeg"
+    },
+    {
+      "Id": "D:\\NewVam_S\\wwwroot\\Images\\1131.jpeg",
+      "PackagePath": "staticwebassets\\Images\\1131.jpeg"
+    },
+    {
+      "Id": "D:\\NewVam_S\\wwwroot\\Images\\1132.jpeg",
+      "PackagePath": "staticwebassets\\Images\\1132.jpeg"
+    },
+    {
+      "Id": "D:\\NewVam_S\\wwwroot\\Images\\1135.jpeg",
+      "PackagePath": "staticwebassets\\Images\\1135.jpeg"
+    },
+    {
+      "Id": "D:\\NewVam_S\\wwwroot\\Images\\1136.jpeg",
+      "PackagePath": "staticwebassets\\Images\\1136.jpeg"
+    },
+    {
+      "Id": "D:\\NewVam_S\\wwwroot\\Images\\1137.jpeg",
+      "PackagePath": "staticwebassets\\Images\\1137.jpeg"
+    },
+    {
+      "Id": "D:\\NewVam_S\\wwwroot\\Images\\1145.jpeg",
+      "PackagePath": "staticwebassets\\Images\\1145.jpeg"
+    },
+    {
+      "Id": "D:\\NewVam_S\\wwwroot\\Images\\1146.jpeg",
+      "PackagePath": "staticwebassets\\Images\\1146.jpeg"
+    },
+    {
+      "Id": "D:\\NewVam_S\\wwwroot\\Images\\115.jpeg",
+      "PackagePath": "staticwebassets\\Images\\115.jpeg"
+    },
+    {
+      "Id": "D:\\NewVam_S\\wwwroot\\Images\\1150.jpeg",
+      "PackagePath": "staticwebassets\\Images\\1150.jpeg"
+    },
+    {
+      "Id": "D:\\NewVam_S\\wwwroot\\Images\\1151.jpeg",
+      "PackagePath": "staticwebassets\\Images\\1151.jpeg"
+    },
+    {
+      "Id": "D:\\NewVam_S\\wwwroot\\Images\\1160.jpeg",
+      "PackagePath": "staticwebassets\\Images\\1160.jpeg"
+    },
+    {
+      "Id": "D:\\NewVam_S\\wwwroot\\Images\\1165.jpeg",
+      "PackagePath": "staticwebassets\\Images\\1165.jpeg"
+    },
+    {
+      "Id": "D:\\NewVam_S\\wwwroot\\Images\\1175 (2).jpeg",
+      "PackagePath": "staticwebassets\\Images\\1175 (2).jpeg"
+    },
+    {
+      "Id": "D:\\NewVam_S\\wwwroot\\Images\\1175.jpeg",
+      "PackagePath": "staticwebassets\\Images\\1175.jpeg"
+    },
+    {
+      "Id": "D:\\NewVam_S\\wwwroot\\Images\\1176.jpeg",
+      "PackagePath": "staticwebassets\\Images\\1176.jpeg"
+    },
+    {
+      "Id": "D:\\NewVam_S\\wwwroot\\Images\\1190.jpeg",
+      "PackagePath": "staticwebassets\\Images\\1190.jpeg"
+    },
+    {
+      "Id": "D:\\NewVam_S\\wwwroot\\Images\\1191.jpeg",
+      "PackagePath": "staticwebassets\\Images\\1191.jpeg"
+    },
+    {
+      "Id": "D:\\NewVam_S\\wwwroot\\Images\\12.JPEG",
+      "PackagePath": "staticwebassets\\Images\\12.JPEG"
+    },
+    {
+      "Id": "D:\\NewVam_S\\wwwroot\\Images\\120.jpeg",
+      "PackagePath": "staticwebassets\\Images\\120.jpeg"
+    },
+    {
+      "Id": "D:\\NewVam_S\\wwwroot\\Images\\1200.jpeg",
+      "PackagePath": "staticwebassets\\Images\\1200.jpeg"
+    },
+    {
+      "Id": "D:\\NewVam_S\\wwwroot\\Images\\1201.jpeg",
+      "PackagePath": "staticwebassets\\Images\\1201.jpeg"
+    },
+    {
+      "Id": "D:\\NewVam_S\\wwwroot\\Images\\121.jpeg",
+      "PackagePath": "staticwebassets\\Images\\121.jpeg"
+    },
+    {
+      "Id": "D:\\NewVam_S\\wwwroot\\Images\\1220.JPeG",
+      "PackagePath": "staticwebassets\\Images\\1220.JPeG"
+    },
+    {
+      "Id": "D:\\NewVam_S\\wwwroot\\Images\\1225.jpeg",
+      "PackagePath": "staticwebassets\\Images\\1225.jpeg"
+    },
+    {
+      "Id": "D:\\NewVam_S\\wwwroot\\Images\\1250.jpeg",
+      "PackagePath": "staticwebassets\\Images\\1250.jpeg"
+    },
+    {
+      "Id": "D:\\NewVam_S\\wwwroot\\Images\\1251.jpeg",
+      "PackagePath": "staticwebassets\\Images\\1251.jpeg"
+    },
+    {
+      "Id": "D:\\NewVam_S\\wwwroot\\Images\\1252.jpeg",
+      "PackagePath": "staticwebassets\\Images\\1252.jpeg"
+    },
+    {
+      "Id": "D:\\NewVam_S\\wwwroot\\Images\\1254.jpg",
+      "PackagePath": "staticwebassets\\Images\\1254.jpg"
+    },
+    {
+      "Id": "D:\\NewVam_S\\wwwroot\\Images\\1255.jpeg",
+      "PackagePath": "staticwebassets\\Images\\1255.jpeg"
+    },
+    {
+      "Id": "D:\\NewVam_S\\wwwroot\\Images\\1256.jpeg",
+      "PackagePath": "staticwebassets\\Images\\1256.jpeg"
+    },
+    {
+      "Id": "D:\\NewVam_S\\wwwroot\\Images\\126.jpeg",
+      "PackagePath": "staticwebassets\\Images\\126.jpeg"
+    },
+    {
+      "Id": "D:\\NewVam_S\\wwwroot\\Images\\1264.jpeg",
+      "PackagePath": "staticwebassets\\Images\\1264.jpeg"
+    },
+    {
+      "Id": "D:\\NewVam_S\\wwwroot\\Images\\1265.jpeg",
+      "PackagePath": "staticwebassets\\Images\\1265.jpeg"
+    },
+    {
+      "Id": "D:\\NewVam_S\\wwwroot\\Images\\128.jpeg",
+      "PackagePath": "staticwebassets\\Images\\128.jpeg"
+    },
+    {
+      "Id": "D:\\NewVam_S\\wwwroot\\Images\\129.jpeg",
+      "PackagePath": "staticwebassets\\Images\\129.jpeg"
+    },
+    {
+      "Id": "D:\\NewVam_S\\wwwroot\\Images\\1290.jpeg",
+      "PackagePath": "staticwebassets\\Images\\1290.jpeg"
+    },
+    {
+      "Id": "D:\\NewVam_S\\wwwroot\\Images\\13.JPEG",
+      "PackagePath": "staticwebassets\\Images\\13.JPEG"
+    },
+    {
+      "Id": "D:\\NewVam_S\\wwwroot\\Images\\130.jpeg",
+      "PackagePath": "staticwebassets\\Images\\130.jpeg"
+    },
+    {
+      "Id": "D:\\NewVam_S\\wwwroot\\Images\\134.jpeg",
+      "PackagePath": "staticwebassets\\Images\\134.jpeg"
+    },
+    {
+      "Id": "D:\\NewVam_S\\wwwroot\\Images\\135.jpeg",
+      "PackagePath": "staticwebassets\\Images\\135.jpeg"
+    },
+    {
+      "Id": "D:\\NewVam_S\\wwwroot\\Images\\136.jpeg",
+      "PackagePath": "staticwebassets\\Images\\136.jpeg"
+    },
+    {
+      "Id": "D:\\NewVam_S\\wwwroot\\Images\\1360.jpeg",
+      "PackagePath": "staticwebassets\\Images\\1360.jpeg"
+    },
+    {
+      "Id": "D:\\NewVam_S\\wwwroot\\Images\\1361.jpeg",
+      "PackagePath": "staticwebassets\\Images\\1361.jpeg"
+    },
+    {
+      "Id": "D:\\NewVam_S\\wwwroot\\Images\\1362.jpeg",
+      "PackagePath": "staticwebassets\\Images\\1362.jpeg"
+    },
+    {
+      "Id": "D:\\NewVam_S\\wwwroot\\Images\\1363.jpeg",
+      "PackagePath": "staticwebassets\\Images\\1363.jpeg"
+    },
+    {
+      "Id": "D:\\NewVam_S\\wwwroot\\Images\\1364.jpeg",
+      "PackagePath": "staticwebassets\\Images\\1364.jpeg"
+    },
+    {
+      "Id": "D:\\NewVam_S\\wwwroot\\Images\\1365.jpeg",
+      "PackagePath": "staticwebassets\\Images\\1365.jpeg"
+    },
+    {
+      "Id": "D:\\NewVam_S\\wwwroot\\Images\\1366.jpeg",
+      "PackagePath": "staticwebassets\\Images\\1366.jpeg"
+    },
+    {
+      "Id": "D:\\NewVam_S\\wwwroot\\Images\\1367.jpeg",
+      "PackagePath": "staticwebassets\\Images\\1367.jpeg"
+    },
+    {
+      "Id": "D:\\NewVam_S\\wwwroot\\Images\\14.jpeg",
+      "PackagePath": "staticwebassets\\Images\\14.jpeg"
+    },
+    {
+      "Id": "D:\\NewVam_S\\wwwroot\\Images\\1443.jpeg",
+      "PackagePath": "staticwebassets\\Images\\1443.jpeg"
+    },
+    {
+      "Id": "D:\\NewVam_S\\wwwroot\\Images\\145.jpeg",
+      "PackagePath": "staticwebassets\\Images\\145.jpeg"
+    },
+    {
+      "Id": "D:\\NewVam_S\\wwwroot\\Images\\146.jpeg",
+      "PackagePath": "staticwebassets\\Images\\146.jpeg"
+    },
+    {
+      "Id": "D:\\NewVam_S\\wwwroot\\Images\\147.JPeG",
+      "PackagePath": "staticwebassets\\Images\\147.JPeG"
+    },
+    {
+      "Id": "D:\\NewVam_S\\wwwroot\\Images\\1480.jpeg",
+      "PackagePath": "staticwebassets\\Images\\1480.jpeg"
+    },
+    {
+      "Id": "D:\\NewVam_S\\wwwroot\\Images\\1481.jpeg",
+      "PackagePath": "staticwebassets\\Images\\1481.jpeg"
+    },
+    {
+      "Id": "D:\\NewVam_S\\wwwroot\\Images\\1482.jpeg",
+      "PackagePath": "staticwebassets\\Images\\1482.jpeg"
+    },
+    {
+      "Id": "D:\\NewVam_S\\wwwroot\\Images\\15.JPEG",
+      "PackagePath": "staticwebassets\\Images\\15.JPEG"
+    },
+    {
+      "Id": "D:\\NewVam_S\\wwwroot\\Images\\1500.jpeg",
+      "PackagePath": "staticwebassets\\Images\\1500.jpeg"
+    },
+    {
+      "Id": "D:\\NewVam_S\\wwwroot\\Images\\1502.jpeg",
+      "PackagePath": "staticwebassets\\Images\\1502.jpeg"
+    },
+    {
+      "Id": "D:\\NewVam_S\\wwwroot\\Images\\1532.jpeg",
+      "PackagePath": "staticwebassets\\Images\\1532.jpeg"
+    },
+    {
+      "Id": "D:\\NewVam_S\\wwwroot\\Images\\1533.jpeg",
+      "PackagePath": "staticwebassets\\Images\\1533.jpeg"
+    },
+    {
+      "Id": "D:\\NewVam_S\\wwwroot\\Images\\1550.jpeg",
+      "PackagePath": "staticwebassets\\Images\\1550.jpeg"
+    },
+    {
+      "Id": "D:\\NewVam_S\\wwwroot\\Images\\1551.jpeg",
+      "PackagePath": "staticwebassets\\Images\\1551.jpeg"
+    },
+    {
+      "Id": "D:\\NewVam_S\\wwwroot\\Images\\1552.jpeg",
+      "PackagePath": "staticwebassets\\Images\\1552.jpeg"
+    },
+    {
+      "Id": "D:\\NewVam_S\\wwwroot\\Images\\1553.jpeg",
+      "PackagePath": "staticwebassets\\Images\\1553.jpeg"
+    },
+    {
+      "Id": "D:\\NewVam_S\\wwwroot\\Images\\1554.jpeg",
+      "PackagePath": "staticwebassets\\Images\\1554.jpeg"
+    },
+    {
+      "Id": "D:\\NewVam_S\\wwwroot\\Images\\1557.jpeg",
+      "PackagePath": "staticwebassets\\Images\\1557.jpeg"
+    },
+    {
+      "Id": "D:\\NewVam_S\\wwwroot\\Images\\156.jpeg",
+      "PackagePath": "staticwebassets\\Images\\156.jpeg"
+    },
+    {
+      "Id": "D:\\NewVam_S\\wwwroot\\Images\\1703.JPEG",
+      "PackagePath": "staticwebassets\\Images\\1703.JPEG"
+    },
+    {
+      "Id": "D:\\NewVam_S\\wwwroot\\Images\\1704.JPEG",
+      "PackagePath": "staticwebassets\\Images\\1704.JPEG"
+    },
+    {
+      "Id": "D:\\NewVam_S\\wwwroot\\Images\\1710.jpeg",
+      "PackagePath": "staticwebassets\\Images\\1710.jpeg"
+    },
+    {
+      "Id": "D:\\NewVam_S\\wwwroot\\Images\\1711.JPeG",
+      "PackagePath": "staticwebassets\\Images\\1711.JPeG"
+    },
+    {
+      "Id": "D:\\NewVam_S\\wwwroot\\Images\\18.jpeg",
+      "PackagePath": "staticwebassets\\Images\\18.jpeg"
+    },
+    {
+      "Id": "D:\\NewVam_S\\wwwroot\\Images\\180.jpeg",
+      "PackagePath": "staticwebassets\\Images\\180.jpeg"
+    },
+    {
+      "Id": "D:\\NewVam_S\\wwwroot\\Images\\1802.jpEg",
+      "PackagePath": "staticwebassets\\Images\\1802.jpEg"
+    },
+    {
+      "Id": "D:\\NewVam_S\\wwwroot\\Images\\1803.jpeg",
+      "PackagePath": "staticwebassets\\Images\\1803.jpeg"
+    },
+    {
+      "Id": "D:\\NewVam_S\\wwwroot\\Images\\1808.jpeg",
+      "PackagePath": "staticwebassets\\Images\\1808.jpeg"
+    },
+    {
+      "Id": "D:\\NewVam_S\\wwwroot\\Images\\1809.jpeg",
+      "PackagePath": "staticwebassets\\Images\\1809.jpeg"
+    },
+    {
+      "Id": "D:\\NewVam_S\\wwwroot\\Images\\181.jpeg",
+      "PackagePath": "staticwebassets\\Images\\181.jpeg"
+    },
+    {
+      "Id": "D:\\NewVam_S\\wwwroot\\Images\\1810.jpeg",
+      "PackagePath": "staticwebassets\\Images\\1810.jpeg"
+    },
+    {
+      "Id": "D:\\NewVam_S\\wwwroot\\Images\\183.jpeg",
+      "PackagePath": "staticwebassets\\Images\\183.jpeg"
+    },
+    {
+      "Id": "D:\\NewVam_S\\wwwroot\\Images\\184.JPeG",
+      "PackagePath": "staticwebassets\\Images\\184.JPeG"
+    },
+    {
+      "Id": "D:\\NewVam_S\\wwwroot\\Images\\1840.jpeg",
+      "PackagePath": "staticwebassets\\Images\\1840.jpeg"
+    },
+    {
+      "Id": "D:\\NewVam_S\\wwwroot\\Images\\1841.jpeg",
+      "PackagePath": "staticwebassets\\Images\\1841.jpeg"
+    },
+    {
+      "Id": "D:\\NewVam_S\\wwwroot\\Images\\1842.jpeg",
+      "PackagePath": "staticwebassets\\Images\\1842.jpeg"
+    },
+    {
+      "Id": "D:\\NewVam_S\\wwwroot\\Images\\1843.jpeg",
+      "PackagePath": "staticwebassets\\Images\\1843.jpeg"
+    },
+    {
+      "Id": "D:\\NewVam_S\\wwwroot\\Images\\185.jpeg",
+      "PackagePath": "staticwebassets\\Images\\185.jpeg"
+    },
+    {
+      "Id": "D:\\NewVam_S\\wwwroot\\Images\\19.jpeg",
+      "PackagePath": "staticwebassets\\Images\\19.jpeg"
+    },
+    {
+      "Id": "D:\\NewVam_S\\wwwroot\\Images\\190.JPG",
+      "PackagePath": "staticwebassets\\Images\\190.JPG"
+    },
+    {
+      "Id": "D:\\NewVam_S\\wwwroot\\Images\\190.jpeg",
+      "PackagePath": "staticwebassets\\Images\\190.jpeg"
+    },
+    {
+      "Id": "D:\\NewVam_S\\wwwroot\\Images\\191.jpeg",
+      "PackagePath": "staticwebassets\\Images\\191.jpeg"
+    },
+    {
+      "Id": "D:\\NewVam_S\\wwwroot\\Images\\20.jpeg",
+      "PackagePath": "staticwebassets\\Images\\20.jpeg"
+    },
+    {
+      "Id": "D:\\NewVam_S\\wwwroot\\Images\\200.jpeg",
+      "PackagePath": "staticwebassets\\Images\\200.jpeg"
+    },
+    {
+      "Id": "D:\\NewVam_S\\wwwroot\\Images\\201.jpeg",
+      "PackagePath": "staticwebassets\\Images\\201.jpeg"
+    },
+    {
+      "Id": "D:\\NewVam_S\\wwwroot\\Images\\21.jpeg",
+      "PackagePath": "staticwebassets\\Images\\21.jpeg"
+    },
+    {
+      "Id": "D:\\NewVam_S\\wwwroot\\Images\\214.JPEG",
+      "PackagePath": "staticwebassets\\Images\\214.JPEG"
+    },
+    {
+      "Id": "D:\\NewVam_S\\wwwroot\\Images\\22.jpeg",
+      "PackagePath": "staticwebassets\\Images\\22.jpeg"
+    },
+    {
+      "Id": "D:\\NewVam_S\\wwwroot\\Images\\23.jpeg",
+      "PackagePath": "staticwebassets\\Images\\23.jpeg"
+    },
+    {
+      "Id": "D:\\NewVam_S\\wwwroot\\Images\\237.jpeg",
+      "PackagePath": "staticwebassets\\Images\\237.jpeg"
+    },
+    {
+      "Id": "D:\\NewVam_S\\wwwroot\\Images\\24.jpeg",
+      "PackagePath": "staticwebassets\\Images\\24.jpeg"
+    },
+    {
+      "Id": "D:\\NewVam_S\\wwwroot\\Images\\246.jpeg",
+      "PackagePath": "staticwebassets\\Images\\246.jpeg"
+    },
+    {
+      "Id": "D:\\NewVam_S\\wwwroot\\Images\\247.jpeg",
+      "PackagePath": "staticwebassets\\Images\\247.jpeg"
+    },
+    {
+      "Id": "D:\\NewVam_S\\wwwroot\\Images\\248.jpeg",
+      "PackagePath": "staticwebassets\\Images\\248.jpeg"
+    },
+    {
+      "Id": "D:\\NewVam_S\\wwwroot\\Images\\249.jpeg",
+      "PackagePath": "staticwebassets\\Images\\249.jpeg"
+    },
+    {
+      "Id": "D:\\NewVam_S\\wwwroot\\Images\\25.jpeg",
+      "PackagePath": "staticwebassets\\Images\\25.jpeg"
+    },
+    {
+      "Id": "D:\\NewVam_S\\wwwroot\\Images\\252.jpeg",
+      "PackagePath": "staticwebassets\\Images\\252.jpeg"
+    },
+    {
+      "Id": "D:\\NewVam_S\\wwwroot\\Images\\253.jpeg",
+      "PackagePath": "staticwebassets\\Images\\253.jpeg"
+    },
+    {
+      "Id": "D:\\NewVam_S\\wwwroot\\Images\\260.jpeg",
+      "PackagePath": "staticwebassets\\Images\\260.jpeg"
+    },
+    {
+      "Id": "D:\\NewVam_S\\wwwroot\\Images\\263.jpeg",
+      "PackagePath": "staticwebassets\\Images\\263.jpeg"
+    },
+    {
+      "Id": "D:\\NewVam_S\\wwwroot\\Images\\264.jpeg",
+      "PackagePath": "staticwebassets\\Images\\264.jpeg"
+    },
+    {
+      "Id": "D:\\NewVam_S\\wwwroot\\Images\\265.jpeg",
+      "PackagePath": "staticwebassets\\Images\\265.jpeg"
+    },
+    {
+      "Id": "D:\\NewVam_S\\wwwroot\\Images\\266.jpeg",
+      "PackagePath": "staticwebassets\\Images\\266.jpeg"
+    },
+    {
+      "Id": "D:\\NewVam_S\\wwwroot\\Images\\270.jpeg",
+      "PackagePath": "staticwebassets\\Images\\270.jpeg"
+    },
+    {
+      "Id": "D:\\NewVam_S\\wwwroot\\Images\\280.jpeg",
+      "PackagePath": "staticwebassets\\Images\\280.jpeg"
+    },
+    {
+      "Id": "D:\\NewVam_S\\wwwroot\\Images\\297.jpeg",
+      "PackagePath": "staticwebassets\\Images\\297.jpeg"
+    },
+    {
+      "Id": "D:\\NewVam_S\\wwwroot\\Images\\298.jpeg",
+      "PackagePath": "staticwebassets\\Images\\298.jpeg"
+    },
+    {
+      "Id": "D:\\NewVam_S\\wwwroot\\Images\\299.jpeg",
+      "PackagePath": "staticwebassets\\Images\\299.jpeg"
+    },
+    {
+      "Id": "D:\\NewVam_S\\wwwroot\\Images\\30.jpeg",
+      "PackagePath": "staticwebassets\\Images\\30.jpeg"
+    },
+    {
+      "Id": "D:\\NewVam_S\\wwwroot\\Images\\305.jpeg",
+      "PackagePath": "staticwebassets\\Images\\305.jpeg"
+    },
+    {
+      "Id": "D:\\NewVam_S\\wwwroot\\Images\\31.jpeg",
+      "PackagePath": "staticwebassets\\Images\\31.jpeg"
+    },
+    {
+      "Id": "D:\\NewVam_S\\wwwroot\\Images\\315.jpeg",
+      "PackagePath": "staticwebassets\\Images\\315.jpeg"
+    },
+    {
+      "Id": "D:\\NewVam_S\\wwwroot\\Images\\323.jpeg",
+      "PackagePath": "staticwebassets\\Images\\323.jpeg"
+    },
+    {
+      "Id": "D:\\NewVam_S\\wwwroot\\Images\\325.jpeg",
+      "PackagePath": "staticwebassets\\Images\\325.jpeg"
+    },
+    {
+      "Id": "D:\\NewVam_S\\wwwroot\\Images\\326.jpeg",
+      "PackagePath": "staticwebassets\\Images\\326.jpeg"
+    },
+    {
+      "Id": "D:\\NewVam_S\\wwwroot\\Images\\329.jpeg",
+      "PackagePath": "staticwebassets\\Images\\329.jpeg"
+    },
+    {
+      "Id": "D:\\NewVam_S\\wwwroot\\Images\\337.jpeg",
+      "PackagePath": "staticwebassets\\Images\\337.jpeg"
+    },
+    {
+      "Id": "D:\\NewVam_S\\wwwroot\\Images\\355.jpeg",
+      "PackagePath": "staticwebassets\\Images\\355.jpeg"
+    },
+    {
+      "Id": "D:\\NewVam_S\\wwwroot\\Images\\360.jpeg",
+      "PackagePath": "staticwebassets\\Images\\360.jpeg"
+    },
+    {
+      "Id": "D:\\NewVam_S\\wwwroot\\Images\\361.jpeg",
+      "PackagePath": "staticwebassets\\Images\\361.jpeg"
+    },
+    {
+      "Id": "D:\\NewVam_S\\wwwroot\\Images\\365.jpeg",
+      "PackagePath": "staticwebassets\\Images\\365.jpeg"
+    },
+    {
+      "Id": "D:\\NewVam_S\\wwwroot\\Images\\366.jpeg",
+      "PackagePath": "staticwebassets\\Images\\366.jpeg"
+    },
+    {
+      "Id": "D:\\NewVam_S\\wwwroot\\Images\\367.jpeg",
+      "PackagePath": "staticwebassets\\Images\\367.jpeg"
+    },
+    {
+      "Id": "D:\\NewVam_S\\wwwroot\\Images\\368.jpeg",
+      "PackagePath": "staticwebassets\\Images\\368.jpeg"
+    },
+    {
+      "Id": "D:\\NewVam_S\\wwwroot\\Images\\369.jpeg",
+      "PackagePath": "staticwebassets\\Images\\369.jpeg"
+    },
+    {
+      "Id": "D:\\NewVam_S\\wwwroot\\Images\\370.jpeg",
+      "PackagePath": "staticwebassets\\Images\\370.jpeg"
+    },
+    {
+      "Id": "D:\\NewVam_S\\wwwroot\\Images\\372.jpeg",
+      "PackagePath": "staticwebassets\\Images\\372.jpeg"
+    },
+    {
+      "Id": "D:\\NewVam_S\\wwwroot\\Images\\375.jpeg",
+      "PackagePath": "staticwebassets\\Images\\375.jpeg"
+    },
+    {
+      "Id": "D:\\NewVam_S\\wwwroot\\Images\\386.jpeg",
+      "PackagePath": "staticwebassets\\Images\\386.jpeg"
+    },
+    {
+      "Id": "D:\\NewVam_S\\wwwroot\\Images\\388.jpeg",
+      "PackagePath": "staticwebassets\\Images\\388.jpeg"
+    },
+    {
+      "Id": "D:\\NewVam_S\\wwwroot\\Images\\389.jpeg",
+      "PackagePath": "staticwebassets\\Images\\389.jpeg"
+    },
+    {
+      "Id": "D:\\NewVam_S\\wwwroot\\Images\\390.jpeg",
+      "PackagePath": "staticwebassets\\Images\\390.jpeg"
+    },
+    {
+      "Id": "D:\\NewVam_S\\wwwroot\\Images\\402.jpeg",
+      "PackagePath": "staticwebassets\\Images\\402.jpeg"
+    },
+    {
+      "Id": "D:\\NewVam_S\\wwwroot\\Images\\41.jpeg",
+      "PackagePath": "staticwebassets\\Images\\41.jpeg"
+    },
+    {
+      "Id": "D:\\NewVam_S\\wwwroot\\Images\\410.jpeg",
+      "PackagePath": "staticwebassets\\Images\\410.jpeg"
+    },
+    {
+      "Id": "D:\\NewVam_S\\wwwroot\\Images\\411.jpeg",
+      "PackagePath": "staticwebassets\\Images\\411.jpeg"
+    },
+    {
+      "Id": "D:\\NewVam_S\\wwwroot\\Images\\415.jpeg",
+      "PackagePath": "staticwebassets\\Images\\415.jpeg"
+    },
+    {
+      "Id": "D:\\NewVam_S\\wwwroot\\Images\\416.jpeg",
+      "PackagePath": "staticwebassets\\Images\\416.jpeg"
+    },
+    {
+      "Id": "D:\\NewVam_S\\wwwroot\\Images\\430.JPEG",
+      "PackagePath": "staticwebassets\\Images\\430.JPEG"
+    },
+    {
+      "Id": "D:\\NewVam_S\\wwwroot\\Images\\435.jpeg",
+      "PackagePath": "staticwebassets\\Images\\435.jpeg"
+    },
+    {
+      "Id": "D:\\NewVam_S\\wwwroot\\Images\\436.jpeg",
+      "PackagePath": "staticwebassets\\Images\\436.jpeg"
+    },
+    {
+      "Id": "D:\\NewVam_S\\wwwroot\\Images\\440.jpeg",
+      "PackagePath": "staticwebassets\\Images\\440.jpeg"
+    },
+    {
+      "Id": "D:\\NewVam_S\\wwwroot\\Images\\446.JPEG",
+      "PackagePath": "staticwebassets\\Images\\446.JPEG"
+    },
+    {
+      "Id": "D:\\NewVam_S\\wwwroot\\Images\\450.jpeg",
+      "PackagePath": "staticwebassets\\Images\\450.jpeg"
+    },
+    {
+      "Id": "D:\\NewVam_S\\wwwroot\\Images\\452.jpeg",
+      "PackagePath": "staticwebassets\\Images\\452.jpeg"
+    },
+    {
+      "Id": "D:\\NewVam_S\\wwwroot\\Images\\453.jpeg",
+      "PackagePath": "staticwebassets\\Images\\453.jpeg"
+    },
+    {
+      "Id": "D:\\NewVam_S\\wwwroot\\Images\\454.jpeg",
+      "PackagePath": "staticwebassets\\Images\\454.jpeg"
+    },
+    {
+      "Id": "D:\\NewVam_S\\wwwroot\\Images\\455.jpeg",
+      "PackagePath": "staticwebassets\\Images\\455.jpeg"
+    },
+    {
+      "Id": "D:\\NewVam_S\\wwwroot\\Images\\465.jpeg",
+      "PackagePath": "staticwebassets\\Images\\465.jpeg"
+    },
+    {
+      "Id": "D:\\NewVam_S\\wwwroot\\Images\\466.jpeg",
+      "PackagePath": "staticwebassets\\Images\\466.jpeg"
+    },
+    {
+      "Id": "D:\\NewVam_S\\wwwroot\\Images\\467.jpeg",
+      "PackagePath": "staticwebassets\\Images\\467.jpeg"
+    },
+    {
+      "Id": "D:\\NewVam_S\\wwwroot\\Images\\469.jpeg",
+      "PackagePath": "staticwebassets\\Images\\469.jpeg"
+    },
+    {
+      "Id": "D:\\NewVam_S\\wwwroot\\Images\\475.jpeg",
+      "PackagePath": "staticwebassets\\Images\\475.jpeg"
+    },
+    {
+      "Id": "D:\\NewVam_S\\wwwroot\\Images\\476.jpeg",
+      "PackagePath": "staticwebassets\\Images\\476.jpeg"
+    },
+    {
+      "Id": "D:\\NewVam_S\\wwwroot\\Images\\477.jpeg",
+      "PackagePath": "staticwebassets\\Images\\477.jpeg"
+    },
+    {
+      "Id": "D:\\NewVam_S\\wwwroot\\Images\\478.jpeg",
+      "PackagePath": "staticwebassets\\Images\\478.jpeg"
+    },
+    {
+      "Id": "D:\\NewVam_S\\wwwroot\\Images\\479.jpeg",
+      "PackagePath": "staticwebassets\\Images\\479.jpeg"
+    },
+    {
+      "Id": "D:\\NewVam_S\\wwwroot\\Images\\499.JPEG",
+      "PackagePath": "staticwebassets\\Images\\499.JPEG"
+    },
+    {
+      "Id": "D:\\NewVam_S\\wwwroot\\Images\\505.JPEG",
+      "PackagePath": "staticwebassets\\Images\\505.JPEG"
+    },
+    {
+      "Id": "D:\\NewVam_S\\wwwroot\\Images\\506.JPEG",
+      "PackagePath": "staticwebassets\\Images\\506.JPEG"
+    },
+    {
+      "Id": "D:\\NewVam_S\\wwwroot\\Images\\520.jpeg",
+      "PackagePath": "staticwebassets\\Images\\520.jpeg"
+    },
+    {
+      "Id": "D:\\NewVam_S\\wwwroot\\Images\\521.jpeg",
+      "PackagePath": "staticwebassets\\Images\\521.jpeg"
+    },
+    {
+      "Id": "D:\\NewVam_S\\wwwroot\\Images\\522.jpeg",
+      "PackagePath": "staticwebassets\\Images\\522.jpeg"
+    },
+    {
+      "Id": "D:\\NewVam_S\\wwwroot\\Images\\523.jpeg",
+      "PackagePath": "staticwebassets\\Images\\523.jpeg"
+    },
+    {
+      "Id": "D:\\NewVam_S\\wwwroot\\Images\\525.jpEg",
+      "PackagePath": "staticwebassets\\Images\\525.jpEg"
+    },
+    {
+      "Id": "D:\\NewVam_S\\wwwroot\\Images\\535.jpeg",
+      "PackagePath": "staticwebassets\\Images\\535.jpeg"
+    },
+    {
+      "Id": "D:\\NewVam_S\\wwwroot\\Images\\536.jpeg",
+      "PackagePath": "staticwebassets\\Images\\536.jpeg"
+    },
+    {
+      "Id": "D:\\NewVam_S\\wwwroot\\Images\\549.jpeg",
+      "PackagePath": "staticwebassets\\Images\\549.jpeg"
+    },
+    {
+      "Id": "D:\\NewVam_S\\wwwroot\\Images\\553.jpeg",
+      "PackagePath": "staticwebassets\\Images\\553.jpeg"
+    },
+    {
+      "Id": "D:\\NewVam_S\\wwwroot\\Images\\554.jpeg",
+      "PackagePath": "staticwebassets\\Images\\554.jpeg"
+    },
+    {
+      "Id": "D:\\NewVam_S\\wwwroot\\Images\\555.jpeg",
+      "PackagePath": "staticwebassets\\Images\\555.jpeg"
+    },
+    {
+      "Id": "D:\\NewVam_S\\wwwroot\\Images\\556.jpeg",
+      "PackagePath": "staticwebassets\\Images\\556.jpeg"
+    },
+    {
+      "Id": "D:\\NewVam_S\\wwwroot\\Images\\583.jpeg",
+      "PackagePath": "staticwebassets\\Images\\583.jpeg"
+    },
+    {
+      "Id": "D:\\NewVam_S\\wwwroot\\Images\\590.jpeg",
+      "PackagePath": "staticwebassets\\Images\\590.jpeg"
+    },
+    {
+      "Id": "D:\\NewVam_S\\wwwroot\\Images\\605.jpeg",
+      "PackagePath": "staticwebassets\\Images\\605.jpeg"
+    },
+    {
+      "Id": "D:\\NewVam_S\\wwwroot\\Images\\606.jpeg",
+      "PackagePath": "staticwebassets\\Images\\606.jpeg"
+    },
+    {
+      "Id": "D:\\NewVam_S\\wwwroot\\Images\\608.jpeg",
+      "PackagePath": "staticwebassets\\Images\\608.jpeg"
+    },
+    {
+      "Id": "D:\\NewVam_S\\wwwroot\\Images\\620.jpeg",
+      "PackagePath": "staticwebassets\\Images\\620.jpeg"
+    },
+    {
+      "Id": "D:\\NewVam_S\\wwwroot\\Images\\627.jpeg",
+      "PackagePath": "staticwebassets\\Images\\627.jpeg"
+    },
+    {
+      "Id": "D:\\NewVam_S\\wwwroot\\Images\\628.jpeg",
+      "PackagePath": "staticwebassets\\Images\\628.jpeg"
+    },
+    {
+      "Id": "D:\\NewVam_S\\wwwroot\\Images\\630.jpeg",
+      "PackagePath": "staticwebassets\\Images\\630.jpeg"
+    },
+    {
+      "Id": "D:\\NewVam_S\\wwwroot\\Images\\647.jpeg",
+      "PackagePath": "staticwebassets\\Images\\647.jpeg"
+    },
+    {
+      "Id": "D:\\NewVam_S\\wwwroot\\Images\\65.jpeg",
+      "PackagePath": "staticwebassets\\Images\\65.jpeg"
+    },
+    {
+      "Id": "D:\\NewVam_S\\wwwroot\\Images\\650.jpeg",
+      "PackagePath": "staticwebassets\\Images\\650.jpeg"
+    },
+    {
+      "Id": "D:\\NewVam_S\\wwwroot\\Images\\651.jpeg",
+      "PackagePath": "staticwebassets\\Images\\651.jpeg"
+    },
+    {
+      "Id": "D:\\NewVam_S\\wwwroot\\Images\\66.jpeg",
+      "PackagePath": "staticwebassets\\Images\\66.jpeg"
+    },
+    {
+      "Id": "D:\\NewVam_S\\wwwroot\\Images\\665.jpeg",
+      "PackagePath": "staticwebassets\\Images\\665.jpeg"
+    },
+    {
+      "Id": "D:\\NewVam_S\\wwwroot\\Images\\666.jpeg",
+      "PackagePath": "staticwebassets\\Images\\666.jpeg"
+    },
+    {
+      "Id": "D:\\NewVam_S\\wwwroot\\Images\\667.jpeg",
+      "PackagePath": "staticwebassets\\Images\\667.jpeg"
+    },
+    {
+      "Id": "D:\\NewVam_S\\wwwroot\\Images\\67.jpeg",
+      "PackagePath": "staticwebassets\\Images\\67.jpeg"
+    },
+    {
+      "Id": "D:\\NewVam_S\\wwwroot\\Images\\670.jpeg",
+      "PackagePath": "staticwebassets\\Images\\670.jpeg"
+    },
+    {
+      "Id": "D:\\NewVam_S\\wwwroot\\Images\\671.jpeg",
+      "PackagePath": "staticwebassets\\Images\\671.jpeg"
+    },
+    {
+      "Id": "D:\\NewVam_S\\wwwroot\\Images\\685.jpeg",
+      "PackagePath": "staticwebassets\\Images\\685.jpeg"
+    },
+    {
+      "Id": "D:\\NewVam_S\\wwwroot\\Images\\709.JPEG",
+      "PackagePath": "staticwebassets\\Images\\709.JPEG"
+    },
+    {
+      "Id": "D:\\NewVam_S\\wwwroot\\Images\\712.jpeg",
+      "PackagePath": "staticwebassets\\Images\\712.jpeg"
+    },
+    {
+      "Id": "D:\\NewVam_S\\wwwroot\\Images\\725.jpeg",
+      "PackagePath": "staticwebassets\\Images\\725.jpeg"
+    },
+    {
+      "Id": "D:\\NewVam_S\\wwwroot\\Images\\726.jpeg",
+      "PackagePath": "staticwebassets\\Images\\726.jpeg"
+    },
+    {
+      "Id": "D:\\NewVam_S\\wwwroot\\Images\\727.jpeg",
+      "PackagePath": "staticwebassets\\Images\\727.jpeg"
+    },
+    {
+      "Id": "D:\\NewVam_S\\wwwroot\\Images\\730.jpeg",
+      "PackagePath": "staticwebassets\\Images\\730.jpeg"
+    },
+    {
+      "Id": "D:\\NewVam_S\\wwwroot\\Images\\731.jpeg",
+      "PackagePath": "staticwebassets\\Images\\731.jpeg"
+    },
+    {
+      "Id": "D:\\NewVam_S\\wwwroot\\Images\\732.jpeg",
+      "PackagePath": "staticwebassets\\Images\\732.jpeg"
+    },
+    {
+      "Id": "D:\\NewVam_S\\wwwroot\\Images\\733.jpeg",
+      "PackagePath": "staticwebassets\\Images\\733.jpeg"
+    },
+    {
+      "Id": "D:\\NewVam_S\\wwwroot\\Images\\765.JPeG",
+      "PackagePath": "staticwebassets\\Images\\765.JPeG"
+    },
+    {
+      "Id": "D:\\NewVam_S\\wwwroot\\Images\\766.JPeG",
+      "PackagePath": "staticwebassets\\Images\\766.JPeG"
+    },
+    {
+      "Id": "D:\\NewVam_S\\wwwroot\\Images\\770.jpeg",
+      "PackagePath": "staticwebassets\\Images\\770.jpeg"
+    },
+    {
+      "Id": "D:\\NewVam_S\\wwwroot\\Images\\780.jpeg",
+      "PackagePath": "staticwebassets\\Images\\780.jpeg"
+    },
+    {
+      "Id": "D:\\NewVam_S\\wwwroot\\Images\\781.jpeg",
+      "PackagePath": "staticwebassets\\Images\\781.jpeg"
+    },
+    {
+      "Id": "D:\\NewVam_S\\wwwroot\\Images\\782.jpeg",
+      "PackagePath": "staticwebassets\\Images\\782.jpeg"
+    },
+    {
+      "Id": "D:\\NewVam_S\\wwwroot\\Images\\783.jpeg",
+      "PackagePath": "staticwebassets\\Images\\783.jpeg"
+    },
+    {
+      "Id": "D:\\NewVam_S\\wwwroot\\Images\\785.jpeg",
+      "PackagePath": "staticwebassets\\Images\\785.jpeg"
+    },
+    {
+      "Id": "D:\\NewVam_S\\wwwroot\\Images\\786.jpeg",
+      "PackagePath": "staticwebassets\\Images\\786.jpeg"
+    },
+    {
+      "Id": "D:\\NewVam_S\\wwwroot\\Images\\815.jpeg",
+      "PackagePath": "staticwebassets\\Images\\815.jpeg"
+    },
+    {
+      "Id": "D:\\NewVam_S\\wwwroot\\Images\\816.jpeg",
+      "PackagePath": "staticwebassets\\Images\\816.jpeg"
+    },
+    {
+      "Id": "D:\\NewVam_S\\wwwroot\\Images\\834.jpeg",
+      "PackagePath": "staticwebassets\\Images\\834.jpeg"
+    },
+    {
+      "Id": "D:\\NewVam_S\\wwwroot\\Images\\850.jpeg",
+      "PackagePath": "staticwebassets\\Images\\850.jpeg"
+    },
+    {
+      "Id": "D:\\NewVam_S\\wwwroot\\Images\\851.jpeg",
+      "PackagePath": "staticwebassets\\Images\\851.jpeg"
+    },
+    {
+      "Id": "D:\\NewVam_S\\wwwroot\\Images\\852.jpeg",
+      "PackagePath": "staticwebassets\\Images\\852.jpeg"
+    },
+    {
+      "Id": "D:\\NewVam_S\\wwwroot\\Images\\853.jpeg",
+      "PackagePath": "staticwebassets\\Images\\853.jpeg"
+    },
+    {
+      "Id": "D:\\NewVam_S\\wwwroot\\Images\\854.jpeg",
+      "PackagePath": "staticwebassets\\Images\\854.jpeg"
+    },
+    {
+      "Id": "D:\\NewVam_S\\wwwroot\\Images\\86.JPEG",
+      "PackagePath": "staticwebassets\\Images\\86.JPEG"
+    },
+    {
+      "Id": "D:\\NewVam_S\\wwwroot\\Images\\895.jpeg",
+      "PackagePath": "staticwebassets\\Images\\895.jpeg"
+    },
+    {
+      "Id": "D:\\NewVam_S\\wwwroot\\Images\\896.jpeg",
+      "PackagePath": "staticwebassets\\Images\\896.jpeg"
+    },
+    {
+      "Id": "D:\\NewVam_S\\wwwroot\\Images\\920.jpeg",
+      "PackagePath": "staticwebassets\\Images\\920.jpeg"
+    },
+    {
+      "Id": "D:\\NewVam_S\\wwwroot\\Images\\921.jpeg",
+      "PackagePath": "staticwebassets\\Images\\921.jpeg"
+    },
+    {
+      "Id": "D:\\NewVam_S\\wwwroot\\Images\\922.jpeg",
+      "PackagePath": "staticwebassets\\Images\\922.jpeg"
+    },
+    {
+      "Id": "D:\\NewVam_S\\wwwroot\\Images\\923.jpeg",
+      "PackagePath": "staticwebassets\\Images\\923.jpeg"
+    },
+    {
+      "Id": "D:\\NewVam_S\\wwwroot\\Images\\924.jpeg",
+      "PackagePath": "staticwebassets\\Images\\924.jpeg"
+    },
+    {
+      "Id": "D:\\NewVam_S\\wwwroot\\Images\\925.jpeg",
+      "PackagePath": "staticwebassets\\Images\\925.jpeg"
+    },
+    {
+      "Id": "D:\\NewVam_S\\wwwroot\\Images\\926.jpeg",
+      "PackagePath": "staticwebassets\\Images\\926.jpeg"
+    },
+    {
+      "Id": "D:\\NewVam_S\\wwwroot\\Images\\927.jpeg",
+      "PackagePath": "staticwebassets\\Images\\927.jpeg"
+    },
+    {
+      "Id": "D:\\NewVam_S\\wwwroot\\Images\\928.jpeg",
+      "PackagePath": "staticwebassets\\Images\\928.jpeg"
+    },
+    {
+      "Id": "D:\\NewVam_S\\wwwroot\\Images\\940.jpeg",
+      "PackagePath": "staticwebassets\\Images\\940.jpeg"
+    },
+    {
+      "Id": "D:\\NewVam_S\\wwwroot\\Images\\941.jpeg",
+      "PackagePath": "staticwebassets\\Images\\941.jpeg"
+    },
+    {
+      "Id": "D:\\NewVam_S\\wwwroot\\Images\\954.jpeg",
+      "PackagePath": "staticwebassets\\Images\\954.jpeg"
+    },
+    {
+      "Id": "D:\\NewVam_S\\wwwroot\\Images\\956.jpeg",
+      "PackagePath": "staticwebassets\\Images\\956.jpeg"
+    },
+    {
+      "Id": "D:\\NewVam_S\\wwwroot\\Images\\957.jpeg",
+      "PackagePath": "staticwebassets\\Images\\957.jpeg"
+    },
+    {
+      "Id": "D:\\NewVam_S\\wwwroot\\Images\\958.jpeg",
+      "PackagePath": "staticwebassets\\Images\\958.jpeg"
+    },
+    {
+      "Id": "D:\\NewVam_S\\wwwroot\\Images\\959.jpeg",
+      "PackagePath": "staticwebassets\\Images\\959.jpeg"
+    },
+    {
+      "Id": "D:\\NewVam_S\\wwwroot\\Images\\961.jpeg",
+      "PackagePath": "staticwebassets\\Images\\961.jpeg"
+    },
+    {
+      "Id": "D:\\NewVam_S\\wwwroot\\Images\\970.jpeg",
+      "PackagePath": "staticwebassets\\Images\\970.jpeg"
+    },
+    {
+      "Id": "D:\\NewVam_S\\wwwroot\\Images\\971.jpeg",
+      "PackagePath": "staticwebassets\\Images\\971.jpeg"
+    },
+    {
+      "Id": "D:\\NewVam_S\\wwwroot\\Images\\972.jpeg",
+      "PackagePath": "staticwebassets\\Images\\972.jpeg"
+    },
+    {
+      "Id": "D:\\NewVam_S\\wwwroot\\Images\\973.jpeg",
+      "PackagePath": "staticwebassets\\Images\\973.jpeg"
+    },
+    {
+      "Id": "D:\\NewVam_S\\wwwroot\\Images\\974.jpeg",
+      "PackagePath": "staticwebassets\\Images\\974.jpeg"
+    },
+    {
+      "Id": "D:\\NewVam_S\\wwwroot\\Images\\975.jpeg",
+      "PackagePath": "staticwebassets\\Images\\975.jpeg"
+    },
+    {
+      "Id": "D:\\NewVam_S\\wwwroot\\Images\\976.jpeg",
+      "PackagePath": "staticwebassets\\Images\\976.jpeg"
+    },
+    {
+      "Id": "D:\\NewVam_S\\wwwroot\\Images\\977.jpeg",
+      "PackagePath": "staticwebassets\\Images\\977.jpeg"
+    },
+    {
+      "Id": "D:\\NewVam_S\\wwwroot\\Images\\978.jpeg",
+      "PackagePath": "staticwebassets\\Images\\978.jpeg"
+    },
+    {
+      "Id": "D:\\NewVam_S\\wwwroot\\Images\\979.jpeg",
+      "PackagePath": "staticwebassets\\Images\\979.jpeg"
+    },
+    {
+      "Id": "D:\\NewVam_S\\wwwroot\\Images\\980.jpeg",
+      "PackagePath": "staticwebassets\\Images\\980.jpeg"
+    },
+    {
+      "Id": "D:\\NewVam_S\\wwwroot\\Images\\981.jpeg",
+      "PackagePath": "staticwebassets\\Images\\981.jpeg"
+    },
+    {
+      "Id": "D:\\NewVam_S\\wwwroot\\Images\\992.jpeg",
+      "PackagePath": "staticwebassets\\Images\\992.jpeg"
+    },
+    {
+      "Id": "D:\\NewVam_S\\wwwroot\\Images\\993.jpeg",
+      "PackagePath": "staticwebassets\\Images\\993.jpeg"
+    },
+    {
+      "Id": "D:\\NewVam_S\\wwwroot\\Images\\FirstPublish.jpg",
+      "PackagePath": "staticwebassets\\Images\\FirstPublish.jpg"
+    },
+    {
+      "Id": "D:\\NewVam_S\\wwwroot\\Images\\OldSys1.png",
+      "PackagePath": "staticwebassets\\Images\\OldSys1.png"
+    },
+    {
+      "Id": "D:\\NewVam_S\\wwwroot\\Images\\OldSys2.png",
+      "PackagePath": "staticwebassets\\Images\\OldSys2.png"
+    },
+    {
+      "Id": "D:\\NewVam_S\\wwwroot\\Images\\OldSys3.png",
+      "PackagePath": "staticwebassets\\Images\\OldSys3.png"
+    },
+    {
+      "Id": "D:\\NewVam_S\\wwwroot\\Images\\SSL_License.png",
+      "PackagePath": "staticwebassets\\Images\\SSL_License.png"
+    },
+    {
+      "Id": "D:\\NewVam_S\\wwwroot\\Images\\mql5_info.png",
+      "PackagePath": "staticwebassets\\Images\\mql5_info.png"
+    },
+    {
+      "Id": "D:\\NewVam_S\\wwwroot\\Images\\pic.rar",
+      "PackagePath": "staticwebassets\\Images\\pic.rar"
+    },
+    {
+      "Id": "D:\\NewVam_S\\wwwroot\\Images\\sun.ico",
+      "PackagePath": "staticwebassets\\Images\\sun.ico"
+    },
+    {
+      "Id": "D:\\NewVam_S\\wwwroot\\Images\\sun1.jpeg",
+      "PackagePath": "staticwebassets\\Images\\sun1.jpeg"
+    },
+    {
+      "Id": "D:\\NewVam_S\\wwwroot\\css\\bootstrap\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\css\\bootstrap\\bootstrap.min.css"
+    },
+    {
+      "Id": "D:\\NewVam_S\\wwwroot\\css\\bootstrap\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\css\\bootstrap\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "D:\\NewVam_S\\wwwroot\\css\\open-iconic\\FONT-LICENSE",
+      "PackagePath": "staticwebassets\\css\\open-iconic"
+    },
+    {
+      "Id": "D:\\NewVam_S\\wwwroot\\css\\open-iconic\\ICON-LICENSE",
+      "PackagePath": "staticwebassets\\css\\open-iconic"
+    },
+    {
+      "Id": "D:\\NewVam_S\\wwwroot\\css\\open-iconic\\README.md",
+      "PackagePath": "staticwebassets\\css\\open-iconic\\README.md"
+    },
+    {
+      "Id": "D:\\NewVam_S\\wwwroot\\css\\open-iconic\\font\\css\\open-iconic-bootstrap.min.css",
+      "PackagePath": "staticwebassets\\css\\open-iconic\\font\\css\\open-iconic-bootstrap.min.css"
+    },
+    {
+      "Id": "D:\\NewVam_S\\wwwroot\\css\\open-iconic\\font\\fonts\\IranSans\\IRANSansXBlack.ttf",
+      "PackagePath": "staticwebassets\\css\\open-iconic\\font\\fonts\\IranSans\\IRANSansXBlack.ttf"
+    },
+    {
+      "Id": "D:\\NewVam_S\\wwwroot\\css\\open-iconic\\font\\fonts\\IranSans\\IRANSansXBold.ttf",
+      "PackagePath": "staticwebassets\\css\\open-iconic\\font\\fonts\\IranSans\\IRANSansXBold.ttf"
+    },
+    {
+      "Id": "D:\\NewVam_S\\wwwroot\\css\\open-iconic\\font\\fonts\\IranSans\\IRANSansXDemiBold.ttf",
+      "PackagePath": "staticwebassets\\css\\open-iconic\\font\\fonts\\IranSans\\IRANSansXDemiBold.ttf"
+    },
+    {
+      "Id": "D:\\NewVam_S\\wwwroot\\css\\open-iconic\\font\\fonts\\IranSans\\IRANSansXExtraBold.ttf",
+      "PackagePath": "staticwebassets\\css\\open-iconic\\font\\fonts\\IranSans\\IRANSansXExtraBold.ttf"
+    },
+    {
+      "Id": "D:\\NewVam_S\\wwwroot\\css\\open-iconic\\font\\fonts\\IranSans\\IRANSansXLight.ttf",
+      "PackagePath": "staticwebassets\\css\\open-iconic\\font\\fonts\\IranSans\\IRANSansXLight.ttf"
+    },
+    {
+      "Id": "D:\\NewVam_S\\wwwroot\\css\\open-iconic\\font\\fonts\\IranSans\\IRANSansXMedium.ttf",
+      "PackagePath": "staticwebassets\\css\\open-iconic\\font\\fonts\\IranSans\\IRANSansXMedium.ttf"
+    },
+    {
+      "Id": "D:\\NewVam_S\\wwwroot\\css\\open-iconic\\font\\fonts\\IranSans\\IRANSansXRegular.ttf",
+      "PackagePath": "staticwebassets\\css\\open-iconic\\font\\fonts\\IranSans\\IRANSansXRegular.ttf"
+    },
+    {
+      "Id": "D:\\NewVam_S\\wwwroot\\css\\open-iconic\\font\\fonts\\IranSans\\IRANSansXThin.ttf",
+      "PackagePath": "staticwebassets\\css\\open-iconic\\font\\fonts\\IranSans\\IRANSansXThin.ttf"
+    },
+    {
+      "Id": "D:\\NewVam_S\\wwwroot\\css\\open-iconic\\font\\fonts\\IranSans\\IRANSansXUltraLight.ttf",
+      "PackagePath": "staticwebassets\\css\\open-iconic\\font\\fonts\\IranSans\\IRANSansXUltraLight.ttf"
+    },
+    {
+      "Id": "D:\\NewVam_S\\wwwroot\\css\\open-iconic\\font\\fonts\\Samim\\Samim-Bold.ttf",
+      "PackagePath": "staticwebassets\\css\\open-iconic\\font\\fonts\\Samim\\Samim-Bold.ttf"
+    },
+    {
+      "Id": "D:\\NewVam_S\\wwwroot\\css\\open-iconic\\font\\fonts\\Samim\\Samim-Medium.ttf",
+      "PackagePath": "staticwebassets\\css\\open-iconic\\font\\fonts\\Samim\\Samim-Medium.ttf"
+    },
+    {
+      "Id": "D:\\NewVam_S\\wwwroot\\css\\open-iconic\\font\\fonts\\Samim\\Samim.ttf",
+      "PackagePath": "staticwebassets\\css\\open-iconic\\font\\fonts\\Samim\\Samim.ttf"
+    },
+    {
+      "Id": "D:\\NewVam_S\\wwwroot\\css\\open-iconic\\font\\fonts\\Shabnam\\CHANGELOG.md",
+      "PackagePath": "staticwebassets\\css\\open-iconic\\font\\fonts\\Shabnam\\CHANGELOG.md"
+    },
+    {
+      "Id": "D:\\NewVam_S\\wwwroot\\css\\open-iconic\\font\\fonts\\Shabnam\\Farsi-Digits-Without-Latin\\Shabnam-Bold-FD-WOL.eot",
+      "PackagePath": "staticwebassets\\css\\open-iconic\\font\\fonts\\Shabnam\\Farsi-Digits-Without-Latin\\Shabnam-Bold-FD-WOL.eot"
+    },
+    {
+      "Id": "D:\\NewVam_S\\wwwroot\\css\\open-iconic\\font\\fonts\\Shabnam\\Farsi-Digits-Without-Latin\\Shabnam-Bold-FD-WOL.ttf",
+      "PackagePath": "staticwebassets\\css\\open-iconic\\font\\fonts\\Shabnam\\Farsi-Digits-Without-Latin\\Shabnam-Bold-FD-WOL.ttf"
+    },
+    {
+      "Id": "D:\\NewVam_S\\wwwroot\\css\\open-iconic\\font\\fonts\\Shabnam\\Farsi-Digits-Without-Latin\\Shabnam-Bold-FD-WOL.woff",
+      "PackagePath": "staticwebassets\\css\\open-iconic\\font\\fonts\\Shabnam\\Farsi-Digits-Without-Latin\\Shabnam-Bold-FD-WOL.woff"
+    },
+    {
+      "Id": "D:\\NewVam_S\\wwwroot\\css\\open-iconic\\font\\fonts\\Shabnam\\Farsi-Digits-Without-Latin\\Shabnam-Bold-FD-WOL.woff2",
+      "PackagePath": "staticwebassets\\css\\open-iconic\\font\\fonts\\Shabnam\\Farsi-Digits-Without-Latin\\Shabnam-Bold-FD-WOL.woff2"
+    },
+    {
+      "Id": "D:\\NewVam_S\\wwwroot\\css\\open-iconic\\font\\fonts\\Shabnam\\Farsi-Digits-Without-Latin\\Shabnam-FD-WOL.eot",
+      "PackagePath": "staticwebassets\\css\\open-iconic\\font\\fonts\\Shabnam\\Farsi-Digits-Without-Latin\\Shabnam-FD-WOL.eot"
+    },
+    {
+      "Id": "D:\\NewVam_S\\wwwroot\\css\\open-iconic\\font\\fonts\\Shabnam\\Farsi-Digits-Without-Latin\\Shabnam-FD-WOL.ttf",
+      "PackagePath": "staticwebassets\\css\\open-iconic\\font\\fonts\\Shabnam\\Farsi-Digits-Without-Latin\\Shabnam-FD-WOL.ttf"
+    },
+    {
+      "Id": "D:\\NewVam_S\\wwwroot\\css\\open-iconic\\font\\fonts\\Shabnam\\Farsi-Digits-Without-Latin\\Shabnam-FD-WOL.woff",
+      "PackagePath": "staticwebassets\\css\\open-iconic\\font\\fonts\\Shabnam\\Farsi-Digits-Without-Latin\\Shabnam-FD-WOL.woff"
+    },
+    {
+      "Id": "D:\\NewVam_S\\wwwroot\\css\\open-iconic\\font\\fonts\\Shabnam\\Farsi-Digits-Without-Latin\\Shabnam-FD-WOL.woff2",
+      "PackagePath": "staticwebassets\\css\\open-iconic\\font\\fonts\\Shabnam\\Farsi-Digits-Without-Latin\\Shabnam-FD-WOL.woff2"
+    },
+    {
+      "Id": "D:\\NewVam_S\\wwwroot\\css\\open-iconic\\font\\fonts\\Shabnam\\Farsi-Digits-Without-Latin\\Shabnam-Light-FD-WOL.eot",
+      "PackagePath": "staticwebassets\\css\\open-iconic\\font\\fonts\\Shabnam\\Farsi-Digits-Without-Latin\\Shabnam-Light-FD-WOL.eot"
+    },
+    {
+      "Id": "D:\\NewVam_S\\wwwroot\\css\\open-iconic\\font\\fonts\\Shabnam\\Farsi-Digits-Without-Latin\\Shabnam-Light-FD-WOL.ttf",
+      "PackagePath": "staticwebassets\\css\\open-iconic\\font\\fonts\\Shabnam\\Farsi-Digits-Without-Latin\\Shabnam-Light-FD-WOL.ttf"
+    },
+    {
+      "Id": "D:\\NewVam_S\\wwwroot\\css\\open-iconic\\font\\fonts\\Shabnam\\Farsi-Digits-Without-Latin\\Shabnam-Light-FD-WOL.woff",
+      "PackagePath": "staticwebassets\\css\\open-iconic\\font\\fonts\\Shabnam\\Farsi-Digits-Without-Latin\\Shabnam-Light-FD-WOL.woff"
+    },
+    {
+      "Id": "D:\\NewVam_S\\wwwroot\\css\\open-iconic\\font\\fonts\\Shabnam\\Farsi-Digits-Without-Latin\\Shabnam-Light-FD-WOL.woff2",
+      "PackagePath": "staticwebassets\\css\\open-iconic\\font\\fonts\\Shabnam\\Farsi-Digits-Without-Latin\\Shabnam-Light-FD-WOL.woff2"
+    },
+    {
+      "Id": "D:\\NewVam_S\\wwwroot\\css\\open-iconic\\font\\fonts\\Shabnam\\Farsi-Digits\\Shabnam-Bold-FD.eot",
+      "PackagePath": "staticwebassets\\css\\open-iconic\\font\\fonts\\Shabnam\\Farsi-Digits\\Shabnam-Bold-FD.eot"
+    },
+    {
+      "Id": "D:\\NewVam_S\\wwwroot\\css\\open-iconic\\font\\fonts\\Shabnam\\Farsi-Digits\\Shabnam-Bold-FD.ttf",
+      "PackagePath": "staticwebassets\\css\\open-iconic\\font\\fonts\\Shabnam\\Farsi-Digits\\Shabnam-Bold-FD.ttf"
+    },
+    {
+      "Id": "D:\\NewVam_S\\wwwroot\\css\\open-iconic\\font\\fonts\\Shabnam\\Farsi-Digits\\Shabnam-Bold-FD.woff",
+      "PackagePath": "staticwebassets\\css\\open-iconic\\font\\fonts\\Shabnam\\Farsi-Digits\\Shabnam-Bold-FD.woff"
+    },
+    {
+      "Id": "D:\\NewVam_S\\wwwroot\\css\\open-iconic\\font\\fonts\\Shabnam\\Farsi-Digits\\Shabnam-Bold-FD.woff2",
+      "PackagePath": "staticwebassets\\css\\open-iconic\\font\\fonts\\Shabnam\\Farsi-Digits\\Shabnam-Bold-FD.woff2"
+    },
+    {
+      "Id": "D:\\NewVam_S\\wwwroot\\css\\open-iconic\\font\\fonts\\Shabnam\\Farsi-Digits\\Shabnam-FD.eot",
+      "PackagePath": "staticwebassets\\css\\open-iconic\\font\\fonts\\Shabnam\\Farsi-Digits\\Shabnam-FD.eot"
+    },
+    {
+      "Id": "D:\\NewVam_S\\wwwroot\\css\\open-iconic\\font\\fonts\\Shabnam\\Farsi-Digits\\Shabnam-FD.ttf",
+      "PackagePath": "staticwebassets\\css\\open-iconic\\font\\fonts\\Shabnam\\Farsi-Digits\\Shabnam-FD.ttf"
+    },
+    {
+      "Id": "D:\\NewVam_S\\wwwroot\\css\\open-iconic\\font\\fonts\\Shabnam\\Farsi-Digits\\Shabnam-FD.woff",
+      "PackagePath": "staticwebassets\\css\\open-iconic\\font\\fonts\\Shabnam\\Farsi-Digits\\Shabnam-FD.woff"
+    },
+    {
+      "Id": "D:\\NewVam_S\\wwwroot\\css\\open-iconic\\font\\fonts\\Shabnam\\Farsi-Digits\\Shabnam-FD.woff2",
+      "PackagePath": "staticwebassets\\css\\open-iconic\\font\\fonts\\Shabnam\\Farsi-Digits\\Shabnam-FD.woff2"
+    },
+    {
+      "Id": "D:\\NewVam_S\\wwwroot\\css\\open-iconic\\font\\fonts\\Shabnam\\Farsi-Digits\\Shabnam-Light-FD.eot",
+      "PackagePath": "staticwebassets\\css\\open-iconic\\font\\fonts\\Shabnam\\Farsi-Digits\\Shabnam-Light-FD.eot"
+    },
+    {
+      "Id": "D:\\NewVam_S\\wwwroot\\css\\open-iconic\\font\\fonts\\Shabnam\\Farsi-Digits\\Shabnam-Light-FD.ttf",
+      "PackagePath": "staticwebassets\\css\\open-iconic\\font\\fonts\\Shabnam\\Farsi-Digits\\Shabnam-Light-FD.ttf"
+    },
+    {
+      "Id": "D:\\NewVam_S\\wwwroot\\css\\open-iconic\\font\\fonts\\Shabnam\\Farsi-Digits\\Shabnam-Light-FD.woff",
+      "PackagePath": "staticwebassets\\css\\open-iconic\\font\\fonts\\Shabnam\\Farsi-Digits\\Shabnam-Light-FD.woff"
+    },
+    {
+      "Id": "D:\\NewVam_S\\wwwroot\\css\\open-iconic\\font\\fonts\\Shabnam\\Farsi-Digits\\Shabnam-Light-FD.woff2",
+      "PackagePath": "staticwebassets\\css\\open-iconic\\font\\fonts\\Shabnam\\Farsi-Digits\\Shabnam-Light-FD.woff2"
+    },
+    {
+      "Id": "D:\\NewVam_S\\wwwroot\\css\\open-iconic\\font\\fonts\\Shabnam\\LICENSE",
+      "PackagePath": "staticwebassets\\css\\open-iconic\\font\\fonts\\Shabnam"
+    },
+    {
+      "Id": "D:\\NewVam_S\\wwwroot\\css\\open-iconic\\font\\fonts\\Shabnam\\README.md",
+      "PackagePath": "staticwebassets\\css\\open-iconic\\font\\fonts\\Shabnam\\README.md"
+    },
+    {
+      "Id": "D:\\NewVam_S\\wwwroot\\css\\open-iconic\\font\\fonts\\Shabnam\\Shabnam-Bold.eot",
+      "PackagePath": "staticwebassets\\css\\open-iconic\\font\\fonts\\Shabnam\\Shabnam-Bold.eot"
+    },
+    {
+      "Id": "D:\\NewVam_S\\wwwroot\\css\\open-iconic\\font\\fonts\\Shabnam\\Shabnam-Bold.ttf",
+      "PackagePath": "staticwebassets\\css\\open-iconic\\font\\fonts\\Shabnam\\Shabnam-Bold.ttf"
+    },
+    {
+      "Id": "D:\\NewVam_S\\wwwroot\\css\\open-iconic\\font\\fonts\\Shabnam\\Shabnam-Bold.woff",
+      "PackagePath": "staticwebassets\\css\\open-iconic\\font\\fonts\\Shabnam\\Shabnam-Bold.woff"
+    },
+    {
+      "Id": "D:\\NewVam_S\\wwwroot\\css\\open-iconic\\font\\fonts\\Shabnam\\Shabnam-Bold.woff2",
+      "PackagePath": "staticwebassets\\css\\open-iconic\\font\\fonts\\Shabnam\\Shabnam-Bold.woff2"
+    },
+    {
+      "Id": "D:\\NewVam_S\\wwwroot\\css\\open-iconic\\font\\fonts\\Shabnam\\Shabnam-Light.eot",
+      "PackagePath": "staticwebassets\\css\\open-iconic\\font\\fonts\\Shabnam\\Shabnam-Light.eot"
+    },
+    {
+      "Id": "D:\\NewVam_S\\wwwroot\\css\\open-iconic\\font\\fonts\\Shabnam\\Shabnam-Light.ttf",
+      "PackagePath": "staticwebassets\\css\\open-iconic\\font\\fonts\\Shabnam\\Shabnam-Light.ttf"
+    },
+    {
+      "Id": "D:\\NewVam_S\\wwwroot\\css\\open-iconic\\font\\fonts\\Shabnam\\Shabnam-Light.woff",
+      "PackagePath": "staticwebassets\\css\\open-iconic\\font\\fonts\\Shabnam\\Shabnam-Light.woff"
+    },
+    {
+      "Id": "D:\\NewVam_S\\wwwroot\\css\\open-iconic\\font\\fonts\\Shabnam\\Shabnam-Light.woff2",
+      "PackagePath": "staticwebassets\\css\\open-iconic\\font\\fonts\\Shabnam\\Shabnam-Light.woff2"
+    },
+    {
+      "Id": "D:\\NewVam_S\\wwwroot\\css\\open-iconic\\font\\fonts\\Shabnam\\Shabnam.eot",
+      "PackagePath": "staticwebassets\\css\\open-iconic\\font\\fonts\\Shabnam\\Shabnam.eot"
+    },
+    {
+      "Id": "D:\\NewVam_S\\wwwroot\\css\\open-iconic\\font\\fonts\\Shabnam\\Shabnam.ttf",
+      "PackagePath": "staticwebassets\\css\\open-iconic\\font\\fonts\\Shabnam\\Shabnam.ttf"
+    },
+    {
+      "Id": "D:\\NewVam_S\\wwwroot\\css\\open-iconic\\font\\fonts\\Shabnam\\Shabnam.woff",
+      "PackagePath": "staticwebassets\\css\\open-iconic\\font\\fonts\\Shabnam\\Shabnam.woff"
+    },
+    {
+      "Id": "D:\\NewVam_S\\wwwroot\\css\\open-iconic\\font\\fonts\\Shabnam\\Shabnam.woff2",
+      "PackagePath": "staticwebassets\\css\\open-iconic\\font\\fonts\\Shabnam\\Shabnam.woff2"
+    },
+    {
+      "Id": "D:\\NewVam_S\\wwwroot\\css\\open-iconic\\font\\fonts\\Shabnam\\Without-Latin\\Shabnam-Bold-WOL.eot",
+      "PackagePath": "staticwebassets\\css\\open-iconic\\font\\fonts\\Shabnam\\Without-Latin\\Shabnam-Bold-WOL.eot"
+    },
+    {
+      "Id": "D:\\NewVam_S\\wwwroot\\css\\open-iconic\\font\\fonts\\Shabnam\\Without-Latin\\Shabnam-Bold-WOL.ttf",
+      "PackagePath": "staticwebassets\\css\\open-iconic\\font\\fonts\\Shabnam\\Without-Latin\\Shabnam-Bold-WOL.ttf"
+    },
+    {
+      "Id": "D:\\NewVam_S\\wwwroot\\css\\open-iconic\\font\\fonts\\Shabnam\\Without-Latin\\Shabnam-Bold-WOL.woff",
+      "PackagePath": "staticwebassets\\css\\open-iconic\\font\\fonts\\Shabnam\\Without-Latin\\Shabnam-Bold-WOL.woff"
+    },
+    {
+      "Id": "D:\\NewVam_S\\wwwroot\\css\\open-iconic\\font\\fonts\\Shabnam\\Without-Latin\\Shabnam-Bold-WOL.woff2",
+      "PackagePath": "staticwebassets\\css\\open-iconic\\font\\fonts\\Shabnam\\Without-Latin\\Shabnam-Bold-WOL.woff2"
+    },
+    {
+      "Id": "D:\\NewVam_S\\wwwroot\\css\\open-iconic\\font\\fonts\\Shabnam\\Without-Latin\\Shabnam-Light-WOL.eot",
+      "PackagePath": "staticwebassets\\css\\open-iconic\\font\\fonts\\Shabnam\\Without-Latin\\Shabnam-Light-WOL.eot"
+    },
+    {
+      "Id": "D:\\NewVam_S\\wwwroot\\css\\open-iconic\\font\\fonts\\Shabnam\\Without-Latin\\Shabnam-Light-WOL.ttf",
+      "PackagePath": "staticwebassets\\css\\open-iconic\\font\\fonts\\Shabnam\\Without-Latin\\Shabnam-Light-WOL.ttf"
+    },
+    {
+      "Id": "D:\\NewVam_S\\wwwroot\\css\\open-iconic\\font\\fonts\\Shabnam\\Without-Latin\\Shabnam-Light-WOL.woff",
+      "PackagePath": "staticwebassets\\css\\open-iconic\\font\\fonts\\Shabnam\\Without-Latin\\Shabnam-Light-WOL.woff"
+    },
+    {
+      "Id": "D:\\NewVam_S\\wwwroot\\css\\open-iconic\\font\\fonts\\Shabnam\\Without-Latin\\Shabnam-Light-WOL.woff2",
+      "PackagePath": "staticwebassets\\css\\open-iconic\\font\\fonts\\Shabnam\\Without-Latin\\Shabnam-Light-WOL.woff2"
+    },
+    {
+      "Id": "D:\\NewVam_S\\wwwroot\\css\\open-iconic\\font\\fonts\\Shabnam\\Without-Latin\\Shabnam-WOL.eot",
+      "PackagePath": "staticwebassets\\css\\open-iconic\\font\\fonts\\Shabnam\\Without-Latin\\Shabnam-WOL.eot"
+    },
+    {
+      "Id": "D:\\NewVam_S\\wwwroot\\css\\open-iconic\\font\\fonts\\Shabnam\\Without-Latin\\Shabnam-WOL.ttf",
+      "PackagePath": "staticwebassets\\css\\open-iconic\\font\\fonts\\Shabnam\\Without-Latin\\Shabnam-WOL.ttf"
+    },
+    {
+      "Id": "D:\\NewVam_S\\wwwroot\\css\\open-iconic\\font\\fonts\\Shabnam\\Without-Latin\\Shabnam-WOL.woff",
+      "PackagePath": "staticwebassets\\css\\open-iconic\\font\\fonts\\Shabnam\\Without-Latin\\Shabnam-WOL.woff"
+    },
+    {
+      "Id": "D:\\NewVam_S\\wwwroot\\css\\open-iconic\\font\\fonts\\Shabnam\\Without-Latin\\Shabnam-WOL.woff2",
+      "PackagePath": "staticwebassets\\css\\open-iconic\\font\\fonts\\Shabnam\\Without-Latin\\Shabnam-WOL.woff2"
+    },
+    {
+      "Id": "D:\\NewVam_S\\wwwroot\\css\\open-iconic\\font\\fonts\\Vazir-Black-UI.eot",
+      "PackagePath": "staticwebassets\\css\\open-iconic\\font\\fonts\\Vazir-Black-UI.eot"
+    },
+    {
+      "Id": "D:\\NewVam_S\\wwwroot\\css\\open-iconic\\font\\fonts\\Vazir-Black-UI.ttf",
+      "PackagePath": "staticwebassets\\css\\open-iconic\\font\\fonts\\Vazir-Black-UI.ttf"
+    },
+    {
+      "Id": "D:\\NewVam_S\\wwwroot\\css\\open-iconic\\font\\fonts\\Vazir-Black-UI.woff",
+      "PackagePath": "staticwebassets\\css\\open-iconic\\font\\fonts\\Vazir-Black-UI.woff"
+    },
+    {
+      "Id": "D:\\NewVam_S\\wwwroot\\css\\open-iconic\\font\\fonts\\Vazir-Black-UI.woff2",
+      "PackagePath": "staticwebassets\\css\\open-iconic\\font\\fonts\\Vazir-Black-UI.woff2"
+    },
+    {
+      "Id": "D:\\NewVam_S\\wwwroot\\css\\open-iconic\\font\\fonts\\Vazir-Bold-UI.eot",
+      "PackagePath": "staticwebassets\\css\\open-iconic\\font\\fonts\\Vazir-Bold-UI.eot"
+    },
+    {
+      "Id": "D:\\NewVam_S\\wwwroot\\css\\open-iconic\\font\\fonts\\Vazir-Bold-UI.ttf",
+      "PackagePath": "staticwebassets\\css\\open-iconic\\font\\fonts\\Vazir-Bold-UI.ttf"
+    },
+    {
+      "Id": "D:\\NewVam_S\\wwwroot\\css\\open-iconic\\font\\fonts\\Vazir-Bold-UI.woff",
+      "PackagePath": "staticwebassets\\css\\open-iconic\\font\\fonts\\Vazir-Bold-UI.woff"
+    },
+    {
+      "Id": "D:\\NewVam_S\\wwwroot\\css\\open-iconic\\font\\fonts\\Vazir-Bold-UI.woff2",
+      "PackagePath": "staticwebassets\\css\\open-iconic\\font\\fonts\\Vazir-Bold-UI.woff2"
+    },
+    {
+      "Id": "D:\\NewVam_S\\wwwroot\\css\\open-iconic\\font\\fonts\\Vazir-Light-UI.eot",
+      "PackagePath": "staticwebassets\\css\\open-iconic\\font\\fonts\\Vazir-Light-UI.eot"
+    },
+    {
+      "Id": "D:\\NewVam_S\\wwwroot\\css\\open-iconic\\font\\fonts\\Vazir-Light-UI.ttf",
+      "PackagePath": "staticwebassets\\css\\open-iconic\\font\\fonts\\Vazir-Light-UI.ttf"
+    },
+    {
+      "Id": "D:\\NewVam_S\\wwwroot\\css\\open-iconic\\font\\fonts\\Vazir-Light-UI.woff",
+      "PackagePath": "staticwebassets\\css\\open-iconic\\font\\fonts\\Vazir-Light-UI.woff"
+    },
+    {
+      "Id": "D:\\NewVam_S\\wwwroot\\css\\open-iconic\\font\\fonts\\Vazir-Light-UI.woff2",
+      "PackagePath": "staticwebassets\\css\\open-iconic\\font\\fonts\\Vazir-Light-UI.woff2"
+    },
+    {
+      "Id": "D:\\NewVam_S\\wwwroot\\css\\open-iconic\\font\\fonts\\Vazir-Medium-UI.eot",
+      "PackagePath": "staticwebassets\\css\\open-iconic\\font\\fonts\\Vazir-Medium-UI.eot"
+    },
+    {
+      "Id": "D:\\NewVam_S\\wwwroot\\css\\open-iconic\\font\\fonts\\Vazir-Medium-UI.ttf",
+      "PackagePath": "staticwebassets\\css\\open-iconic\\font\\fonts\\Vazir-Medium-UI.ttf"
+    },
+    {
+      "Id": "D:\\NewVam_S\\wwwroot\\css\\open-iconic\\font\\fonts\\Vazir-Medium-UI.woff",
+      "PackagePath": "staticwebassets\\css\\open-iconic\\font\\fonts\\Vazir-Medium-UI.woff"
+    },
+    {
+      "Id": "D:\\NewVam_S\\wwwroot\\css\\open-iconic\\font\\fonts\\Vazir-Medium-UI.woff2",
+      "PackagePath": "staticwebassets\\css\\open-iconic\\font\\fonts\\Vazir-Medium-UI.woff2"
+    },
+    {
+      "Id": "D:\\NewVam_S\\wwwroot\\css\\open-iconic\\font\\fonts\\Vazir-Regular-UI.eot",
+      "PackagePath": "staticwebassets\\css\\open-iconic\\font\\fonts\\Vazir-Regular-UI.eot"
+    },
+    {
+      "Id": "D:\\NewVam_S\\wwwroot\\css\\open-iconic\\font\\fonts\\Vazir-Regular-UI.ttf",
+      "PackagePath": "staticwebassets\\css\\open-iconic\\font\\fonts\\Vazir-Regular-UI.ttf"
+    },
+    {
+      "Id": "D:\\NewVam_S\\wwwroot\\css\\open-iconic\\font\\fonts\\Vazir-Regular-UI.woff",
+      "PackagePath": "staticwebassets\\css\\open-iconic\\font\\fonts\\Vazir-Regular-UI.woff"
+    },
+    {
+      "Id": "D:\\NewVam_S\\wwwroot\\css\\open-iconic\\font\\fonts\\Vazir-Regular-UI.woff2",
+      "PackagePath": "staticwebassets\\css\\open-iconic\\font\\fonts\\Vazir-Regular-UI.woff2"
+    },
+    {
+      "Id": "D:\\NewVam_S\\wwwroot\\css\\open-iconic\\font\\fonts\\Vazir-Thin-UI.eot",
+      "PackagePath": "staticwebassets\\css\\open-iconic\\font\\fonts\\Vazir-Thin-UI.eot"
+    },
+    {
+      "Id": "D:\\NewVam_S\\wwwroot\\css\\open-iconic\\font\\fonts\\Vazir-Thin-UI.ttf",
+      "PackagePath": "staticwebassets\\css\\open-iconic\\font\\fonts\\Vazir-Thin-UI.ttf"
+    },
+    {
+      "Id": "D:\\NewVam_S\\wwwroot\\css\\open-iconic\\font\\fonts\\Vazir-Thin-UI.woff",
+      "PackagePath": "staticwebassets\\css\\open-iconic\\font\\fonts\\Vazir-Thin-UI.woff"
+    },
+    {
+      "Id": "D:\\NewVam_S\\wwwroot\\css\\open-iconic\\font\\fonts\\Vazir-Thin-UI.woff2",
+      "PackagePath": "staticwebassets\\css\\open-iconic\\font\\fonts\\Vazir-Thin-UI.woff2"
+    },
+    {
+      "Id": "D:\\NewVam_S\\wwwroot\\css\\open-iconic\\font\\fonts\\Vazirmatn-Regular.ttf",
+      "PackagePath": "staticwebassets\\css\\open-iconic\\font\\fonts\\Vazirmatn-Regular.ttf"
+    },
+    {
+      "Id": "D:\\NewVam_S\\wwwroot\\css\\open-iconic\\font\\fonts\\Vazirmatn-Regular.woff2",
+      "PackagePath": "staticwebassets\\css\\open-iconic\\font\\fonts\\Vazirmatn-Regular.woff2"
+    },
+    {
+      "Id": "D:\\NewVam_S\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.eot",
+      "PackagePath": "staticwebassets\\css\\open-iconic\\font\\fonts\\open-iconic.eot"
+    },
+    {
+      "Id": "D:\\NewVam_S\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.otf",
+      "PackagePath": "staticwebassets\\css\\open-iconic\\font\\fonts\\open-iconic.otf"
+    },
+    {
+      "Id": "D:\\NewVam_S\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.svg",
+      "PackagePath": "staticwebassets\\css\\open-iconic\\font\\fonts\\open-iconic.svg"
+    },
+    {
+      "Id": "D:\\NewVam_S\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.ttf",
+      "PackagePath": "staticwebassets\\css\\open-iconic\\font\\fonts\\open-iconic.ttf"
+    },
+    {
+      "Id": "D:\\NewVam_S\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.woff",
+      "PackagePath": "staticwebassets\\css\\open-iconic\\font\\fonts\\open-iconic.woff"
+    },
+    {
+      "Id": "D:\\NewVam_S\\wwwroot\\css\\site.css",
+      "PackagePath": "staticwebassets\\css\\site.css"
+    },
+    {
+      "Id": "D:\\NewVam_S\\wwwroot\\favicon.png",
+      "PackagePath": "staticwebassets\\favicon.png"
+    },
+    {
+      "Id": "D:\\NewVam_S\\wwwroot\\sun.ico",
+      "PackagePath": "staticwebassets\\sun.ico"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.VamBlazor.Client.Microsoft.AspNetCore.StaticWebAssetEndpoints.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssetEndpoints.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.VamBlazor.Client.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.VamBlazor.Client.props",
+      "PackagePath": "build\\VamBlazor.Client.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.VamBlazor.Client.props",
+      "PackagePath": "buildMultiTargeting\\VamBlazor.Client.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.VamBlazor.Client.props",
+      "PackagePath": "buildTransitive\\VamBlazor.Client.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

@@ -1,0 +1,180 @@
+is_global = true
+build_property.MudDebugAnalyzer = 
+build_property.MudAllowedAttributePattern = 
+build_property.MudIllegalParameters = 
+build_property.TargetFramework = net8.0
+build_property.TargetFramework = net8.0
+build_property.TargetPlatformMinVersion = 
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = VamBlazor.Client
+build_property.RootNamespace = VamBlazor.Client
+build_property.ProjectDir = D:\NewVam_S\
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 
+build_property.RazorLangVersion = 8.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = D:\NewVam_S
+build_property._RazorSourceGeneratorDebug = 
+build_property.EffectiveAnalysisLevelStyle = 8.0
+build_property.EnableCodeStyleSeverity = 
+
+[D:/NewVam_S/App.razor]
+build_metadata.AdditionalFiles.TargetPath = QXBwLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/NewVam_S/PagesReports/Transaction-rep.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNSZXBvcnRzXFRyYW5zYWN0aW9uLXJlcC5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/NewVam_S/Pages/BackupRestore.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQmFja3VwUmVzdG9yZS5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/NewVam_S/Pages/Chart.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ2hhcnQucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/NewVam_S/Pages/Counter.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ291bnRlci5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/NewVam_S/Pages/FetchData.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRmV0Y2hEYXRhLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/NewVam_S/Pages/FormMudSample.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRm9ybU11ZFNhbXBsZS5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/NewVam_S/Pages/Index.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSW5kZXgucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/NewVam_S/Pages/PageAccount.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUGFnZUFjY291bnQucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/NewVam_S/Pages/PageAmalkardS.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUGFnZUFtYWxrYXJkUy5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/NewVam_S/Pages/PageBankCard.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUGFnZUJhbmtDYXJkLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/NewVam_S/Pages/PageDargstAll.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUGFnZURhcmdzdEFsbC5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/NewVam_S/Pages/PageDargstOne.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUGFnZURhcmdzdE9uZS5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/NewVam_S/Pages/Pagelogin.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUGFnZWxvZ2luLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/NewVam_S/Pages/PagePardar.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUGFnZVBhcmRhci5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/NewVam_S/Pages/PagePerson.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUGFnZVBlcnNvbi5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/NewVam_S/Pages/PagePersonStatus.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUGFnZVBlcnNvblN0YXR1cy5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/NewVam_S/Pages/PagePVam.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUGFnZVBWYW0ucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/NewVam_S/Pages/PageQVam.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUGFnZVFWYW0ucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/NewVam_S/Pages/PageVamPriority.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUGFnZVZhbVByaW9yaXR5LnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/NewVam_S/Pages/User-form.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcVXNlci1mb3JtLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/NewVam_S/Shared/Component/AutocompleteWithAdd.razor]
+build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXENvbXBvbmVudFxBdXRvY29tcGxldGVXaXRoQWRkLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/NewVam_S/Shared/Dialog/DeleteConfirmationDialog.razor]
+build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXERpYWxvZ1xEZWxldGVDb25maXJtYXRpb25EaWFsb2cucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/NewVam_S/Shared/MainLayoutReports.razor]
+build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXE1haW5MYXlvdXRSZXBvcnRzLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/NewVam_S/Shared/SurveyPrompt.razor]
+build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXFN1cnZleVByb21wdC5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/NewVam_S/_Imports.razor]
+build_metadata.AdditionalFiles.TargetPath = X0ltcG9ydHMucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/NewVam_S/PagesReports/BankRep.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNSZXBvcnRzXEJhbmtSZXAucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = b-v5ai2tcxao
+
+[D:/NewVam_S/PagesReports/DelayRep.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNSZXBvcnRzXERlbGF5UmVwLnJhem9y
+build_metadata.AdditionalFiles.CssScope = b-khoq24cbfe
+
+[D:/NewVam_S/PagesReports/GraphCurrentVams.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNSZXBvcnRzXEdyYXBoQ3VycmVudFZhbXMucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = b-n627lq0qw6
+
+[D:/NewVam_S/PagesReports/GraphFutureVams.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNSZXBvcnRzXEdyYXBoRnV0dXJlVmFtcy5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = b-uhvp29tdz2
+
+[D:/NewVam_S/PagesReports/PriorityRep.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNSZXBvcnRzXFByaW9yaXR5UmVwLnJhem9y
+build_metadata.AdditionalFiles.CssScope = b-it7gl4w7bd
+
+[D:/NewVam_S/PagesReports/SandoghRep.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNSZXBvcnRzXFNhbmRvZ2hSZXAucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = b-9303npvdwu
+
+[D:/NewVam_S/Shared/MainLayout.razor]
+build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXE1haW5MYXlvdXQucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = b-idx9frpvsx
+
+[D:/NewVam_S/Shared/NavMenu.razor]
+build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXE5hdk1lbnUucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = b-rlrbej0spu
+
+[D:/NewVam_S/Pages/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRXJyb3IuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/NewVam_S/Pages/_Host.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX0hvc3QuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/NewVam_S/Pages/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX1ZhbGlkYXRpb25TY3JpcHRzUGFydGlhbC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 

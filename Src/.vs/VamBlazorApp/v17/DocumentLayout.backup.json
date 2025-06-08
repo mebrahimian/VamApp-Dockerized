@@ -1,0 +1,677 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\NewVam_S\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{0FB49743-0D87-428A-BEA8-8609BEC07ACD}|VamBlazor.Client.csproj|d:\\newvam_s\\vamblazor.client.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{0FB49743-0D87-428A-BEA8-8609BEC07ACD}|VamBlazor.Client.csproj|solutionrelative:vamblazor.client.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0FB49743-0D87-428A-BEA8-8609BEC07ACD}|VamBlazor.Client.csproj|d:\\newvam_s\\pages\\pagedargstall.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{0FB49743-0D87-428A-BEA8-8609BEC07ACD}|VamBlazor.Client.csproj|solutionrelative:pages\\pagedargstall.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0FB49743-0D87-428A-BEA8-8609BEC07ACD}|VamBlazor.Client.csproj|d:\\newvam_s\\pagesreports\\priorityrep.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{0FB49743-0D87-428A-BEA8-8609BEC07ACD}|VamBlazor.Client.csproj|solutionrelative:pagesreports\\priorityrep.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0FB49743-0D87-428A-BEA8-8609BEC07ACD}|VamBlazor.Client.csproj|d:\\newvam_s\\application\\commonfunc\\texthelpers.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0FB49743-0D87-428A-BEA8-8609BEC07ACD}|VamBlazor.Client.csproj|solutionrelative:application\\commonfunc\\texthelpers.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0FB49743-0D87-428A-BEA8-8609BEC07ACD}|VamBlazor.Client.csproj|d:\\newvam_s\\pagesreports\\sandoghrep.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{0FB49743-0D87-428A-BEA8-8609BEC07ACD}|VamBlazor.Client.csproj|solutionrelative:pagesreports\\sandoghrep.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0FB49743-0D87-428A-BEA8-8609BEC07ACD}|VamBlazor.Client.csproj|d:\\newvam_s\\pagesreports\\delayrep.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{0FB49743-0D87-428A-BEA8-8609BEC07ACD}|VamBlazor.Client.csproj|solutionrelative:pagesreports\\delayrep.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0FB49743-0D87-428A-BEA8-8609BEC07ACD}|VamBlazor.Client.csproj|d:\\newvam_s\\pagesreports\\bankrep.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{0FB49743-0D87-428A-BEA8-8609BEC07ACD}|VamBlazor.Client.csproj|solutionrelative:pagesreports\\bankrep.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0FB49743-0D87-428A-BEA8-8609BEC07ACD}|VamBlazor.Client.csproj|d:\\newvam_s\\pages\\pagevampriority.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{0FB49743-0D87-428A-BEA8-8609BEC07ACD}|VamBlazor.Client.csproj|solutionrelative:pages\\pagevampriority.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0FB49743-0D87-428A-BEA8-8609BEC07ACD}|VamBlazor.Client.csproj|d:\\newvam_s\\pages\\pageamalkards.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{0FB49743-0D87-428A-BEA8-8609BEC07ACD}|VamBlazor.Client.csproj|solutionrelative:pages\\pageamalkards.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0FB49743-0D87-428A-BEA8-8609BEC07ACD}|VamBlazor.Client.csproj|d:\\newvam_s\\pages\\pagepersonstatus.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{0FB49743-0D87-428A-BEA8-8609BEC07ACD}|VamBlazor.Client.csproj|solutionrelative:pages\\pagepersonstatus.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0FB49743-0D87-428A-BEA8-8609BEC07ACD}|VamBlazor.Client.csproj|d:\\newvam_s\\pages\\pagepardar.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{0FB49743-0D87-428A-BEA8-8609BEC07ACD}|VamBlazor.Client.csproj|solutionrelative:pages\\pagepardar.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0FB49743-0D87-428A-BEA8-8609BEC07ACD}|VamBlazor.Client.csproj|d:\\newvam_s\\shared\\navmenu.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{0FB49743-0D87-428A-BEA8-8609BEC07ACD}|VamBlazor.Client.csproj|solutionrelative:shared\\navmenu.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0FB49743-0D87-428A-BEA8-8609BEC07ACD}|VamBlazor.Client.csproj|d:\\newvam_s\\pages\\pagedargstone.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{0FB49743-0D87-428A-BEA8-8609BEC07ACD}|VamBlazor.Client.csproj|solutionrelative:pages\\pagedargstone.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0FB49743-0D87-428A-BEA8-8609BEC07ACD}|VamBlazor.Client.csproj|d:\\newvam_s\\pages\\pageperson.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{0FB49743-0D87-428A-BEA8-8609BEC07ACD}|VamBlazor.Client.csproj|solutionrelative:pages\\pageperson.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0FB49743-0D87-428A-BEA8-8609BEC07ACD}|VamBlazor.Client.csproj|d:\\newvam_s\\application\\dtos\\personaccountdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0FB49743-0D87-428A-BEA8-8609BEC07ACD}|VamBlazor.Client.csproj|solutionrelative:application\\dtos\\personaccountdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0FB49743-0D87-428A-BEA8-8609BEC07ACD}|VamBlazor.Client.csproj|d:\\newvam_s\\pagesreports\\transaction-rep.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{0FB49743-0D87-428A-BEA8-8609BEC07ACD}|VamBlazor.Client.csproj|solutionrelative:pagesreports\\transaction-rep.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0FB49743-0D87-428A-BEA8-8609BEC07ACD}|VamBlazor.Client.csproj|d:\\newvam_s\\pages\\pagepvam.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{0FB49743-0D87-428A-BEA8-8609BEC07ACD}|VamBlazor.Client.csproj|solutionrelative:pages\\pagepvam.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0FB49743-0D87-428A-BEA8-8609BEC07ACD}|VamBlazor.Client.csproj|d:\\newvam_s\\pages\\pageqvam.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{0FB49743-0D87-428A-BEA8-8609BEC07ACD}|VamBlazor.Client.csproj|solutionrelative:pages\\pageqvam.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0FB49743-0D87-428A-BEA8-8609BEC07ACD}|VamBlazor.Client.csproj|d:\\newvam_s\\pages\\pageaccount.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{0FB49743-0D87-428A-BEA8-8609BEC07ACD}|VamBlazor.Client.csproj|solutionrelative:pages\\pageaccount.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0FB49743-0D87-428A-BEA8-8609BEC07ACD}|VamBlazor.Client.csproj|d:\\newvam_s\\domain\\entities\\vwpersonfulldata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0FB49743-0D87-428A-BEA8-8609BEC07ACD}|VamBlazor.Client.csproj|solutionrelative:domain\\entities\\vwpersonfulldata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0FB49743-0D87-428A-BEA8-8609BEC07ACD}|VamBlazor.Client.csproj|d:\\newvam_s\\dal\\databasecontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0FB49743-0D87-428A-BEA8-8609BEC07ACD}|VamBlazor.Client.csproj|solutionrelative:dal\\databasecontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0FB49743-0D87-428A-BEA8-8609BEC07ACD}|VamBlazor.Client.csproj|d:\\newvam_s\\application\\dtos\\pardardto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0FB49743-0D87-428A-BEA8-8609BEC07ACD}|VamBlazor.Client.csproj|solutionrelative:application\\dtos\\pardardto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0FB49743-0D87-428A-BEA8-8609BEC07ACD}|VamBlazor.Client.csproj|d:\\newvam_s\\application\\dtos\\personlastgstdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0FB49743-0D87-428A-BEA8-8609BEC07ACD}|VamBlazor.Client.csproj|solutionrelative:application\\dtos\\personlastgstdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0FB49743-0D87-428A-BEA8-8609BEC07ACD}|VamBlazor.Client.csproj|d:\\newvam_s\\application\\dtos\\personfulldatadto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0FB49743-0D87-428A-BEA8-8609BEC07ACD}|VamBlazor.Client.csproj|solutionrelative:application\\dtos\\personfulldatadto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0FB49743-0D87-428A-BEA8-8609BEC07ACD}|VamBlazor.Client.csproj|d:\\newvam_s\\_notes\\computerinfo.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{0FB49743-0D87-428A-BEA8-8609BEC07ACD}|VamBlazor.Client.csproj|solutionrelative:_notes\\computerinfo.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0FB49743-0D87-428A-BEA8-8609BEC07ACD}|VamBlazor.Client.csproj|d:\\newvam_s\\shared\\mainlayout.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{0FB49743-0D87-428A-BEA8-8609BEC07ACD}|VamBlazor.Client.csproj|solutionrelative:shared\\mainlayout.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0FB49743-0D87-428A-BEA8-8609BEC07ACD}|VamBlazor.Client.csproj|d:\\newvam_s\\pages\\_host.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{0FB49743-0D87-428A-BEA8-8609BEC07ACD}|VamBlazor.Client.csproj|solutionrelative:pages\\_host.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0FB49743-0D87-428A-BEA8-8609BEC07ACD}|VamBlazor.Client.csproj|d:\\newvam_s\\app.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{0FB49743-0D87-428A-BEA8-8609BEC07ACD}|VamBlazor.Client.csproj|solutionrelative:app.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0FB49743-0D87-428A-BEA8-8609BEC07ACD}|VamBlazor.Client.csproj|d:\\newvam_s\\pages\\index.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{0FB49743-0D87-428A-BEA8-8609BEC07ACD}|VamBlazor.Client.csproj|solutionrelative:pages\\index.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0FB49743-0D87-428A-BEA8-8609BEC07ACD}|VamBlazor.Client.csproj|d:\\newvam_s\\domain\\entities\\vwpersonlastgst.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0FB49743-0D87-428A-BEA8-8609BEC07ACD}|VamBlazor.Client.csproj|solutionrelative:domain\\entities\\vwpersonlastgst.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0FB49743-0D87-428A-BEA8-8609BEC07ACD}|VamBlazor.Client.csproj|d:\\newvam_s\\application\\dtos\\accountinfodto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0FB49743-0D87-428A-BEA8-8609BEC07ACD}|VamBlazor.Client.csproj|solutionrelative:application\\dtos\\accountinfodto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0FB49743-0D87-428A-BEA8-8609BEC07ACD}|VamBlazor.Client.csproj|d:\\newvam_s\\domain\\entities\\amalkard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0FB49743-0D87-428A-BEA8-8609BEC07ACD}|VamBlazor.Client.csproj|solutionrelative:domain\\entities\\amalkard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0FB49743-0D87-428A-BEA8-8609BEC07ACD}|VamBlazor.Client.csproj|d:\\newvam_s\\migrations\\20250123142223_init-1.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0FB49743-0D87-428A-BEA8-8609BEC07ACD}|VamBlazor.Client.csproj|solutionrelative:migrations\\20250123142223_init-1.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0FB49743-0D87-428A-BEA8-8609BEC07ACD}|VamBlazor.Client.csproj|d:\\newvam_s\\migrations\\20250123142223_init-1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0FB49743-0D87-428A-BEA8-8609BEC07ACD}|VamBlazor.Client.csproj|solutionrelative:migrations\\20250123142223_init-1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0FB49743-0D87-428A-BEA8-8609BEC07ACD}|VamBlazor.Client.csproj|d:\\newvam_s\\_notes\\sqlchanged.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{0FB49743-0D87-428A-BEA8-8609BEC07ACD}|VamBlazor.Client.csproj|solutionrelative:_notes\\sqlchanged.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0FB49743-0D87-428A-BEA8-8609BEC07ACD}|VamBlazor.Client.csproj|d:\\newvam_s\\shared\\dialog\\deleteconfirmationdialog.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{0FB49743-0D87-428A-BEA8-8609BEC07ACD}|VamBlazor.Client.csproj|solutionrelative:shared\\dialog\\deleteconfirmationdialog.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0FB49743-0D87-428A-BEA8-8609BEC07ACD}|VamBlazor.Client.csproj|d:\\newvam_s\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0FB49743-0D87-428A-BEA8-8609BEC07ACD}|VamBlazor.Client.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0FB49743-0D87-428A-BEA8-8609BEC07ACD}|VamBlazor.Client.csproj|d:\\newvam_s\\dal\\config\\personconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0FB49743-0D87-428A-BEA8-8609BEC07ACD}|VamBlazor.Client.csproj|solutionrelative:dal\\config\\personconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0FB49743-0D87-428A-BEA8-8609BEC07ACD}|VamBlazor.Client.csproj|d:\\newvam_s\\application\\dtos\\personreportstatusdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0FB49743-0D87-428A-BEA8-8609BEC07ACD}|VamBlazor.Client.csproj|solutionrelative:application\\dtos\\personreportstatusdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 218,
+          "SelectedChildIndex": 13,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:130:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:131:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{0174dea2-fdbe-4ef1-8f99-c0beae78880f}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "SandoghRep.razor",
+              "DocumentMoniker": "D:\\NewVam_S\\PagesReports\\SandoghRep.razor",
+              "RelativeDocumentMoniker": "PagesReports\\SandoghRep.razor",
+              "ToolTip": "D:\\NewVam_S\\PagesReports\\SandoghRep.razor",
+              "RelativeToolTip": "PagesReports\\SandoghRep.razor",
+              "ViewState": "AgIAAN0AAAAAAAAAAAAAAOkAAABFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-30T12:33:50.801Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "PagePersonStatus.razor",
+              "DocumentMoniker": "D:\\NewVam_S\\Pages\\PagePersonStatus.razor",
+              "RelativeDocumentMoniker": "Pages\\PagePersonStatus.razor",
+              "ToolTip": "D:\\NewVam_S\\Pages\\PagePersonStatus.razor",
+              "RelativeToolTip": "Pages\\PagePersonStatus.razor",
+              "ViewState": "AgIAAAUBAAAAAAAAAAAiwLoAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-05T16:42:15.686Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "BankRep.razor",
+              "DocumentMoniker": "D:\\NewVam_S\\PagesReports\\BankRep.razor",
+              "RelativeDocumentMoniker": "PagesReports\\BankRep.razor",
+              "ToolTip": "D:\\NewVam_S\\PagesReports\\BankRep.razor",
+              "RelativeToolTip": "PagesReports\\BankRep.razor",
+              "ViewState": "AgIAAPoAAAAAAAAAAAAowIgAAAATAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-28T16:22:34.744Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "DelayRep.razor",
+              "DocumentMoniker": "D:\\NewVam_S\\PagesReports\\DelayRep.razor",
+              "RelativeDocumentMoniker": "PagesReports\\DelayRep.razor",
+              "ToolTip": "D:\\NewVam_S\\PagesReports\\DelayRep.razor",
+              "RelativeToolTip": "PagesReports\\DelayRep.razor",
+              "ViewState": "AgIAAGkAAAAAAAAAAAAAAEAAAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-28T19:38:06.241Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "PageDargstAll.razor",
+              "DocumentMoniker": "D:\\NewVam_S\\Pages\\PageDargstAll.razor",
+              "RelativeDocumentMoniker": "Pages\\PageDargstAll.razor",
+              "ToolTip": "D:\\NewVam_S\\Pages\\PageDargstAll.razor",
+              "RelativeToolTip": "Pages\\PageDargstAll.razor",
+              "ViewState": "AgIAAB4AAAAAAAAAAAAAAC0AAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-29T22:18:42.552Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "VamBlazor.Client.csproj",
+              "DocumentMoniker": "D:\\NewVam_S\\VamBlazor.Client.csproj",
+              "RelativeDocumentMoniker": "VamBlazor.Client.csproj",
+              "ToolTip": "D:\\NewVam_S\\VamBlazor.Client.csproj",
+              "RelativeToolTip": "VamBlazor.Client.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-05-02T16:41:15.584Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "PageVamPriority.razor",
+              "DocumentMoniker": "D:\\NewVam_S\\Pages\\PageVamPriority.razor",
+              "RelativeDocumentMoniker": "Pages\\PageVamPriority.razor",
+              "ToolTip": "D:\\NewVam_S\\Pages\\PageVamPriority.razor",
+              "RelativeToolTip": "Pages\\PageVamPriority.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-05T21:47:45.463Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "PriorityRep.razor",
+              "DocumentMoniker": "D:\\NewVam_S\\PagesReports\\PriorityRep.razor",
+              "RelativeDocumentMoniker": "PagesReports\\PriorityRep.razor",
+              "ToolTip": "D:\\NewVam_S\\PagesReports\\PriorityRep.razor",
+              "RelativeToolTip": "PagesReports\\PriorityRep.razor",
+              "ViewState": "AgIAAFIAAAAAAAAAAAAiwGMAAADSAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-05T22:37:08.739Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "TextHelpers.cs",
+              "DocumentMoniker": "D:\\NewVam_S\\Application\\CommonFunc\\TextHelpers.cs",
+              "RelativeDocumentMoniker": "Application\\CommonFunc\\TextHelpers.cs",
+              "ToolTip": "D:\\NewVam_S\\Application\\CommonFunc\\TextHelpers.cs",
+              "RelativeToolTip": "Application\\CommonFunc\\TextHelpers.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADUAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-06T00:28:21.92Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "PageAmalkardS.razor",
+              "DocumentMoniker": "D:\\NewVam_S\\Pages\\PageAmalkardS.razor",
+              "RelativeDocumentMoniker": "Pages\\PageAmalkardS.razor",
+              "ToolTip": "D:\\NewVam_S\\Pages\\PageAmalkardS.razor",
+              "RelativeToolTip": "Pages\\PageAmalkardS.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-30T13:13:07.176Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "PagePardar.razor",
+              "DocumentMoniker": "D:\\NewVam_S\\Pages\\PagePardar.razor",
+              "RelativeDocumentMoniker": "Pages\\PagePardar.razor",
+              "ToolTip": "D:\\NewVam_S\\Pages\\PagePardar.razor",
+              "RelativeToolTip": "Pages\\PagePardar.razor",
+              "ViewState": "AgIAAGMAAAAAAAAAAAAAAHQAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-03T20:51:51.364Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "PageAccount.razor",
+              "DocumentMoniker": "D:\\NewVam_S\\Pages\\PageAccount.razor",
+              "RelativeDocumentMoniker": "Pages\\PageAccount.razor",
+              "ToolTip": "D:\\NewVam_S\\Pages\\PageAccount.razor",
+              "RelativeToolTip": "Pages\\PageAccount.razor",
+              "ViewState": "AgIAAE0BAAAAAAAAAAAAAFwBAABsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-27T21:50:02.691Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "PagePerson.razor",
+              "DocumentMoniker": "D:\\NewVam_S\\Pages\\PagePerson.razor",
+              "RelativeDocumentMoniker": "Pages\\PagePerson.razor",
+              "ToolTip": "D:\\NewVam_S\\Pages\\PagePerson.razor",
+              "RelativeToolTip": "Pages\\PagePerson.razor",
+              "ViewState": "AgIAAGsAAAAAAAAAAAAAAHQAAAA8AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-03T21:59:42.439Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "NavMenu.razor",
+              "DocumentMoniker": "D:\\NewVam_S\\Shared\\NavMenu.razor",
+              "RelativeDocumentMoniker": "Shared\\NavMenu.razor",
+              "ToolTip": "D:\\NewVam_S\\Shared\\NavMenu.razor",
+              "RelativeToolTip": "Shared\\NavMenu.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAABMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-05T21:48:50.57Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "PageDargstOne.razor",
+              "DocumentMoniker": "D:\\NewVam_S\\Pages\\PageDargstOne.razor",
+              "RelativeDocumentMoniker": "Pages\\PageDargstOne.razor",
+              "ToolTip": "D:\\NewVam_S\\Pages\\PageDargstOne.razor",
+              "RelativeToolTip": "Pages\\PageDargstOne.razor",
+              "ViewState": "AgIAAJgBAAAAAAAAAAAuwKABAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-04T17:09:54.946Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "PersonAccountDto.cs",
+              "DocumentMoniker": "D:\\NewVam_S\\Application\\Dtos\\PersonAccountDto.cs",
+              "RelativeDocumentMoniker": "Application\\Dtos\\PersonAccountDto.cs",
+              "ToolTip": "D:\\NewVam_S\\Application\\Dtos\\PersonAccountDto.cs",
+              "RelativeToolTip": "Application\\Dtos\\PersonAccountDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAYAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-05T15:56:39.951Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "PardarDto.cs",
+              "DocumentMoniker": "D:\\NewVam_S\\Application\\Dtos\\PardarDto.cs",
+              "RelativeDocumentMoniker": "Application\\Dtos\\PardarDto.cs",
+              "ToolTip": "D:\\NewVam_S\\Application\\Dtos\\PardarDto.cs",
+              "RelativeToolTip": "Application\\Dtos\\PardarDto.cs",
+              "ViewState": "AgIAABwAAAAAAAAAAAAUwCAAAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-03T20:38:23.407Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "PageQVam.razor",
+              "DocumentMoniker": "D:\\NewVam_S\\Pages\\PageQVam.razor",
+              "RelativeDocumentMoniker": "Pages\\PageQVam.razor",
+              "ToolTip": "D:\\NewVam_S\\Pages\\PageQVam.razor",
+              "RelativeToolTip": "Pages\\PageQVam.razor",
+              "ViewState": "AgIAACkBAAAAAAAAAAAAADUBAABpAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-05T16:32:01.617Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "PagePVam.razor",
+              "DocumentMoniker": "D:\\NewVam_S\\Pages\\PagePVam.razor",
+              "RelativeDocumentMoniker": "Pages\\PagePVam.razor",
+              "ToolTip": "D:\\NewVam_S\\Pages\\PagePVam.razor",
+              "RelativeToolTip": "Pages\\PagePVam.razor",
+              "ViewState": "AgIAAKwBAAAAAAAAAAAAAMEBAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-05T16:33:43.599Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "vwPersonFullData.cs",
+              "DocumentMoniker": "D:\\NewVam_S\\Domain\\Entities\\vwPersonFullData.cs",
+              "RelativeDocumentMoniker": "Domain\\Entities\\vwPersonFullData.cs",
+              "ToolTip": "D:\\NewVam_S\\Domain\\Entities\\vwPersonFullData.cs",
+              "RelativeToolTip": "Domain\\Entities\\vwPersonFullData.cs",
+              "ViewState": "AgIAADEAAAAAAAAAAAAywA0AAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-03T20:56:50.87Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "Transaction-rep.razor",
+              "DocumentMoniker": "D:\\NewVam_S\\PagesReports\\Transaction-rep.razor",
+              "RelativeDocumentMoniker": "PagesReports\\Transaction-rep.razor",
+              "ToolTip": "D:\\NewVam_S\\PagesReports\\Transaction-rep.razor",
+              "RelativeToolTip": "PagesReports\\Transaction-rep.razor",
+              "ViewState": "AgIAAEMAAAAAAAAAAAAswFgAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-27T19:55:00.453Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "DatabaseContext.cs",
+              "DocumentMoniker": "D:\\NewVam_S\\DAL\\DatabaseContext.cs",
+              "RelativeDocumentMoniker": "DAL\\DatabaseContext.cs",
+              "ToolTip": "D:\\NewVam_S\\DAL\\DatabaseContext.cs",
+              "RelativeToolTip": "DAL\\DatabaseContext.cs",
+              "ViewState": "AgIAACsAAAAAAAAAAAAhwDQAAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-03T21:45:24.331Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "PersonFullDataDto.cs",
+              "DocumentMoniker": "D:\\NewVam_S\\Application\\Dtos\\PersonFullDataDto.cs",
+              "RelativeDocumentMoniker": "Application\\Dtos\\PersonFullDataDto.cs",
+              "ToolTip": "D:\\NewVam_S\\Application\\Dtos\\PersonFullDataDto.cs",
+              "RelativeToolTip": "Application\\Dtos\\PersonFullDataDto.cs",
+              "ViewState": "AgIAACYAAAAAAAAAAADwvykAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-03T21:39:08.967Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "PersonLastGstDto.cs",
+              "DocumentMoniker": "D:\\NewVam_S\\Application\\Dtos\\PersonLastGstDto.cs",
+              "RelativeDocumentMoniker": "Application\\Dtos\\PersonLastGstDto.cs",
+              "ToolTip": "D:\\NewVam_S\\Application\\Dtos\\PersonLastGstDto.cs",
+              "RelativeToolTip": "Application\\Dtos\\PersonLastGstDto.cs",
+              "ViewState": "AgIAABsAAAAAAAAAAAA0wB8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-03T19:24:52.778Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "Index.razor",
+              "DocumentMoniker": "D:\\NewVam_S\\Pages\\Index.razor",
+              "RelativeDocumentMoniker": "Pages\\Index.razor",
+              "ToolTip": "D:\\NewVam_S\\Pages\\Index.razor",
+              "RelativeToolTip": "Pages\\Index.razor",
+              "ViewState": "AgIAAC0AAAAAAAAAAAAAADAAAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-29T21:42:40.376Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "vwPersonLastGst.cs",
+              "DocumentMoniker": "D:\\NewVam_S\\Domain\\Entities\\vwPersonLastGst.cs",
+              "RelativeDocumentMoniker": "Domain\\Entities\\vwPersonLastGst.cs",
+              "ToolTip": "D:\\NewVam_S\\Domain\\Entities\\vwPersonLastGst.cs",
+              "RelativeToolTip": "Domain\\Entities\\vwPersonLastGst.cs",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAMwA0AAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-03T20:56:24.541Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "ComputerInfo.txt",
+              "DocumentMoniker": "D:\\NewVam_S\\_Notes\\ComputerInfo.txt",
+              "RelativeDocumentMoniker": "_Notes\\ComputerInfo.txt",
+              "ToolTip": "D:\\NewVam_S\\_Notes\\ComputerInfo.txt",
+              "RelativeToolTip": "_Notes\\ComputerInfo.txt",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
+              "WhenOpened": "2025-06-04T19:16:05.093Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "MainLayout.razor",
+              "DocumentMoniker": "D:\\NewVam_S\\Shared\\MainLayout.razor",
+              "RelativeDocumentMoniker": "Shared\\MainLayout.razor",
+              "ToolTip": "D:\\NewVam_S\\Shared\\MainLayout.razor",
+              "RelativeToolTip": "Shared\\MainLayout.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-04T15:13:14.199Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "App.razor",
+              "DocumentMoniker": "D:\\NewVam_S\\App.razor",
+              "RelativeDocumentMoniker": "App.razor",
+              "ToolTip": "D:\\NewVam_S\\App.razor",
+              "RelativeToolTip": "App.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-04T12:23:51.574Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "_Host.cshtml",
+              "DocumentMoniker": "D:\\NewVam_S\\Pages\\_Host.cshtml",
+              "RelativeDocumentMoniker": "Pages\\_Host.cshtml",
+              "ToolTip": "D:\\NewVam_S\\Pages\\_Host.cshtml",
+              "RelativeToolTip": "Pages\\_Host.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACUAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-04T14:18:10.502Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "AccountInfoDto.cs",
+              "DocumentMoniker": "D:\\NewVam_S\\Application\\Dtos\\AccountInfoDto.cs",
+              "RelativeDocumentMoniker": "Application\\Dtos\\AccountInfoDto.cs",
+              "ToolTip": "D:\\NewVam_S\\Application\\Dtos\\AccountInfoDto.cs",
+              "RelativeToolTip": "Application\\Dtos\\AccountInfoDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-03T20:53:19.344Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "Amalkard.cs",
+              "DocumentMoniker": "D:\\NewVam_S\\Domain\\Entities\\Amalkard.cs",
+              "RelativeDocumentMoniker": "Domain\\Entities\\Amalkard.cs",
+              "ToolTip": "D:\\NewVam_S\\Domain\\Entities\\Amalkard.cs",
+              "RelativeToolTip": "Domain\\Entities\\Amalkard.cs",
+              "ViewState": "AgIAABMAAAAAAAAAAAAcwCkAAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-03T20:49:41.383Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "20250123142223_init-1.Designer.cs",
+              "DocumentMoniker": "D:\\NewVam_S\\Migrations\\20250123142223_init-1.Designer.cs",
+              "RelativeDocumentMoniker": "Migrations\\20250123142223_init-1.Designer.cs",
+              "ToolTip": "D:\\NewVam_S\\Migrations\\20250123142223_init-1.Designer.cs",
+              "RelativeToolTip": "Migrations\\20250123142223_init-1.Designer.cs",
+              "ViewState": "AgIAAFsAAAAAAAAAAAAqwF0AAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-03T20:42:29.063Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "20250123142223_init-1.cs",
+              "DocumentMoniker": "D:\\NewVam_S\\Migrations\\20250123142223_init-1.cs",
+              "RelativeDocumentMoniker": "Migrations\\20250123142223_init-1.cs",
+              "ToolTip": "D:\\NewVam_S\\Migrations\\20250123142223_init-1.cs",
+              "RelativeToolTip": "Migrations\\20250123142223_init-1.cs",
+              "ViewState": "AgIAAHUAAAAAAAAAAAAqwIEAAAAxAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-27T20:29:45.019Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "SqlChanged.txt",
+              "DocumentMoniker": "D:\\NewVam_S\\_Notes\\SqlChanged.txt",
+              "RelativeDocumentMoniker": "_Notes\\SqlChanged.txt",
+              "ToolTip": "D:\\NewVam_S\\_Notes\\SqlChanged.txt",
+              "RelativeToolTip": "_Notes\\SqlChanged.txt",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
+              "WhenOpened": "2025-06-01T23:11:12.718Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "PersonConfig.cs",
+              "DocumentMoniker": "D:\\NewVam_S\\DAL\\Config\\PersonConfig.cs",
+              "RelativeDocumentMoniker": "DAL\\Config\\PersonConfig.cs",
+              "ToolTip": "D:\\NewVam_S\\DAL\\Config\\PersonConfig.cs",
+              "RelativeToolTip": "DAL\\Config\\PersonConfig.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-04T08:53:45.258Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "DeleteConfirmationDialog.razor",
+              "DocumentMoniker": "D:\\NewVam_S\\Shared\\Dialog\\DeleteConfirmationDialog.razor",
+              "RelativeDocumentMoniker": "Shared\\Dialog\\DeleteConfirmationDialog.razor",
+              "ToolTip": "D:\\NewVam_S\\Shared\\Dialog\\DeleteConfirmationDialog.razor",
+              "RelativeToolTip": "Shared\\Dialog\\DeleteConfirmationDialog.razor",
+              "ViewState": "AgIAAAoAAAAAAAAAAAD4vxEAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-04T15:32:43.798Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 38,
+              "Title": "PersonReportStatusDto.cs",
+              "DocumentMoniker": "D:\\NewVam_S\\Application\\Dtos\\PersonReportStatusDto.cs",
+              "RelativeDocumentMoniker": "Application\\Dtos\\PersonReportStatusDto.cs",
+              "ToolTip": "D:\\NewVam_S\\Application\\Dtos\\PersonReportStatusDto.cs",
+              "RelativeToolTip": "Application\\Dtos\\PersonReportStatusDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-27T21:49:08.574Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\NewVam_S\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "D:\\NewVam_S\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAAB0AAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-27T20:44:04.635Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

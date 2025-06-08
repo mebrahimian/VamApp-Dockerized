@@ -1,0 +1,183 @@
+2025-06-05 23:14:48.652 +03:30 [INF] User profile is available. Using 'C:\Users\mebrahimian\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-06-05 23:14:49.871 +03:30 [INF] Now listening on: https://localhost:5001
+2025-06-05 23:14:50.100 +03:30 [INF] Application started. Press Ctrl+C to shut down.
+2025-06-05 23:14:50.101 +03:30 [INF] Hosting environment: Development
+2025-06-05 23:14:50.101 +03:30 [INF] Content root path: D:\NewVam_S
+2025-06-05 23:14:50.997 +03:30 [INF] Request starting HTTP/2 GET https://localhost:5001/ - null null
+2025-06-05 23:14:51.376 +03:30 [INF] Executing endpoint '/_Host'
+2025-06-05 23:14:51.451 +03:30 [INF] Route matched with {page = "/_Host"}. Executing page /_Host
+2025-06-05 23:14:51.489 +03:30 [INF] Executing an implicit handler method - ModelState is "Valid"
+2025-06-05 23:14:51.491 +03:30 [INF] Executed an implicit handler method, returned result Microsoft.AspNetCore.Mvc.RazorPages.PageResult.
+2025-06-05 23:14:58.342 +03:30 [INF] Executed DbCommand (19ms) [Parameters=[], CommandType='"Text"', CommandTimeout='3000']
+SELECT TOP(1) [s].[onvan]
+FROM [SANDOGH] AS [s]
+WHERE [s].[code] = '01'
+2025-06-05 23:14:59.839 +03:30 [INF] Executed page /_Host in 8376.0724ms
+2025-06-05 23:14:59.841 +03:30 [INF] Executed endpoint '/_Host'
+2025-06-05 23:14:59.853 +03:30 [INF] Request starting HTTP/2 GET https://localhost:5001/_framework/aspnetcore-browser-refresh.js - null null
+2025-06-05 23:14:59.860 +03:30 [INF] Request starting HTTP/2 GET https://localhost:5001/_framework/blazor.server.js - null null
+2025-06-05 23:14:59.881 +03:30 [INF] Executing endpoint 'Blazor static files'
+2025-06-05 23:14:59.885 +03:30 [INF] Request finished HTTP/2 GET https://localhost:5001/_framework/aspnetcore-browser-refresh.js - 200 13768 application/javascript; charset=utf-8 33.3854ms
+2025-06-05 23:14:59.896 +03:30 [INF] The file /_framework/blazor.server.js was not modified
+2025-06-05 23:14:59.901 +03:30 [INF] Executed endpoint 'Blazor static files'
+2025-06-05 23:14:59.902 +03:30 [INF] Request starting HTTP/2 GET https://localhost:5001/_vs/browserLink - null null
+2025-06-05 23:14:59.902 +03:30 [INF] Request finished HTTP/2 GET https://localhost:5001/_framework/blazor.server.js - 304 null text/javascript 42.1908ms
+2025-06-05 23:14:59.957 +03:30 [INF] Request finished HTTP/2 GET https://localhost:5001/ - 200 null text/html; charset=utf-8 8987.9241ms
+2025-06-05 23:15:00.039 +03:30 [INF] Request finished HTTP/2 GET https://localhost:5001/_vs/browserLink - 200 null text/javascript; charset=UTF-8 137.0448ms
+2025-06-05 23:15:00.106 +03:30 [INF] Request starting HTTP/2 GET https://localhost:5001/_blazor/initializers - null null
+2025-06-05 23:15:00.112 +03:30 [INF] Executing endpoint 'Blazor initializers'
+2025-06-05 23:15:00.116 +03:30 [INF] Executed endpoint 'Blazor initializers'
+2025-06-05 23:15:00.116 +03:30 [INF] Request finished HTTP/2 GET https://localhost:5001/_blazor/initializers - 200 null application/json; charset=utf-8 10.2463ms
+2025-06-05 23:15:00.206 +03:30 [INF] Request starting HTTP/2 POST https://localhost:5001/_blazor/negotiate?negotiateVersion=1 - null 0
+2025-06-05 23:15:00.209 +03:30 [INF] Executing endpoint '/_blazor/negotiate'
+2025-06-05 23:15:00.238 +03:30 [INF] Executed endpoint '/_blazor/negotiate'
+2025-06-05 23:15:00.238 +03:30 [INF] Request finished HTTP/2 POST https://localhost:5001/_blazor/negotiate?negotiateVersion=1 - 200 316 application/json 32.2788ms
+2025-06-05 23:15:00.272 +03:30 [INF] Request starting HTTP/2 CONNECT https://localhost:5001/_blazor?id=KJn3-cnt4_7D4rdMjh84qA - null null
+2025-06-05 23:15:00.272 +03:30 [INF] Executing endpoint '/_blazor'
+2025-06-05 23:15:00.739 +03:30 [INF] Executed DbCommand (8ms) [Parameters=[], CommandType='"Text"', CommandTimeout='3000']
+SELECT TOP(1) [s].[onvan]
+FROM [SANDOGH] AS [s]
+WHERE [s].[code] = '01'
+2025-06-05 23:15:44.843 +03:30 [INF] Executed DbCommand (21,777ms) [Parameters=[p0='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='3000']
+EXEC sp_PersonStatusUpTo @cDateTo = @p0
+2025-06-05 23:16:01.671 +03:30 [INF] Executed DbCommand (514ms) [Parameters=[@__cDate_0='?' (Size = 10) (DbType = AnsiStringFixedLength)], CommandType='"Text"', CommandTimeout='3000']
+SELECT COALESCE(SUM((([v].[GstPaid] + [v].[Pasandaz]) - [v].[Vam]) - [v].[Karmozd]), CAST(0 AS bigint))
+FROM [vwPersonAllTransactions] AS [v]
+WHERE [v].[Date] <= @__cDate_0
+2025-06-05 23:17:05.654 +03:30 [INF] Executed DbCommand (21ms) [Parameters=[], CommandType='"Text"', CommandTimeout='3000']
+SELECT TOP(1) [s].[code], [s].[curqty], [s].[etebar], [s].[firstqty], [s].[maxetebar], [s].[onvan], [s].[type]
+FROM [SANDOGH] AS [s]
+WHERE [s].[code] = '01'
+2025-06-05 23:17:07.124 +03:30 [INF] Executed DbCommand (1,311ms) [Parameters=[@__get_Chars_0='?' (Size = 1)], CommandType='"Text"', CommandTimeout='3000']
+SELECT [v].[Code], [v].[FullName], [v].[Moaref], [v].[HesabNo], [v].[Sex], [v].[City], [v].[MonthQty], [v].[Mojodi], [v].[ReqNo], [v].[Type], [v].[DateD], [v].[MblgVam], [v].[PKarmozd], [v].[MKarmozd], [v].[GstNo], [v].[GstPay], [v].[LastDate], [v].[PaidVam], [v].[CurrentGstNo], [v].[CurrentGstDate], [v].[CurrentPaidDate], [v].[CurrentGstMblg], CAST(0 AS bit) AS [CurrentGstSaved], [v].[MelliCode] AS [Mellicode]
+FROM [vwPersonLastGst] AS [v]
+WHERE [v].[Type] = @__get_Chars_0
+2025-06-05 23:17:21.382 +03:30 [INF] Request starting HTTP/2 GET https://localhost:5001/Images/1100.Jpeg - null null
+2025-06-05 23:17:21.448 +03:30 [INF] Sending file. Request path: '/Images/1100.Jpeg'. Physical path: 'D:\NewVam_S\wwwroot\Images\1100.JPEG'
+2025-06-05 23:17:21.449 +03:30 [INF] Request finished HTTP/2 GET https://localhost:5001/Images/1100.Jpeg - 200 2452 image/jpeg 66.8847ms
+2025-06-05 23:17:43.427 +03:30 [INF] Request starting HTTP/2 GET https://localhost:5001/Images/1101.Jpeg - null null
+2025-06-05 23:17:43.449 +03:30 [INF] Sending file. Request path: '/Images/1101.Jpeg'. Physical path: 'D:\NewVam_S\wwwroot\Images\1101.JPEG'
+2025-06-05 23:17:43.449 +03:30 [INF] Request finished HTTP/2 GET https://localhost:5001/Images/1101.Jpeg - 200 2303 image/jpeg 23.198ms
+2025-06-05 23:19:03.396 +03:30 [INF] Executed DbCommand (16ms) [Parameters=[], CommandType='"Text"', CommandTimeout='3000']
+SELECT TOP(1) [s].[code], [s].[curqty], [s].[etebar], [s].[firstqty], [s].[maxetebar], [s].[onvan], [s].[type]
+FROM [SANDOGH] AS [s]
+WHERE [s].[code] = '01'
+2025-06-05 23:19:03.851 +03:30 [INF] Executed DbCommand (436ms) [Parameters=[@__get_Chars_0='?' (Size = 1)], CommandType='"Text"', CommandTimeout='3000']
+SELECT [v].[Code], COALESCE([v].[FullName], N'') + N'ش.حساب:' + COALESCE(CAST([v].[HesabNo] AS nvarchar(max)), N'') + N' معرف: ' + COALESCE(CAST([v].[Moaref] AS nvarchar(max)), N'') AS [FullName], [v].[HesabNo], [v].[Moaref], [v].[ReqNo]
+FROM [vwPersonLastGst] AS [v]
+WHERE [v].[Type] = @__get_Chars_0
+2025-06-05 23:19:04.021 +03:30 [INF] Executed DbCommand (76ms) [Parameters=[@__get_Chars_0='?' (Size = 1), @__selectedPerson_ReqNo_1='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='3000']
+SELECT [v].[Code], COALESCE([v].[FullName], N'') + N' حساب: ' + COALESCE(CAST([v].[HesabNo] AS nvarchar(max)), N'') + N' معرف: ' + COALESCE(CAST([v].[Moaref] AS nvarchar(max)), N'') AS [FullName], [v].[HesabNo], [v].[Moaref], [v].[MonthQty], [v].[Mojodi], [v].[ReqNo], [v].[Type], [v].[DateD], [v].[MblgVam], [v].[gst_no] AS [GstNo], [v].[GstMblg], [v].[date_g] AS [GstDate], [v].[date_p] AS [PaidDate], CASE
+    WHEN [v].[date_p] IS NOT NULL AND [v].[date_p] <> N'' THEN CAST(1 AS bit)
+    ELSE CAST(0 AS bit)
+END AS [CurrentGstSaved]
+FROM [vwPersonTotalGst] AS [v]
+WHERE [v].[Type] = @__get_Chars_0 AND [v].[ReqNo] = @__selectedPerson_ReqNo_1
+ORDER BY [v].[gst_no]
+2025-06-05 23:19:26.065 +03:30 [INF] Executed DbCommand (88ms) [Parameters=[@__get_Chars_0='?' (Size = 1), @__selectedPerson_ReqNo_1='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='3000']
+SELECT [v].[Code], COALESCE([v].[FullName], N'') + N' حساب: ' + COALESCE(CAST([v].[HesabNo] AS nvarchar(max)), N'') + N' معرف: ' + COALESCE(CAST([v].[Moaref] AS nvarchar(max)), N'') AS [FullName], [v].[HesabNo], [v].[Moaref], [v].[MonthQty], [v].[Mojodi], [v].[ReqNo], [v].[Type], [v].[DateD], [v].[MblgVam], [v].[gst_no] AS [GstNo], [v].[GstMblg], [v].[date_g] AS [GstDate], [v].[date_p] AS [PaidDate], CASE
+    WHEN [v].[date_p] IS NOT NULL AND [v].[date_p] <> N'' THEN CAST(1 AS bit)
+    ELSE CAST(0 AS bit)
+END AS [CurrentGstSaved]
+FROM [vwPersonTotalGst] AS [v]
+WHERE [v].[Type] = @__get_Chars_0 AND [v].[ReqNo] = @__selectedPerson_ReqNo_1
+ORDER BY [v].[gst_no]
+2025-06-05 23:19:27.785 +03:30 [INF] Executed DbCommand (75ms) [Parameters=[@__get_Chars_0='?' (Size = 1), @__selectedPerson_ReqNo_1='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='3000']
+SELECT [v].[Code], COALESCE([v].[FullName], N'') + N' حساب: ' + COALESCE(CAST([v].[HesabNo] AS nvarchar(max)), N'') + N' معرف: ' + COALESCE(CAST([v].[Moaref] AS nvarchar(max)), N'') AS [FullName], [v].[HesabNo], [v].[Moaref], [v].[MonthQty], [v].[Mojodi], [v].[ReqNo], [v].[Type], [v].[DateD], [v].[MblgVam], [v].[gst_no] AS [GstNo], [v].[GstMblg], [v].[date_g] AS [GstDate], [v].[date_p] AS [PaidDate], CASE
+    WHEN [v].[date_p] IS NOT NULL AND [v].[date_p] <> N'' THEN CAST(1 AS bit)
+    ELSE CAST(0 AS bit)
+END AS [CurrentGstSaved]
+FROM [vwPersonTotalGst] AS [v]
+WHERE [v].[Type] = @__get_Chars_0 AND [v].[ReqNo] = @__selectedPerson_ReqNo_1
+ORDER BY [v].[gst_no]
+2025-06-05 23:24:17.567 +03:30 [INF] Request starting HTTP/2 POST https://localhost:5001/_blazor/disconnect - multipart/form-data; boundary=----WebKitFormBoundaryY8yqp2HCseQnAhwA 359
+2025-06-05 23:24:17.571 +03:30 [INF] Executing endpoint 'Blazor disconnect'
+2025-06-05 23:24:17.571 +03:30 [INF] Executed endpoint '/_blazor'
+2025-06-05 23:24:17.572 +03:30 [INF] Request finished HTTP/2 CONNECT https://localhost:5001/_blazor?id=KJn3-cnt4_7D4rdMjh84qA - 200 null null 557300.0587ms
+2025-06-05 23:24:17.809 +03:30 [INF] Executed endpoint 'Blazor disconnect'
+2025-06-05 23:24:17.809 +03:30 [INF] Request finished HTTP/2 POST https://localhost:5001/_blazor/disconnect - 499 null null 241.916ms
+2025-06-05 23:26:48.143 +03:30 [INF] User profile is available. Using 'C:\Users\mebrahimian\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-06-05 23:26:49.026 +03:30 [INF] Now listening on: https://localhost:5001
+2025-06-05 23:26:49.552 +03:30 [INF] Application started. Press Ctrl+C to shut down.
+2025-06-05 23:26:49.553 +03:30 [INF] Hosting environment: Development
+2025-06-05 23:26:49.553 +03:30 [INF] Content root path: D:\NewVam_S
+2025-06-05 23:26:50.440 +03:30 [INF] Request starting HTTP/2 GET https://localhost:5001/ - null null
+2025-06-05 23:26:50.722 +03:30 [INF] Executing endpoint '/_Host'
+2025-06-05 23:26:50.782 +03:30 [INF] Route matched with {page = "/_Host"}. Executing page /_Host
+2025-06-05 23:26:50.808 +03:30 [INF] Executing an implicit handler method - ModelState is "Valid"
+2025-06-05 23:26:50.809 +03:30 [INF] Executed an implicit handler method, returned result Microsoft.AspNetCore.Mvc.RazorPages.PageResult.
+2025-06-05 23:26:57.852 +03:30 [INF] Executed DbCommand (23ms) [Parameters=[], CommandType='"Text"', CommandTimeout='3000']
+SELECT TOP(1) [s].[onvan]
+FROM [SANDOGH] AS [s]
+WHERE [s].[code] = '01'
+2025-06-05 23:26:58.775 +03:30 [INF] Executed page /_Host in 7982.1108ms
+2025-06-05 23:26:58.778 +03:30 [INF] Executed endpoint '/_Host'
+2025-06-05 23:26:58.803 +03:30 [INF] Request starting HTTP/2 GET https://localhost:5001/_framework/aspnetcore-browser-refresh.js - null null
+2025-06-05 23:26:58.804 +03:30 [INF] Request starting HTTP/2 GET https://localhost:5001/_framework/blazor.server.js - null null
+2025-06-05 23:26:58.820 +03:30 [INF] Executing endpoint 'Blazor static files'
+2025-06-05 23:26:58.849 +03:30 [INF] Request finished HTTP/2 GET https://localhost:5001/_framework/aspnetcore-browser-refresh.js - 200 13768 application/javascript; charset=utf-8 48.7552ms
+2025-06-05 23:26:58.864 +03:30 [INF] The file /_framework/blazor.server.js was not modified
+2025-06-05 23:26:58.869 +03:30 [INF] Executed endpoint 'Blazor static files'
+2025-06-05 23:26:58.872 +03:30 [INF] Request starting HTTP/2 GET https://localhost:5001/_vs/browserLink - null null
+2025-06-05 23:26:58.872 +03:30 [INF] Request finished HTTP/2 GET https://localhost:5001/_framework/blazor.server.js - 304 null text/javascript 68.152ms
+2025-06-05 23:26:58.892 +03:30 [INF] Request finished HTTP/2 GET https://localhost:5001/ - 200 null text/html; charset=utf-8 8482.9948ms
+2025-06-05 23:26:59.096 +03:30 [INF] Request finished HTTP/2 GET https://localhost:5001/_vs/browserLink - 200 null text/javascript; charset=UTF-8 224.2114ms
+2025-06-05 23:26:59.146 +03:30 [INF] Request starting HTTP/2 GET https://localhost:5001/_blazor/initializers - null null
+2025-06-05 23:26:59.151 +03:30 [INF] Executing endpoint 'Blazor initializers'
+2025-06-05 23:26:59.158 +03:30 [INF] Executed endpoint 'Blazor initializers'
+2025-06-05 23:26:59.158 +03:30 [INF] Request finished HTTP/2 GET https://localhost:5001/_blazor/initializers - 200 null application/json; charset=utf-8 12.6681ms
+2025-06-05 23:26:59.215 +03:30 [INF] Request starting HTTP/2 POST https://localhost:5001/_blazor/negotiate?negotiateVersion=1 - null 0
+2025-06-05 23:26:59.219 +03:30 [INF] Executing endpoint '/_blazor/negotiate'
+2025-06-05 23:26:59.247 +03:30 [INF] Executed endpoint '/_blazor/negotiate'
+2025-06-05 23:26:59.248 +03:30 [INF] Request finished HTTP/2 POST https://localhost:5001/_blazor/negotiate?negotiateVersion=1 - 200 316 application/json 33.1063ms
+2025-06-05 23:26:59.287 +03:30 [INF] Request starting HTTP/2 CONNECT https://localhost:5001/_blazor?id=FfBjIHKlcNPqJODLDNUkEg - null null
+2025-06-05 23:26:59.287 +03:30 [INF] Executing endpoint '/_blazor'
+2025-06-05 23:26:59.804 +03:30 [INF] Executed DbCommand (11ms) [Parameters=[], CommandType='"Text"', CommandTimeout='3000']
+SELECT TOP(1) [s].[onvan]
+FROM [SANDOGH] AS [s]
+WHERE [s].[code] = '01'
+2025-06-05 23:27:08.349 +03:30 [INF] Executed DbCommand (9ms) [Parameters=[], CommandType='"Text"', CommandTimeout='3000']
+SELECT TOP(1) [s].[code], [s].[curqty], [s].[etebar], [s].[firstqty], [s].[maxetebar], [s].[onvan], [s].[type]
+FROM [SANDOGH] AS [s]
+WHERE [s].[code] = '01'
+2025-06-05 23:27:08.984 +03:30 [INF] Executed DbCommand (488ms) [Parameters=[@__get_Chars_0='?' (Size = 1)], CommandType='"Text"', CommandTimeout='3000']
+SELECT [v].[Code], COALESCE([v].[FullName], N'') + N'ش.حساب:' + COALESCE(CAST([v].[HesabNo] AS nvarchar(max)), N'') + N' معرف: ' + COALESCE(CAST([v].[Moaref] AS nvarchar(max)), N'') AS [FullName], [v].[HesabNo], [v].[Moaref], [v].[ReqNo]
+FROM [vwPersonLastGst] AS [v]
+WHERE [v].[Type] = @__get_Chars_0
+2025-06-05 23:27:13.643 +03:30 [INF] Executed DbCommand (124ms) [Parameters=[@__get_Chars_0='?' (Size = 1), @__selectedPerson_ReqNo_1='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='3000']
+SELECT [v].[Code], COALESCE([v].[FullName], N'') + N' حساب: ' + COALESCE(CAST([v].[HesabNo] AS nvarchar(max)), N'') + N' معرف: ' + COALESCE(CAST([v].[Moaref] AS nvarchar(max)), N'') AS [FullName], [v].[HesabNo], [v].[Moaref], [v].[MonthQty], [v].[Mojodi], [v].[ReqNo], [v].[Type], [v].[DateD], [v].[MblgVam], [v].[gst_no] AS [GstNo], [v].[GstMblg], [v].[date_g] AS [GstDate], [v].[date_p] AS [PaidDate], CASE
+    WHEN [v].[date_p] IS NOT NULL AND [v].[date_p] <> N'' THEN CAST(1 AS bit)
+    ELSE CAST(0 AS bit)
+END AS [CurrentGstSaved]
+FROM [vwPersonTotalGst] AS [v]
+WHERE [v].[Type] = @__get_Chars_0 AND [v].[ReqNo] = @__selectedPerson_ReqNo_1
+ORDER BY [v].[gst_no]
+2025-06-05 23:27:50.867 +03:30 [INF] Request starting HTTP/2 POST https://localhost:5001/_blazor/negotiate?negotiateVersion=1 - null 0
+2025-06-05 23:27:50.868 +03:30 [INF] Executing endpoint '/_blazor/negotiate'
+2025-06-05 23:27:50.868 +03:30 [INF] Executed endpoint '/_blazor/negotiate'
+2025-06-05 23:27:50.870 +03:30 [INF] Request finished HTTP/2 POST https://localhost:5001/_blazor/negotiate?negotiateVersion=1 - 200 316 application/json 3.5732ms
+2025-06-05 23:27:50.889 +03:30 [INF] Request starting HTTP/2 POST https://localhost:5001/_blazor/negotiate?negotiateVersion=1 - null 0
+2025-06-05 23:27:50.894 +03:30 [INF] Executing endpoint '/_blazor/negotiate'
+2025-06-05 23:27:50.895 +03:30 [INF] Executed endpoint '/_blazor/negotiate'
+2025-06-05 23:27:50.895 +03:30 [INF] Request finished HTTP/2 POST https://localhost:5001/_blazor/negotiate?negotiateVersion=1 - 200 316 application/json 6.0567ms
+2025-06-05 23:27:50.903 +03:30 [INF] Request starting HTTP/2 CONNECT https://localhost:5001/_blazor?id=3frfdMtQPpoldUuTSlD2pw - null null
+2025-06-05 23:27:50.904 +03:30 [INF] Executing endpoint '/_blazor'
+2025-06-05 23:27:51.048 +03:30 [INF] Executed endpoint '/_blazor'
+2025-06-05 23:27:51.049 +03:30 [INF] Request finished HTTP/2 CONNECT https://localhost:5001/_blazor?id=FfBjIHKlcNPqJODLDNUkEg - 200 null null 51762.4622ms
+2025-06-05 23:27:51.053 +03:30 [INF] Connection id "0HND4DCDS37AK", Request id "0HND4DCDS37AK:0000000D": the application completed without reading the entire request body.
+2025-06-05 23:27:59.710 +03:30 [INF] Executed DbCommand (86ms) [Parameters=[@__get_Chars_0='?' (Size = 1), @__selectedPerson_ReqNo_1='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='3000']
+SELECT [v].[Code], COALESCE([v].[FullName], N'') + N' حساب: ' + COALESCE(CAST([v].[HesabNo] AS nvarchar(max)), N'') + N' معرف: ' + COALESCE(CAST([v].[Moaref] AS nvarchar(max)), N'') AS [FullName], [v].[HesabNo], [v].[Moaref], [v].[MonthQty], [v].[Mojodi], [v].[ReqNo], [v].[Type], [v].[DateD], [v].[MblgVam], [v].[gst_no] AS [GstNo], [v].[GstMblg], [v].[date_g] AS [GstDate], [v].[date_p] AS [PaidDate], CASE
+    WHEN [v].[date_p] IS NOT NULL AND [v].[date_p] <> N'' THEN CAST(1 AS bit)
+    ELSE CAST(0 AS bit)
+END AS [CurrentGstSaved]
+FROM [vwPersonTotalGst] AS [v]
+WHERE [v].[Type] = @__get_Chars_0 AND [v].[ReqNo] = @__selectedPerson_ReqNo_1
+ORDER BY [v].[gst_no]
+2025-06-05 23:28:01.750 +03:30 [INF] Executed DbCommand (4ms) [Parameters=[@__get_Chars_0='?' (Size = 1), @__selectedPerson_ReqNo_1='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='3000']
+SELECT [v].[Code], COALESCE([v].[FullName], N'') + N' حساب: ' + COALESCE(CAST([v].[HesabNo] AS nvarchar(max)), N'') + N' معرف: ' + COALESCE(CAST([v].[Moaref] AS nvarchar(max)), N'') AS [FullName], [v].[HesabNo], [v].[Moaref], [v].[MonthQty], [v].[Mojodi], [v].[ReqNo], [v].[Type], [v].[DateD], [v].[MblgVam], [v].[gst_no] AS [GstNo], [v].[GstMblg], [v].[date_g] AS [GstDate], [v].[date_p] AS [PaidDate], CASE
+    WHEN [v].[date_p] IS NOT NULL AND [v].[date_p] <> N'' THEN CAST(1 AS bit)
+    ELSE CAST(0 AS bit)
+END AS [CurrentGstSaved]
+FROM [vwPersonTotalGst] AS [v]
+WHERE [v].[Type] = @__get_Chars_0 AND [v].[ReqNo] = @__selectedPerson_ReqNo_1
+ORDER BY [v].[gst_no]
