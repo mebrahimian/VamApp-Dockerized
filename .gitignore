@@ -1,0 +1,39 @@
+# Build results
+bin/
+obj/
+out/
+wwwroot/dist/
+
+# User-specific files
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# Logs
+*.log
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Rider / VS Code / JetBrains / etc.
+.idea/
+.vscode/
+*.code-workspace
+
+# ASP.NET
+appsettings.Development.json
+appsettings.*.json
+
+# dotnet tools
+/.tools/
+
+# Publish
+publish/
+*.publish.xml
+
+# Backup files
+*.bak
+*.orig
+*.tmp
